@@ -114,7 +114,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 05. Data pages, caching and clipboard
 
-- **PFA-061** Parameterized Data Pages at scale and tenant isolation. _Planned_
+- **[PFA-061](articles/data-pages/pfa-061-parameterized-data-pages-at-scale-and-tenant-isolation.md)** Parameterized Data Pages at scale and tenant isolation. _Published (lab verification pending)_
 - **[PFA-062](articles/data-pages/pfa-062-thread-requestor-node-cache-isolation.md)** Thread versus Requestor versus Node data scope. _Published (lab verification pending)_
 - **[PFA-063](articles/data-pages/pfa-063-refresh-strategy-freshness-contract.md)** Cache refresh strategies and business freshness contracts. _Published (lab verification pending)_
 - **[PFA-064](articles/data-pages/pfa-064-external-event-cache-invalidation.md)** Cache invalidation after external system updates. _Published (lab verification pending)_
