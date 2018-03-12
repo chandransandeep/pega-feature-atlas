@@ -104,7 +104,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-053](articles/flow-sla/pfa-053-case-cancellation-while-integration-is-in-flight.md)** Case cancellation while integration is in flight. _Published (lab verification pending)_
 - **[PFA-054](articles/flow-sla/pfa-054-timeout-budgets-across-an-end-to-end-case-step.md)** Timeout budgets across an end-to-end case step. _Published (lab verification pending)_
 - **[PFA-055](articles/flow-sla/pfa-055-orchestrating-human-and-robotic-assignments-together.md)** Orchestrating human and robotic assignments together. _Published (lab verification pending)_
-- **PFA-056** Recovering stalled flows after an application release. _Planned_
+- **[PFA-056](articles/flow-sla/pfa-056-recovering-stalled-flows-after-an-application-release.md)** Recovering stalled flows after an application release. _Published (lab verification pending)_
 - **PFA-057** SLA rules and custom timer design trade-offs. _Planned_
 - **PFA-058** Business event ingestion without duplicate resumes. _Planned_
 - **PFA-059** Validation rules at trusted execution boundaries. _Planned_
