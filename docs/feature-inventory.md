@@ -86,7 +86,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-040](articles/case-management/pfa-040-case-archival-with-searchable-audit-history.md)** Case archival with searchable audit history. _Published (lab verification pending)_
 - **[PFA-041](articles/case-management/pfa-041-temporary-cases-versus-immediate-persistence.md)** Temporary cases versus immediate persistence. _Published (lab verification pending)_
 - **[PFA-042](articles/case-management/pfa-042-high-volume-case-creation-through-service-endpoints.md)** High-volume case creation through service endpoints. _Published (lab verification pending)_
-- **PFA-043** Bulk case transitions without lock storms. _Planned_
+- **[PFA-043](articles/case-management/pfa-043-bulk-case-transitions-without-lock-storms.md)** Bulk case transitions without lock storms. _Published (lab verification pending)_
 - **PFA-044** Case attachments and content lifecycle boundaries. _Planned_
 - **PFA-045** Case ownership models across teams and jurisdictions. _Planned_
 

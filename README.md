@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**82 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**83 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -73,6 +73,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-040: Case archival with searchable audit history](docs/articles/case-management/pfa-040-case-archival-with-searchable-audit-history.md)
 - [PFA-041: Temporary cases versus immediate persistence](docs/articles/case-management/pfa-041-temporary-cases-versus-immediate-persistence.md)
 - [PFA-042: High-volume case creation through service endpoints](docs/articles/case-management/pfa-042-high-volume-case-creation-through-service-endpoints.md)
+- [PFA-043: Bulk case transitions without lock storms](docs/articles/case-management/pfa-043-bulk-case-transitions-without-lock-storms.md)
 
 ### Flow engine, SLAs and event orchestration
 
