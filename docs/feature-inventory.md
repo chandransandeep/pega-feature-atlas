@@ -305,7 +305,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-204](articles/testing/pfa-204-comparing-old-new-rules-modernization.md)** Comparing old and new rules during modernization. _Published (lab verification pending)_
 - **[PFA-205](articles/testing/pfa-205-synthetic-production-monitoring-high-value-journeys.md)** Synthetic production monitoring of high-value journeys. _Published (lab verification pending)_
 - **[PFA-206](articles/testing/pfa-206-validating-longrunning-flow-resumptions-after-release.md)** Validating long-running flow resumptions after release. _Published (lab verification pending)_
-- **PFA-207** Regression testing complex decision tables. _Planned_
+- **[PFA-207](articles/testing/pfa-207-regression-testing-complex-decision-tables.md)** Regression testing complex decision tables. _Published (lab verification pending)_
 - **PFA-208** Testing attachment security and size limits. _Planned_
 - **PFA-209** End-to-end correlation for failed test journeys. _Planned_
 - **PFA-210** Acceptance criteria for architecture quality attributes. _Planned_
