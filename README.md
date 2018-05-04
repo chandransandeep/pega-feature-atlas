@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**68 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**69 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -52,6 +52,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-022: Avoiding dependency cycles across shared rulesets](docs/articles/rule-resolution/pfa-022-avoiding-dependency-cycles-across-shared-rulesets.md)
 - [PFA-023: Specialisation patterns without copying whole rules](docs/articles/rule-resolution/pfa-023-specialisation-patterns-without-copying-whole-rules.md)
 - [PFA-024: Dynamic class referencing and long-term maintainability](docs/articles/rule-resolution/pfa-024-dynamic-class-referencing-and-long-term-maintainability.md)
+- [PFA-025: Rule availability and production rollback constraints](docs/articles/rule-resolution/pfa-025-rule-availability-and-production-rollback-constraints.md)
 
 ### Case architecture and concurrency
 
