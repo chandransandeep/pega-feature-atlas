@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**127 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**128 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -145,6 +145,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-100: Controlling fan-out to dozens of downstream services](docs/articles/integrations/pfa-100-controlling-fan-out-to-dozens-of-downstream-services.md)
 - [PFA-101: API rate limits under seasonal transaction peaks](docs/articles/integrations/pfa-101-api-rate-limits-under-seasonal-transaction-peaks.md)
 - [PFA-102: Large payload handling and streaming alternatives](docs/articles/integrations/pfa-102-large-payload-handling-and-streaming-alternatives.md)
+- [PFA-103: Signed webhooks and replay attack prevention](docs/articles/integrations/pfa-103-signed-webhooks-and-replay-attack-prevention.md)
 
 ### Queue processors and scheduled background work
 
