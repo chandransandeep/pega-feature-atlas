@@ -121,7 +121,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-065** Handling large parameter cardinality in agent sessions. _Planned_
 - **PFA-066** Limit to a single Data Page and overwritten instances. _Planned_
 - **[PFA-067](articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md)** Chained Data Pages and hidden integration fan-out. _Published (lab verification pending)_
-- **PFA-068** Read-only versus editable Data Pages. _Planned_
+- **[PFA-068](articles/data-pages/pfa-068-read-only-editable-savable-write-path.md)** Read-only versus editable Data Pages. _Published (lab verification pending)_
 - **PFA-069** Report-backed versus connector-backed Data Pages. _Planned_
 - **PFA-070** Designing a business-safe cache key. _Planned_
 - **PFA-071** Avoiding repeated load during complex view rendering. _Planned_
