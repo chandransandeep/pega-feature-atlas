@@ -28,3 +28,4 @@ docs/articles/devops/pfa-184-rolling-deployment-schema-compatibility.md	2022-07-
 docs/articles/testing/pfa-196-pegaunit-shared-rule-contract-testing.md	2024-01-19	2026-10-20T12:08:22+00:00	random_past_date
 docs/articles/decisioning/pfa-214-cross-channel-contact-policy-consistency.md	2025-08-06	2026-10-20T12:08:22+00:00	random_past_date
 docs/articles/genai/pfa-228-prompt-injection-case-attachment-boundaries.md	2024-08-15	2026-10-20T12:08:22+00:00	random_past_date
+docs/articles/platform-runtime/pfa-001-request-lifecycle-http-to-rule.md	2018-07-10	2026-10-20T12:14:30+00:00	random_past_date

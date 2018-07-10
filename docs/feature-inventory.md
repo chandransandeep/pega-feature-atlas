@@ -34,7 +34,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 01. Platform runtime and distributed deployment
 
-- **PFA-001** Request lifecycle from HTTP entry point to rule execution. _Planned_
+- **[PFA-001](articles/platform-runtime/pfa-001-request-lifecycle-http-to-rule.md)** Request lifecycle from HTTP entry point to rule execution. _Published (lab verification pending)_
 - **PFA-002** Requestor and thread lifecycle during simultaneous cases. _Planned_
 - **PFA-003** Pega node roles and split deployment architecture. _Planned_
 - **PFA-004** Cluster behaviour during node loss and session failover. _Planned_
