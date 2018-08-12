@@ -284,7 +284,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-188](articles/delivery/pfa-188-releasing-queue-processor-changes-safely.md)** Releasing queue processor changes safely. _Published (lab verification pending)_
 - **[PFA-189](articles/delivery/pfa-189-promoting-endpoint-configuration-across-environments.md)** Promoting endpoint configuration across environments. _Published (lab verification pending)_
 - **[PFA-190](articles/delivery/pfa-190-guardrail-exceptions-architectural-debt-signals.md)** Guardrail exceptions as architectural debt signals. _Published (lab verification pending)_
-- **PFA-191** Managing hotfixes without environments drifting. _Planned_
+- **[PFA-191](articles/devops/pfa-191-managing-hotfixes-without-environments-drifting.md)** Managing hotfixes without environments drifting. _Published (lab verification pending)_
 - **PFA-192** Testing migration of long-running open cases. _Planned_
 - **PFA-193** Deployment ordering across dependent Pega components. _Planned_
 - **PFA-194** Production cutover for a new case platform. _Planned_
