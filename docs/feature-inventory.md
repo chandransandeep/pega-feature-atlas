@@ -288,7 +288,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-192](articles/delivery/pfa-192-testing-migration-of-longrunning-open-cases.md)** Testing migration of long-running open cases. _Published (lab verification pending)_
 - **[PFA-193](articles/delivery/pfa-193-deployment-ordering-across-dependent-pega-components.md)** Deployment ordering across dependent Pega components. _Published (lab verification pending)_
 - **[PFA-194](articles/delivery/pfa-194-production-cutover-for-a-new-case-platform.md)** Production cutover for a new case platform. _Published (lab verification pending)_
-- **PFA-195** Release evidence and audit requirements. _Planned_
+- **[PFA-195](articles/delivery/pfa-195-release-evidence-and-audit-requirements.md)** Release evidence and audit requirements. _Published (lab verification pending)_
 
 <a id="section-14"></a>
 
