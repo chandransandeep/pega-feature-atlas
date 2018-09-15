@@ -254,7 +254,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 12. Performance engineering and scalability
 
-- **PFA-166** Defining repeatable Pega load testing scenarios. _Planned_
+- **[PFA-166](articles/performance/pfa-166-repeatable-case-load-test-design.md)** Defining repeatable Pega load testing scenarios. _Published (lab verification pending)_
 - **PFA-167** Latency budgets across case views and external APIs. _Planned_
 - **PFA-168** Hot path optimisation of data transforms. _Planned_
 - **PFA-169** Thread contention during mass case updates. _Planned_
