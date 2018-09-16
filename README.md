@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**122 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**123 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -139,6 +139,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-094: Circuit breaker and bulkhead placement around Pega](docs/articles/integrations/pfa-094-circuit-breaker-and-bulkhead-placement-around-pega.md)
 - [PFA-095: API gateway responsibilities versus service rules](docs/articles/integrations/pfa-095-api-gateway-responsibilities-versus-service-rules.md)
 - [PFA-096: End-to-end correlation IDs for distributed diagnostics](docs/articles/integrations/pfa-096-end-to-end-correlation-ids-for-distributed-diagnostics.md)
+- [PFA-097: REST schema evolution without breaking consumers](docs/articles/integrations/pfa-097-rest-schema-evolution-without-breaking-consumers.md)
 - [PFA-098: Handling asynchronous partner callbacks securely](docs/articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)
 
 ### Queue processors and scheduled background work
