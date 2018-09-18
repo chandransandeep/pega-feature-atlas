@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**73 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**74 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -57,6 +57,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-027: Branch conflicts in high-churn decision tables](docs/articles/rule-resolution/pfa-027-branch-conflicts-in-high-churn-decision-tables.md)
 - [PFA-028: Safe customization of locked product extensions](docs/articles/rule-resolution/pfa-028-safe-customization-of-locked-product-extensions.md)
 - [PFA-029: Detecting application stack drift across environments](docs/articles/rule-resolution/pfa-029-detecting-application-stack-drift-across-environments.md)
+- [PFA-030: Upgrading frameworks without breaking implementation rules](docs/articles/rule-resolution/pfa-030-upgrading-frameworks-without-breaking-implementation-rules.md)
 
 ### Case architecture and concurrency
 

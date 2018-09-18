@@ -68,7 +68,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-027](articles/rule-resolution/pfa-027-branch-conflicts-in-high-churn-decision-tables.md)** Branch conflicts in high-churn decision tables. _Published (lab verification pending)_
 - **[PFA-028](articles/rule-resolution/pfa-028-safe-customization-of-locked-product-extensions.md)** Safe customization of locked product extensions. _Published (lab verification pending)_
 - **[PFA-029](articles/rule-resolution/pfa-029-detecting-application-stack-drift-across-environments.md)** Detecting application stack drift across environments. _Published (lab verification pending)_
-- **PFA-030** Upgrading frameworks without breaking implementation rules. _Planned_
+- **[PFA-030](articles/rule-resolution/pfa-030-upgrading-frameworks-without-breaking-implementation-rules.md)** Upgrading frameworks without breaking implementation rules. _Published (lab verification pending)_
 
 <a id="section-03"></a>
 
