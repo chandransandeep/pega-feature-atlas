@@ -234,7 +234,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 11. Production observability and incident diagnosis
 
-- **PFA-151** Reading PAL results to locate rule execution cost. _Planned_
+- **[PFA-151](articles/observability/PFA-151-pal-latency-attribution.md)** Reading PAL results to locate rule execution cost. _Published (lab verification pending)_
 - **PFA-152** Using Tracer without changing business behaviour. _Planned_
 - **PFA-153** Clipboard inspection for wrong-instance failures. _Planned_
 - **PFA-154** PDC event triage and evidence-driven diagnosis. _Planned_
