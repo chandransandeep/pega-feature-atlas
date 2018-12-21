@@ -114,3 +114,4 @@ docs/articles/persistence/pfa-083-batch-data-migration-while-active-cases-contin
 docs/articles/persistence/pfa-084-database-transactions-across-case-and-api-boundaries.md	2020-12-29	2026-10-20T15:08:55+00:00	random_past_date
 docs/articles/persistence/pfa-085-dealing-with-hotspot-rows-in-shared-business-counters.md	2024-06-17	2026-10-20T15:08:55+00:00	random_past_date
 docs/articles/persistence/pfa-086-reconciliation-after-partial-data-import-failures.md	2019-04-15	2026-10-20T15:08:55+00:00	random_past_date
+docs/articles/persistence/pfa-087-reporting-warehouses-versus-operational-reports.md	2018-12-21	2026-10-20T15:12:12+00:00	random_past_date

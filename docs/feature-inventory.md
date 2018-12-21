@@ -145,7 +145,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-084](articles/persistence/pfa-084-database-transactions-across-case-and-api-boundaries.md)** Database transactions across case and API boundaries. _Published (lab verification pending)_
 - **[PFA-085](articles/persistence/pfa-085-dealing-with-hotspot-rows-in-shared-business-counters.md)** Dealing with hotspot rows in shared business counters. _Published (lab verification pending)_
 - **[PFA-086](articles/persistence/pfa-086-reconciliation-after-partial-data-import-failures.md)** Reconciliation after partial data import failures. _Published (lab verification pending)_
-- **PFA-087** Reporting warehouses versus operational reports. _Planned_
+- **[PFA-087](articles/persistence/pfa-087-reporting-warehouses-versus-operational-reports.md)** Reporting warehouses versus operational reports. _Published (lab verification pending)_
 - **PFA-088** Pagination for million-row data sets. _Planned_
 - **PFA-089** Purging cases without erasing required audit evidence. _Planned_
 - **PFA-090** Managing reference data versioning across releases. _Planned_
