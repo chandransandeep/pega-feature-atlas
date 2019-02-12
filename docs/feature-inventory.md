@@ -384,7 +384,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-263](articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)** Migration from Traditional UI to Constellation. _Published (lab verification pending)_
 - **[PFA-264](articles/data-architecture/pfa-264-choosing-the-system-of-record-for-case-data.md)** Choosing system of record for case data. _Published (lab verification pending)_
 - **[PFA-265](articles/integration-architecture/pfa-265-designing-integration-standards-across-portfolios.md)** Designing integration standards across portfolios. _Published (lab verification pending)_
-- **PFA-266** Evaluating when a reusable component adds more cost. _Planned_
+- **[PFA-266](articles/component-governance/pfa-266-evaluating-when-a-reusable-component-adds-more-cost.md)** Evaluating when a reusable component adds more cost. _Published (lab verification pending)_
 - **PFA-267** Operating model for enterprise Pega platform teams. _Planned_
 - **PFA-268** Architecture decision records for platform-specific choices. _Planned_
 - **PFA-269** Creating a deprecation roadmap for legacy rules. _Planned_
