@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**245 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**246 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -270,6 +270,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-205: Synthetic production monitoring of high-value journeys](docs/articles/testing/pfa-205-synthetic-production-monitoring-high-value-journeys.md)
 - [PFA-206: Validating long-running flow resumptions after release](docs/articles/testing/pfa-206-validating-longrunning-flow-resumptions-after-release.md)
 - [PFA-207: Regression testing complex decision tables](docs/articles/testing/pfa-207-regression-testing-complex-decision-tables.md)
+- [PFA-208: Testing attachment security and size limits](docs/articles/testing/pfa-208-testing-attachment-security-and-size-limits.md)
 
 ### Customer Decision Hub and real-time decisioning
 
