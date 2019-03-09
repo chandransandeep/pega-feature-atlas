@@ -179,7 +179,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-108](articles/background-processing/pfa-108-idempotent-consumers-for-financial-transactions.md)** Idempotent consumers for financial transactions. _Published (lab verification pending)_
 - **[PFA-109](articles/background-processing/pfa-109-delayed-queue-processor-scheduling-semantics.md)** Delayed Queue Processor scheduling semantics. _Published (lab verification pending)_
 - **[PFA-110](articles/background-processing/PFA-110-job-schedulers-versus-queue-processors.md)** Job Scheduler versus Queue Processor responsibilities. _Published (lab verification pending)_
-- **PFA-111** Broken queue remediation and safe manual replay. _Planned_
+- **[PFA-111](articles/background-processing/pfa-111-broken-queue-remediation-and-safe-manual-replay.md)** Broken queue remediation and safe manual replay. _Published (lab verification pending)_
 - **PFA-112** Processing order versus horizontal throughput. _Planned_
 - **PFA-113** Backlog sizing during upstream traffic spikes. _Planned_
 - **PFA-114** Scaling background processing without API overload. _Planned_
