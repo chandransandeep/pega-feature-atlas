@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**71 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**72 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -55,6 +55,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-025: Rule availability and production rollback constraints](docs/articles/rule-resolution/pfa-025-rule-availability-and-production-rollback-constraints.md)
 - [PFA-026: Delegated business rules with architectural boundaries](docs/articles/rule-resolution/pfa-026-delegated-business-rules-with-architectural-boundaries.md)
 - [PFA-027: Branch conflicts in high-churn decision tables](docs/articles/rule-resolution/pfa-027-branch-conflicts-in-high-churn-decision-tables.md)
+- [PFA-028: Safe customization of locked product extensions](docs/articles/rule-resolution/pfa-028-safe-customization-of-locked-product-extensions.md)
 
 ### Case architecture and concurrency
 

@@ -71,3 +71,4 @@ docs/articles/rule-resolution/pfa-024-dynamic-class-referencing-and-long-term-ma
 docs/articles/rule-resolution/pfa-025-rule-availability-and-production-rollback-constraints.md	2018-05-04	2026-10-20T14:59:40+00:00	random_past_date
 docs/articles/rule-resolution/pfa-026-delegated-business-rules-with-architectural-boundaries.md	2024-07-11	2026-10-20T14:59:40+00:00	random_past_date
 docs/articles/rule-resolution/pfa-027-branch-conflicts-in-high-churn-decision-tables.md	2021-11-14	2026-10-20T14:59:40+00:00	random_past_date
+docs/articles/rule-resolution/pfa-028-safe-customization-of-locked-product-extensions.md	2019-03-30	2026-10-20T14:59:40+00:00	random_past_date

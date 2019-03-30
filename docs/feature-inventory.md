@@ -66,7 +66,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-025](articles/rule-resolution/pfa-025-rule-availability-and-production-rollback-constraints.md)** Rule availability and production rollback constraints. _Published (lab verification pending)_
 - **[PFA-026](articles/rule-resolution/pfa-026-delegated-business-rules-with-architectural-boundaries.md)** Delegated business rules with architectural boundaries. _Published (lab verification pending)_
 - **[PFA-027](articles/rule-resolution/pfa-027-branch-conflicts-in-high-churn-decision-tables.md)** Branch conflicts in high-churn decision tables. _Published (lab verification pending)_
-- **PFA-028** Safe customization of locked product extensions. _Planned_
+- **[PFA-028](articles/rule-resolution/pfa-028-safe-customization-of-locked-product-extensions.md)** Safe customization of locked product extensions. _Published (lab verification pending)_
 - **PFA-029** Detecting application stack drift across environments. _Planned_
 - **PFA-030** Upgrading frameworks without breaking implementation rules. _Planned_
 
