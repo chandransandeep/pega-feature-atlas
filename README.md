@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**113 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**114 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -125,6 +125,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-083: Batch data migration while active cases continue](docs/articles/persistence/pfa-083-batch-data-migration-while-active-cases-continue.md)
 - [PFA-084: Database transactions across case and API boundaries](docs/articles/persistence/pfa-084-database-transactions-across-case-and-api-boundaries.md)
 - [PFA-085: Dealing with hotspot rows in shared business counters](docs/articles/persistence/pfa-085-dealing-with-hotspot-rows-in-shared-business-counters.md)
+- [PFA-086: Reconciliation after partial data import failures](docs/articles/persistence/pfa-086-reconciliation-after-partial-data-import-failures.md)
 
 ### Integration architecture and API contracts
 
