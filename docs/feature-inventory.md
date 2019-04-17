@@ -263,7 +263,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-172](articles/performance/pfa-172-cache-refresh-response-time-variation.md)** Response time variation after cache refresh. _Published (lab verification pending)_
 - **[PFA-173](articles/performance/pfa-173-database-performance-impact-indexing-decisions.md)** Database performance impact of indexing decisions. _Published (lab verification pending)_
 - **[PFA-174](articles/performance/pfa-174-sizing-attachment-processing-capacity.md)** Sizing attachment processing capacity. _Published (lab verification pending)_
-- **PFA-175** Garbage collection pauses and interactive response time. _Planned_
+- **[PFA-175](articles/performance/pfa-175-garbage-collection-pauses-interactive-response-time.md)** Garbage collection pauses and interactive response time. _Published (lab verification pending)_
 - **PFA-176** Measuring cold-start versus steady-state experience. _Planned_
 - **PFA-177** Back pressure when dependencies cannot keep up. _Planned_
 - **PFA-178** Quantifying the cost of unnecessary clipboard pages. _Planned_
