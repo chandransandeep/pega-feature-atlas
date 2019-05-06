@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**43 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**44 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -52,6 +52,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-063: Cache refresh strategies and business freshness contracts](docs/articles/data-pages/pfa-063-refresh-strategy-freshness-contract.md)
 - [PFA-067: Chained Data Pages and hidden integration fan-out](docs/articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md)
 - [PFA-068: Read-only versus editable Data Pages](docs/articles/data-pages/pfa-068-read-only-editable-savable-write-path.md)
+- [PFA-069: Report-backed versus connector-backed Data Pages](docs/articles/data-pages/pfa-069-report-versus-connector-data-pages.md)
 
 ### Persistence, data modelling and search
 
