@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**101 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**102 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -107,6 +107,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-068: Read-only versus editable Data Pages](docs/articles/data-pages/pfa-068-read-only-editable-savable-write-path.md)
 - [PFA-069: Report-backed versus connector-backed Data Pages](docs/articles/data-pages/pfa-069-report-versus-connector-data-pages.md)
 - [PFA-070: Designing a business-safe cache key](docs/articles/data-pages/pfa-070-designing-a-business-safe-cache-key.md)
+- [PFA-071: Avoiding repeated load during complex view rendering](docs/articles/data-pages/pfa-071-avoiding-repeated-load-during-complex-view-rendering.md)
 - [PFA-075: Caching secure lookups after access revocation](docs/articles/data-pages/pfa-075-authorization-revocation-cached-lookups.md)
 
 ### Persistence, data modelling and search
