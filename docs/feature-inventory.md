@@ -286,7 +286,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-190](articles/delivery/pfa-190-guardrail-exceptions-architectural-debt-signals.md)** Guardrail exceptions as architectural debt signals. _Published (lab verification pending)_
 - **[PFA-191](articles/devops/pfa-191-managing-hotfixes-without-environments-drifting.md)** Managing hotfixes without environments drifting. _Published (lab verification pending)_
 - **[PFA-192](articles/delivery/pfa-192-testing-migration-of-longrunning-open-cases.md)** Testing migration of long-running open cases. _Published (lab verification pending)_
-- **PFA-193** Deployment ordering across dependent Pega components. _Planned_
+- **[PFA-193](articles/delivery/pfa-193-deployment-ordering-across-dependent-pega-components.md)** Deployment ordering across dependent Pega components. _Published (lab verification pending)_
 - **PFA-194** Production cutover for a new case platform. _Planned_
 - **PFA-195** Release evidence and audit requirements. _Planned_
 
