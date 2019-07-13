@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**163 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**164 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -197,6 +197,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 
 - [PFA-151: Reading PAL results to locate rule execution cost](docs/articles/observability/PFA-151-pal-latency-attribution.md)
 - [PFA-152: Using Tracer without changing business behaviour](docs/articles/observability/pfa-152-using-tracer-without-changing-business-behaviour.md)
+- [PFA-153: Clipboard inspection for wrong-instance failures](docs/articles/observability/pfa-153-clipboard-inspection-wrong-instance-failures.md)
 - [PFA-154: PDC event triage and evidence-driven diagnosis](docs/articles/observability/pfa-154-pdc-evidence-led-incident-diagnosis.md)
 
 ### Performance engineering and scalability
