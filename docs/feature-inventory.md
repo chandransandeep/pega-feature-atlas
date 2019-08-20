@@ -106,7 +106,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-055](articles/flow-sla/pfa-055-orchestrating-human-and-robotic-assignments-together.md)** Orchestrating human and robotic assignments together. _Published (lab verification pending)_
 - **[PFA-056](articles/flow-sla/pfa-056-recovering-stalled-flows-after-an-application-release.md)** Recovering stalled flows after an application release. _Published (lab verification pending)_
 - **[PFA-057](articles/flow-sla/pfa-057-sla-rules-and-custom-timer-design-trade-offs.md)** SLA rules and custom timer design trade-offs. _Published (lab verification pending)_
-- **PFA-058** Business event ingestion without duplicate resumes. _Planned_
+- **[PFA-058](articles/flow-sla/pfa-058-business-event-ingestion-without-duplicate-resumes.md)** Business event ingestion without duplicate resumes. _Published (lab verification pending)_
 - **PFA-059** Validation rules at trusted execution boundaries. _Planned_
 - **PFA-060** Workflow exception models for regulated processes. _Planned_
 
