@@ -161,3 +161,4 @@ docs/articles/testing/pfa-197-concurrency-tests-case-locking-optimistic-updates.
 docs/articles/decisioning/pfa-213-action-eligibility-suitability-design.md	2021-02-26	2026-10-23T07:28:58+00:00	random_past_date
 docs/articles/genai/pfa-227-genai-case-summary-sensitive-data-controls.md	2024-07-20	2026-10-23T07:28:58+00:00	random_past_date
 docs/articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md	2025-02-08	2026-10-23T07:29:59+00:00	random_past_date
+docs/articles/modernization/pfa-256-decomposing-monolithic-pega-applications-safely.md	2019-12-06	2026-10-23T07:29:59+00:00	random_past_date
