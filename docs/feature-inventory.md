@@ -260,7 +260,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-169](articles/performance/pfa-169-thread-contention-mass-case-updates.md)** Thread contention during mass case updates. _Published (lab verification pending)_
 - **[PFA-170](articles/performance/pfa-170-parameterized-data-pages-n-plus-one.md)** Avoiding N+1 connector calls from parameterized sources. _Published (lab verification pending)_
 - **[PFA-171](articles/performance/pfa-171-scaling-queue-processor-bursts.md)** Scaling workers for bursty Queue Processor demand. _Published (lab verification pending)_
-- **PFA-172** Response time variation after cache refresh. _Planned_
+- **[PFA-172](articles/performance/pfa-172-cache-refresh-response-time-variation.md)** Response time variation after cache refresh. _Published (lab verification pending)_
 - **PFA-173** Database performance impact of indexing decisions. _Planned_
 - **PFA-174** Sizing attachment processing capacity. _Planned_
 - **PFA-175** Garbage collection pauses and interactive response time. _Planned_
