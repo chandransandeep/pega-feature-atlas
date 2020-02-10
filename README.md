@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**171 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**172 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -193,6 +193,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-139: Attribute-based authorization for customer records](docs/articles/security/pfa-139-attribute-based-authorization-customer-records.md)
 - [PFA-140: Securing service packages independently of case UI](docs/articles/security/pfa-140-service-package-api-security.md)
 - [PFA-141: Multi-tenant data partitioning and cache isolation](docs/articles/security/pfa-141-multi-tenant-data-partitioning-cache-isolation.md)
+- [PFA-142: Controlling privileges for background processing](docs/articles/security/pfa-142-controlling-privileges-background-processing.md)
 
 ### Production observability and incident diagnosis
 
