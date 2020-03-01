@@ -233,3 +233,4 @@ docs/articles/genai/pfa-236-fallback-when-a-model-provider-is-unavailable.md	202
 docs/articles/robotics/pfa-248-ui-automation-brittleness-and-recovery-strategies.md	2023-08-04	2026-10-31T02:05:51+00:00	random_past_date
 docs/articles/security/pfa-149-privilege-escalation-pathways-through-custom-activities.md	2019-10-23	2026-10-31T03:08:02+00:00	random_past_date
 docs/articles/security/pfa-150-security-regression-testing-during-application-upgrades.md	2022-09-23	2026-10-31T03:08:02+00:00	random_past_date
+docs/articles/observability/pfa-162-safe-production-instrumentation-of-confidential-data.md	2020-03-01	2026-10-31T03:08:02+00:00	random_past_date
