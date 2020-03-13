@@ -161,7 +161,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-095** API gateway responsibilities versus service rules. _Planned_
 - **PFA-096** End-to-end correlation IDs for distributed diagnostics. _Planned_
 - **PFA-097** REST schema evolution without breaking consumers. _Planned_
-- **PFA-098** Handling asynchronous partner callbacks securely. _Planned_
+- **[PFA-098](articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)** Handling asynchronous partner callbacks securely. _Published (lab verification pending)_
 - **PFA-099** Integration error taxonomies and business recovery. _Planned_
 - **PFA-100** Controlling fan-out to dozens of downstream services. _Planned_
 - **PFA-101** API rate limits under seasonal transaction peaks. _Planned_

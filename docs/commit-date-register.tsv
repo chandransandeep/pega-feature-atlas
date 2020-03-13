@@ -18,3 +18,4 @@ docs/articles/case-management/pfa-035-long-running-case-release-compatibility.md
 docs/articles/flow-sla/pfa-047-business-calendar-sla-timezones.md	2020-07-05	2026-10-20T12:05:01+00:00	random_past_date
 docs/articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md	2023-01-06	2026-10-20T12:05:01+00:00	random_past_date
 docs/articles/persistence/pfa-078-report-definition-query-plan-tuning.md	2020-10-29	2026-10-20T12:05:01+00:00	random_past_date
+docs/articles/integrations/pfa-098-asynchronous-callback-version-correlation.md	2020-03-13	2026-10-20T12:05:01+00:00	random_past_date
