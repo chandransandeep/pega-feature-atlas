@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**40 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**41 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -48,6 +48,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 
 ### Data pages, caching and clipboard
 
+- [PFA-062: Thread versus Requestor versus Node data scope](docs/articles/data-pages/pfa-062-thread-requestor-node-cache-isolation.md)
 - [PFA-067: Chained Data Pages and hidden integration fan-out](docs/articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md)
 
 ### Persistence, data modelling and search
