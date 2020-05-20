@@ -42,7 +42,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-006](articles/platform-runtime/pfa-006-jvm-requestor-memory-capacity.md)** Sizing JVM heap for high requestor concurrency. _Published (lab verification pending)_
 - **[PFA-007](articles/platform-runtime/pfa-007-what-actually-scales-when-additional-nodes-are-added.md)** What actually scales when additional nodes are added. _Published (lab verification pending)_
 - **[PFA-008](articles/platform-runtime/pfa-008-stream-service-and-background-recovery.md)** Shared stream service dependencies and their failure modes. _Published (lab verification pending)_
-- **PFA-009** Multi-region deployment and latency-sensitive workflows. _Planned_
+- **[PFA-009](articles/platform-runtime/pfa-009-multi-region-deployment-and-latency-sensitive-workflows.md)** Multi-region deployment and latency-sensitive workflows. _Published (lab verification pending)_
 - **PFA-010** Pega Cloud connectivity boundaries for enterprise APIs. _Planned_
 - **PFA-011** Managing internal service discovery and endpoint changes. _Planned_
 - **PFA-012** Separating interaction and background service capacity. _Planned_

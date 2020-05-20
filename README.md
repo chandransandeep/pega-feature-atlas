@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**56 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**57 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -33,6 +33,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-006: Sizing JVM heap for high requestor concurrency](docs/articles/platform-runtime/pfa-006-jvm-requestor-memory-capacity.md)
 - [PFA-007: What actually scales when additional nodes are added](docs/articles/platform-runtime/pfa-007-what-actually-scales-when-additional-nodes-are-added.md)
 - [PFA-008: Shared stream service dependencies and their failure modes](docs/articles/platform-runtime/pfa-008-stream-service-and-background-recovery.md)
+- [PFA-009: Multi-region deployment and latency-sensitive workflows](docs/articles/platform-runtime/pfa-009-multi-region-deployment-and-latency-sensitive-workflows.md)
 
 ### Rule resolution and application composition
 
