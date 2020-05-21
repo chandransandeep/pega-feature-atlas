@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-The list below contains **38 catalogue articles** verified against the topic index on 20 October 2026, plus the two introductory studies above. Further publications are added to the [live catalogue](docs/feature-inventory.md). References marked lab-pending contain a proposed architecture and test plan, not an executed Pega lab.
+**39 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -32,6 +32,7 @@ The list below contains **38 catalogue articles** verified against the topic ind
 
 - [PFA-016: Rule resolution precedence across inherited classes](docs/articles/rule-resolution/PFA-016-rule-resolution-framework-overrides.md)
 - [PFA-019: Ruleset versioning for parallel delivery teams](docs/articles/rule-resolution/pfa-019-parallel-team-ruleset-release-contracts.md)
+- [PFA-020: When directed inheritance beats pattern inheritance](docs/articles/rule-resolution/pfa-020-pattern-versus-directed-inheritance.md)
 
 ### Case architecture and concurrency
 
@@ -114,6 +115,7 @@ The list below contains **38 catalogue articles** verified against the topic ind
 
 - [PFA-257: Application framework rationalization after acquisitions](docs/articles/application-architecture/PFA-257-modular-applications-instead-of-framework-sprawl.md)
 - [PFA-263: Migration from Traditional UI to Constellation](docs/articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)
+
 <!-- END AUTO ARTICLE INDEX -->
 
 ## Article standard
