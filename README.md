@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**210 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**211 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -257,6 +257,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-216: Adaptive model feedback and delayed outcomes](docs/articles/decisioning/pfa-216-adaptive-model-feedback-delayed-outcomes.md)
 - [PFA-217: Champion challenger strategies in decisioning](docs/articles/decisioning/pfa-217-champion-challenger-decisioning-strategies.md)
 - [PFA-218: Treatment design across web, agent and outbound channels](docs/articles/decisioning/pfa-218-treatment-design-web-agent-outbound-channels.md)
+- [PFA-219: Real-time container integration resilience](docs/articles/decisioning/pfa-219-real-time-container-integration-resilience.md)
 
 ### GenAI and intelligent automation
 
