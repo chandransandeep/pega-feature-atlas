@@ -119,7 +119,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-063](articles/data-pages/pfa-063-refresh-strategy-freshness-contract.md)** Cache refresh strategies and business freshness contracts. _Published (lab verification pending)_
 - **[PFA-064](articles/data-pages/pfa-064-external-event-cache-invalidation.md)** Cache invalidation after external system updates. _Published (lab verification pending)_
 - **[PFA-065](articles/data-pages/pfa-065-handling-large-parameter-cardinality-in-agent-sessions.md)** Handling large parameter cardinality in agent sessions. _Published (lab verification pending)_
-- **PFA-066** Limit to a single Data Page and overwritten instances. _Planned_
+- **[PFA-066](articles/data-pages/pfa-066-limit-to-a-single-data-page-and-overwritten-instances.md)** Limit to a single Data Page and overwritten instances. _Published (lab verification pending)_
 - **[PFA-067](articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md)** Chained Data Pages and hidden integration fan-out. _Published (lab verification pending)_
 - **[PFA-068](articles/data-pages/pfa-068-read-only-editable-savable-write-path.md)** Read-only versus editable Data Pages. _Published (lab verification pending)_
 - **[PFA-069](articles/data-pages/pfa-069-report-versus-connector-data-pages.md)** Report-backed versus connector-backed Data Pages. _Published (lab verification pending)_
