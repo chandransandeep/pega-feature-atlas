@@ -95,7 +95,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 ## 04. Flow engine, SLAs and event orchestration
 
 - **PFA-046** Flow persistence and transaction checkpoints. _Planned_
-- **PFA-047** Assignment SLAs across time zones and holiday calendars. _Planned_
+- **[PFA-047](articles/flow-sla/pfa-047-business-calendar-sla-timezones.md)** Assignment SLAs across time zones and holiday calendars. _Published (lab verification pending)_
 - **PFA-048** Escalation architecture that avoids notification floods. _Planned_
 - **PFA-049** Wait steps versus externally signalled continuation. _Planned_
 - **PFA-050** Compensation when a downstream action fails. _Planned_
