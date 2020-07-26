@@ -138,7 +138,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-077](articles/persistence/pfa-077-exposed-columns-and-reporting-selectivity.md)** Exposed columns and reporting selectivity. _Published (lab verification pending)_
 - **[PFA-078](articles/persistence/pfa-078-report-definition-query-plan-tuning.md)** Optimising Report Definitions through query plans. _Published (lab verification pending)_
 - **[PFA-079](articles/persistence/pfa-079-index-design-worklists-case-search.md)** Index design for worklists and case search. _Published (lab verification pending)_
-- **PFA-080** Embedded page lists versus normalized child records. _Planned_
+- **[PFA-080](articles/persistence/pfa-080-embedded-page-lists-versus-normalized-child-records.md)** Embedded page lists versus normalized child records. _Published (lab verification pending)_
 - **PFA-081** Large BLOB storage and retrieval trade-offs. _Planned_
 - **PFA-082** Search index consistency in time-critical screens. _Planned_
 - **PFA-083** Batch data migration while active cases continue. _Planned_
