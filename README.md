@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**192 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**193 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -235,6 +235,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-199: Failure injection for unavailable downstream APIs](docs/articles/testing/pfa-199-failure-injection-unavailable-downstream-apis.md)
 - [PFA-200: Testing retry and duplicate message processing](docs/articles/testing/pfa-200-testing-retry-duplicate-message-processing.md)
 - [PFA-201: Data page isolation tests across user identities](docs/articles/testing/pfa-201-data-page-isolation-tests-user-identities.md)
+- [PFA-202: Load tests with diverse real-world case shapes](docs/articles/testing/pfa-202-load-tests-diverse-case-shapes.md)
 
 ### Customer Decision Hub and real-time decisioning
 
