@@ -188,7 +188,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-117](articles/background-processing/pfa-117-commit-boundaries-before-and-after-enqueueing-work.md)** Commit boundaries before and after enqueueing work. _Published (lab verification pending)_
 - **[PFA-118](articles/background-processing/pfa-118-replacing-legacy-agents-safely.md)** Replacing legacy agents safely. _Published (lab verification pending)_
 - **[PFA-119](articles/background-processing/pfa-119-separating-poison-message-retries-from-business-retries.md)** Separating poison-message retries from business retries. _Published (lab verification pending)_
-- **PFA-120** Monitoring queue latency against customer-facing SLAs. _Planned_
+- **[PFA-120](articles/background-processing/pfa-120-monitoring-queue-latency-against-customer-facing-slas.md)** Monitoring queue latency against customer-facing SLAs. _Published (lab verification pending)_
 
 <a id="section-09"></a>
 

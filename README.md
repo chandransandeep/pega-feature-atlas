@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**141 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**142 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -165,6 +165,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-117: Commit boundaries before and after enqueueing work](docs/articles/background-processing/pfa-117-commit-boundaries-before-and-after-enqueueing-work.md)
 - [PFA-118: Replacing legacy agents safely](docs/articles/background-processing/pfa-118-replacing-legacy-agents-safely.md)
 - [PFA-119: Separating poison-message retries from business retries](docs/articles/background-processing/pfa-119-separating-poison-message-retries-from-business-retries.md)
+- [PFA-120: Monitoring queue latency against customer-facing SLAs](docs/articles/background-processing/pfa-120-monitoring-queue-latency-against-customer-facing-slas.md)
 
 ### Constellation, DX API and experience design
 
