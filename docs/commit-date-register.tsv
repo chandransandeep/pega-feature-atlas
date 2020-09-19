@@ -31,3 +31,4 @@ docs/articles/genai/pfa-228-prompt-injection-case-attachment-boundaries.md	2024-
 docs/articles/platform-runtime/pfa-001-request-lifecycle-http-to-rule.md	2018-07-10	2026-10-20T12:14:30+00:00	random_past_date
 docs/articles/flow-sla/pfa-050-compensation-after-partial-integration.md	2022-06-10	2026-10-20T12:14:30+00:00	random_past_date
 docs/articles/persistence/pfa-079-index-design-worklists-case-search.md	2020-01-07	2026-10-20T12:14:30+00:00	random_past_date
+docs/articles/integrations/pfa-093-oauth-credentials-rotation-and-cache.md	2020-09-19	2026-10-20T12:14:30+00:00	random_past_date
