@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**174 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**175 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -217,6 +217,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-182: Parallel branch development in shared rule applications](docs/articles/delivery/pfa-182-parallel-branch-development-shared-rule-applications.md)
 - [PFA-183: Packaging rules and data with product definitions](docs/articles/delivery/pfa-183-packaging-rules-data-product-definitions.md)
 - [PFA-184: Schema changes during rolling deployments](docs/articles/devops/pfa-184-rolling-deployment-schema-compatibility.md)
+- [PFA-185: Upgrade preparation for retired features](docs/articles/delivery/pfa-185-upgrade-preparation-retired-features.md)
 
 ### Verification, testing and quality engineering
 

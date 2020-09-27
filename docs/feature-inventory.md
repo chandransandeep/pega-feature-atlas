@@ -278,7 +278,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-182](articles/delivery/pfa-182-parallel-branch-development-shared-rule-applications.md)** Parallel branch development in shared rule applications. _Published (lab verification pending)_
 - **[PFA-183](articles/delivery/pfa-183-packaging-rules-data-product-definitions.md)** Packaging rules and data with product definitions. _Published (lab verification pending)_
 - **[PFA-184](articles/devops/pfa-184-rolling-deployment-schema-compatibility.md)** Schema changes during rolling deployments. _Published (lab verification pending)_
-- **PFA-185** Upgrade preparation for retired features. _Planned_
+- **[PFA-185](articles/delivery/pfa-185-upgrade-preparation-retired-features.md)** Upgrade preparation for retired features. _Published (lab verification pending)_
 - **PFA-186** Feature toggles for controlled business rollout. _Planned_
 - **PFA-187** Rollback when active cases use newly changed rules. _Planned_
 - **PFA-188** Releasing queue processor changes safely. _Planned_
