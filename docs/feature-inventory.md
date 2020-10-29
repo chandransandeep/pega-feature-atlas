@@ -136,7 +136,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 - **PFA-076** Class-to-table mapping for large operational datasets. _Planned_
 - **PFA-077** Exposed columns and reporting selectivity. _Planned_
-- **PFA-078** Optimising Report Definitions through query plans. _Planned_
+- **[PFA-078](articles/persistence/pfa-078-report-definition-query-plan-tuning.md)** Optimising Report Definitions through query plans. _Published (lab verification pending)_
 - **PFA-079** Index design for worklists and case search. _Planned_
 - **PFA-080** Embedded page lists versus normalized child records. _Planned_
 - **PFA-081** Large BLOB storage and retrieval trade-offs. _Planned_
