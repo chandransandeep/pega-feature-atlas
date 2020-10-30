@@ -55,7 +55,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 ## 02. Rule resolution and application composition
 
 - **[PFA-016](articles/rule-resolution/PFA-016-rule-resolution-framework-overrides.md)** Rule resolution precedence across inherited classes. _Published (lab verification pending)_
-- **PFA-017** Circumstancing across regions and business lines. _Planned_
+- **[PFA-017](articles/rule-resolution/pfa-017-circumstancing-across-regions-and-business-lines.md)** Circumstancing across regions and business lines. _Published (lab verification pending)_
 - **PFA-018** Access group and application stack resolution context. _Planned_
 - **[PFA-019](articles/rule-resolution/pfa-019-parallel-team-ruleset-release-contracts.md)** Ruleset versioning for parallel delivery teams. _Published (lab verification pending)_
 - **[PFA-020](articles/rule-resolution/pfa-020-pattern-versus-directed-inheritance.md)** When directed inheritance beats pattern inheritance. _Published (lab verification pending)_
