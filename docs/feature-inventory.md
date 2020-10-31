@@ -45,7 +45,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-009](articles/platform-runtime/pfa-009-multi-region-deployment-and-latency-sensitive-workflows.md)** Multi-region deployment and latency-sensitive workflows. _Published (lab verification pending)_
 - **[PFA-010](articles/platform-runtime/pfa-010-pega-cloud-connectivity-boundaries-for-enterprise-apis.md)** Pega Cloud connectivity boundaries for enterprise APIs. _Published (lab verification pending)_
 - **[PFA-011](articles/platform-runtime/pfa-011-managing-internal-service-discovery-and-endpoint-changes.md)** Managing internal service discovery and endpoint changes. _Published (lab verification pending)_
-- **PFA-012** Separating interaction and background service capacity. _Planned_
+- **[PFA-012](articles/platform-runtime/pfa-012-separating-interaction-and-background-service-capacity.md)** Separating interaction and background service capacity. _Published (lab verification pending)_
 - **PFA-013** Disaster recovery objectives for case processing. _Planned_
 - **PFA-014** Identifying bottlenecks during a new regional rollout. _Planned_
 - **PFA-015** Startup sequencing after infrastructure maintenance. _Planned_
