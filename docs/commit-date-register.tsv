@@ -225,3 +225,4 @@ docs/articles/robotics/pfa-247-robotic-runtime-identity-unattended-execution.md	
 docs/articles/modernization/pfa-262-identifying-boundaries-non-pega-services.md	2022-10-03	2026-10-30T08:15:50+00:00	random_past_date
 docs/articles/security/pfa-148-reducing-personal-data-in-trace-and-diagnostic-logs.md	2022-12-04	2026-10-31T02:05:38+00:00	random_past_date
 docs/articles/observability/pfa-161-distributed-logging-design-across-platform-nodes.md	2023-01-28	2026-10-31T02:05:38+00:00	random_past_date
+docs/articles/performance/pfa-176-measuring-coldstart-versus-steadystate-experience.md	2020-11-12	2026-10-31T02:05:38+00:00	random_past_date

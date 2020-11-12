@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**225 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**226 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -227,6 +227,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-173: Database performance impact of indexing decisions](docs/articles/performance/pfa-173-database-performance-impact-indexing-decisions.md)
 - [PFA-174: Sizing attachment processing capacity](docs/articles/performance/pfa-174-sizing-attachment-processing-capacity.md)
 - [PFA-175: Garbage collection pauses and interactive response time](docs/articles/performance/pfa-175-garbage-collection-pauses-interactive-response-time.md)
+- [PFA-176: Measuring cold-start versus steady-state experience](docs/articles/performance/pfa-176-measuring-coldstart-versus-steadystate-experience.md)
 
 ### Delivery pipelines and safe upgrades
 
