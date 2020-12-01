@@ -323,7 +323,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-217](articles/decisioning/pfa-217-champion-challenger-decisioning-strategies.md)** Champion challenger strategies in decisioning. _Published (lab verification pending)_
 - **[PFA-218](articles/decisioning/pfa-218-treatment-design-web-agent-outbound-channels.md)** Treatment design across web, agent and outbound channels. _Published (lab verification pending)_
 - **[PFA-219](articles/decisioning/pfa-219-real-time-container-integration-resilience.md)** Real-time container integration resilience. _Published (lab verification pending)_
-- **PFA-220** Strategy execution latency budgets. _Planned_
+- **[PFA-220](articles/decisioning/pfa-220-strategy-execution-latency-budgets.md)** Strategy execution latency budgets. _Published (lab verification pending)_
 - **PFA-221** Proposition data lifecycle and ownership. _Planned_
 - **PFA-222** Data quality failure modes in real-time decisions. _Planned_
 - **PFA-223** Business-managed decisions with approval controls. _Planned_
