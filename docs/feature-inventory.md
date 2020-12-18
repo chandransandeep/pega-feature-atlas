@@ -54,7 +54,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 02. Rule resolution and application composition
 
-- **PFA-016** Rule resolution precedence across inherited classes. _Planned_
+- **[PFA-016](articles/rule-resolution/PFA-016-rule-resolution-framework-overrides.md)** Rule resolution precedence across inherited classes. _Published (lab verification pending)_
 - **PFA-017** Circumstancing across regions and business lines. _Planned_
 - **PFA-018** Access group and application stack resolution context. _Planned_
 - **PFA-019** Ruleset versioning for parallel delivery teams. _Planned_

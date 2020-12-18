@@ -1,2 +1,3 @@
 article	git_author_and_committer_date	actual_publish_utc	date_method
 docs/articles/002-queue-processors-idempotent-integration.md	2020-10-03	2026-10-20T11:02:27+00:00	random_past_date
+docs/articles/rule-resolution/PFA-016-rule-resolution-framework-overrides.md	2020-12-18	2026-10-20T11:16:19+00:00	random_past_date
