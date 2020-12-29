@@ -142,7 +142,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-081](articles/persistence/pfa-081-large-blob-storage-and-retrieval-trade-offs.md)** Large BLOB storage and retrieval trade-offs. _Published (lab verification pending)_
 - **[PFA-082](articles/persistence/pfa-082-search-index-consistency-in-time-critical-screens.md)** Search index consistency in time-critical screens. _Published (lab verification pending)_
 - **[PFA-083](articles/persistence/pfa-083-batch-data-migration-while-active-cases-continue.md)** Batch data migration while active cases continue. _Published (lab verification pending)_
-- **PFA-084** Database transactions across case and API boundaries. _Planned_
+- **[PFA-084](articles/persistence/pfa-084-database-transactions-across-case-and-api-boundaries.md)** Database transactions across case and API boundaries. _Published (lab verification pending)_
 - **PFA-085** Dealing with hotspot rows in shared business counters. _Planned_
 - **PFA-086** Reconciliation after partial data import failures. _Planned_
 - **PFA-087** Reporting warehouses versus operational reports. _Planned_
