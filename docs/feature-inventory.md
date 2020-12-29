@@ -40,7 +40,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-004](articles/platform-runtime/pfa-004-node-loss-session-and-background-recovery.md)** Cluster behaviour during node loss and session failover. _Published (lab verification pending)_
 - **[PFA-005](articles/platform-runtime/pfa-005-session-affinity-versus-stateless-application-assumptions.md)** Session affinity versus stateless application assumptions. _Published (lab verification pending)_
 - **[PFA-006](articles/platform-runtime/pfa-006-jvm-requestor-memory-capacity.md)** Sizing JVM heap for high requestor concurrency. _Published (lab verification pending)_
-- **PFA-007** What actually scales when additional nodes are added. _Planned_
+- **[PFA-007](articles/platform-runtime/pfa-007-what-actually-scales-when-additional-nodes-are-added.md)** What actually scales when additional nodes are added. _Published (lab verification pending)_
 - **[PFA-008](articles/platform-runtime/pfa-008-stream-service-and-background-recovery.md)** Shared stream service dependencies and their failure modes. _Published (lab verification pending)_
 - **PFA-009** Multi-region deployment and latency-sensitive workflows. _Planned_
 - **PFA-010** Pega Cloud connectivity boundaries for enterprise APIs. _Planned_
