@@ -283,7 +283,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-187](articles/delivery/pfa-187-rollback-active-cases-changed-rules.md)** Rollback when active cases use newly changed rules. _Published (lab verification pending)_
 - **[PFA-188](articles/delivery/pfa-188-releasing-queue-processor-changes-safely.md)** Releasing queue processor changes safely. _Published (lab verification pending)_
 - **[PFA-189](articles/delivery/pfa-189-promoting-endpoint-configuration-across-environments.md)** Promoting endpoint configuration across environments. _Published (lab verification pending)_
-- **PFA-190** Guardrail exceptions as architectural debt signals. _Planned_
+- **[PFA-190](articles/delivery/pfa-190-guardrail-exceptions-architectural-debt-signals.md)** Guardrail exceptions as architectural debt signals. _Published (lab verification pending)_
 - **PFA-191** Managing hotfixes without environments drifting. _Planned_
 - **PFA-192** Testing migration of long-running open cases. _Planned_
 - **PFA-193** Deployment ordering across dependent Pega components. _Planned_
