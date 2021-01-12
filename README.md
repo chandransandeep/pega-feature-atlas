@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**129 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**130 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -147,6 +147,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-102: Large payload handling and streaming alternatives](docs/articles/integrations/pfa-102-large-payload-handling-and-streaming-alternatives.md)
 - [PFA-103: Signed webhooks and replay attack prevention](docs/articles/integrations/pfa-103-signed-webhooks-and-replay-attack-prevention.md)
 - [PFA-104: Transactional outbox options for critical integrations](docs/articles/integrations/pfa-104-transactional-outbox-options-for-critical-integrations.md)
+- [PFA-105: Preventing sensitive fields from reaching remote logs](docs/articles/integrations/pfa-105-preventing-sensitive-fields-from-reaching-remote-logs.md)
 
 ### Queue processors and scheduled background work
 
