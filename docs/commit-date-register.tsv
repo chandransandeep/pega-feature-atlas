@@ -173,3 +173,4 @@ docs/articles/robotics/pfa-242-federated-worklist-design-ownership-boundaries.md
 docs/articles/constellation/pfa-135-separate-frontend-decision-boundaries.md	2025-05-27	2026-10-25T08:09:27+00:00	random_past_date
 docs/articles/security/pfa-142-controlling-privileges-background-processing.md	2020-02-10	2026-10-25T08:09:27+00:00	random_past_date
 docs/articles/observability/pfa-155-correlating-service-requests-background-work.md	2021-11-18	2026-10-25T08:09:27+00:00	random_past_date
+docs/articles/performance/pfa-169-thread-contention-mass-case-updates.md	2021-01-19	2026-10-25T08:09:27+00:00	random_past_date
