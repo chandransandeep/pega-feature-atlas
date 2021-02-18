@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**39 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**40 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -38,6 +38,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 
 - [PFA-032: Parent-child orchestration across bounded contexts](docs/articles/case-management/PFA-032-parent-child-multi-team-dependencies.md)
 - [PFA-033: Case locking under concurrent agent access](docs/articles/case-management/PFA-033-concurrent-case-locking.md)
+- [PFA-034: Optimistic locking and user conflict recovery](docs/articles/case-management/pfa-034-optimistic-locking-conflict-recovery.md)
 - [PFA-035: Long-running cases spanning months or years](docs/articles/case-management/pfa-035-long-running-case-release-compatibility.md)
 
 ### Flow engine, SLAs and event orchestration
