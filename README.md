@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**175 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**176 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -225,6 +225,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-197: Concurrency tests for case locking and optimistic updates](docs/articles/testing/pfa-197-concurrency-tests-case-locking-optimistic-updates.md)
 - [PFA-198: Contract tests for service REST integrations](docs/articles/testing/pfa-198-rest-service-consumer-contract-testing.md)
 - [PFA-199: Failure injection for unavailable downstream APIs](docs/articles/testing/pfa-199-failure-injection-unavailable-downstream-apis.md)
+- [PFA-200: Testing retry and duplicate message processing](docs/articles/testing/pfa-200-testing-retry-duplicate-message-processing.md)
 
 ### Customer Decision Hub and real-time decisioning
 

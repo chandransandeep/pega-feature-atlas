@@ -298,7 +298,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-197](articles/testing/pfa-197-concurrency-tests-case-locking-optimistic-updates.md)** Concurrency tests for case locking and optimistic updates. _Published (lab verification pending)_
 - **[PFA-198](articles/testing/pfa-198-rest-service-consumer-contract-testing.md)** Contract tests for service REST integrations. _Published (lab verification pending)_
 - **[PFA-199](articles/testing/pfa-199-failure-injection-unavailable-downstream-apis.md)** Failure injection for unavailable downstream APIs. _Published (lab verification pending)_
-- **PFA-200** Testing retry and duplicate message processing. _Planned_
+- **[PFA-200](articles/testing/pfa-200-testing-retry-duplicate-message-processing.md)** Testing retry and duplicate message processing. _Published (lab verification pending)_
 - **PFA-201** Data page isolation tests across user identities. _Planned_
 - **PFA-202** Load tests with diverse real-world case shapes. _Planned_
 - **PFA-203** Testing access revocation in an active requestor. _Planned_
