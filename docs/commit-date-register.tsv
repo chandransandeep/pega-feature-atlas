@@ -123,3 +123,4 @@ docs/articles/integrations/pfa-094-circuit-breaker-and-bulkhead-placement-around
 docs/articles/integrations/pfa-095-api-gateway-responsibilities-versus-service-rules.md	2023-06-17	2026-10-20T15:12:12+00:00	random_past_date
 docs/articles/integrations/pfa-096-end-to-end-correlation-ids-for-distributed-diagnostics.md	2022-04-16	2026-10-20T15:12:12+00:00	random_past_date
 docs/articles/integrations/pfa-097-rest-schema-evolution-without-breaking-consumers.md	2018-09-16	2026-10-20T15:12:12+00:00	random_past_date
+docs/articles/integrations/pfa-099-integration-error-taxonomies-and-business-recovery.md	2021-03-06	2026-10-20T15:12:12+00:00	random_past_date

@@ -162,7 +162,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-096](articles/integrations/pfa-096-end-to-end-correlation-ids-for-distributed-diagnostics.md)** End-to-end correlation IDs for distributed diagnostics. _Published (lab verification pending)_
 - **[PFA-097](articles/integrations/pfa-097-rest-schema-evolution-without-breaking-consumers.md)** REST schema evolution without breaking consumers. _Published (lab verification pending)_
 - **[PFA-098](articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)** Handling asynchronous partner callbacks securely. _Published (lab verification pending)_
-- **PFA-099** Integration error taxonomies and business recovery. _Planned_
+- **[PFA-099](articles/integrations/pfa-099-integration-error-taxonomies-and-business-recovery.md)** Integration error taxonomies and business recovery. _Published (lab verification pending)_
 - **PFA-100** Controlling fan-out to dozens of downstream services. _Planned_
 - **PFA-101** API rate limits under seasonal transaction peaks. _Planned_
 - **PFA-102** Large payload handling and streaming alternatives. _Planned_
