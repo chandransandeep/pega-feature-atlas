@@ -222,7 +222,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-141](articles/security/pfa-141-multi-tenant-data-partitioning-cache-isolation.md)** Multi-tenant data partitioning and cache isolation. _Published (lab verification pending)_
 - **[PFA-142](articles/security/pfa-142-controlling-privileges-background-processing.md)** Controlling privileges for background processing. _Published (lab verification pending)_
 - **[PFA-143](articles/security/pfa-143-sensitive-field-encryption-key-management.md)** Sensitive field encryption and key management. _Published (lab verification pending)_
-- **PFA-144** Secrets management for integration connectors. _Planned_
+- **[PFA-144](articles/security/pfa-144-secrets-management-integration-connectors.md)** Secrets management for integration connectors. _Published (lab verification pending)_
 - **PFA-145** Authorization after a user's access changes. _Planned_
 - **PFA-146** Attachment access controls and malware checks. _Planned_
 - **PFA-147** Handling cross-border data residency constraints. _Planned_
