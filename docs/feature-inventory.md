@@ -118,7 +118,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-062](articles/data-pages/pfa-062-thread-requestor-node-cache-isolation.md)** Thread versus Requestor versus Node data scope. _Published (lab verification pending)_
 - **[PFA-063](articles/data-pages/pfa-063-refresh-strategy-freshness-contract.md)** Cache refresh strategies and business freshness contracts. _Published (lab verification pending)_
 - **[PFA-064](articles/data-pages/pfa-064-external-event-cache-invalidation.md)** Cache invalidation after external system updates. _Published (lab verification pending)_
-- **PFA-065** Handling large parameter cardinality in agent sessions. _Planned_
+- **[PFA-065](articles/data-pages/pfa-065-handling-large-parameter-cardinality-in-agent-sessions.md)** Handling large parameter cardinality in agent sessions. _Published (lab verification pending)_
 - **PFA-066** Limit to a single Data Page and overwritten instances. _Planned_
 - **[PFA-067](articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md)** Chained Data Pages and hidden integration fan-out. _Published (lab verification pending)_
 - **[PFA-068](articles/data-pages/pfa-068-read-only-editable-savable-write-path.md)** Read-only versus editable Data Pages. _Published (lab verification pending)_

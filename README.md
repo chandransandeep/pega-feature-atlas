@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**98 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**99 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -101,6 +101,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-062: Thread versus Requestor versus Node data scope](docs/articles/data-pages/pfa-062-thread-requestor-node-cache-isolation.md)
 - [PFA-063: Cache refresh strategies and business freshness contracts](docs/articles/data-pages/pfa-063-refresh-strategy-freshness-contract.md)
 - [PFA-064: Cache invalidation after external system updates](docs/articles/data-pages/pfa-064-external-event-cache-invalidation.md)
+- [PFA-065: Handling large parameter cardinality in agent sessions](docs/articles/data-pages/pfa-065-handling-large-parameter-cardinality-in-agent-sessions.md)
 - [PFA-067: Chained Data Pages and hidden integration fan-out](docs/articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md)
 - [PFA-068: Read-only versus editable Data Pages](docs/articles/data-pages/pfa-068-read-only-editable-savable-write-path.md)
 - [PFA-069: Report-backed versus connector-backed Data Pages](docs/articles/data-pages/pfa-069-report-versus-connector-data-pages.md)
