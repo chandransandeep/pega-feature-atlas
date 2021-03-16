@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**263 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**264 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -339,6 +339,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-261: Cost modelling for platform service consumption](docs/articles/modernization/pfa-261-cost-modelling-platform-service-consumption.md)
 - [PFA-262: Identifying boundaries for non-Pega services](docs/articles/modernization/pfa-262-identifying-boundaries-non-pega-services.md)
 - [PFA-263: Migration from Traditional UI to Constellation](docs/articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)
+- [PFA-264: Choosing system of record for case data](docs/articles/data-architecture/pfa-264-choosing-the-system-of-record-for-case-data.md)
 
 <!-- END AUTO ARTICLE INDEX -->
 

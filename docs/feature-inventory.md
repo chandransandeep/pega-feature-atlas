@@ -382,7 +382,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-261](articles/modernization/pfa-261-cost-modelling-platform-service-consumption.md)** Cost modelling for platform service consumption. _Published (lab verification pending)_
 - **[PFA-262](articles/modernization/pfa-262-identifying-boundaries-non-pega-services.md)** Identifying boundaries for non-Pega services. _Published (lab verification pending)_
 - **[PFA-263](articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)** Migration from Traditional UI to Constellation. _Published (lab verification pending)_
-- **PFA-264** Choosing system of record for case data. _Planned_
+- **[PFA-264](articles/data-architecture/pfa-264-choosing-the-system-of-record-for-case-data.md)** Choosing system of record for case data. _Published (lab verification pending)_
 - **PFA-265** Designing integration standards across portfolios. _Planned_
 - **PFA-266** Evaluating when a reusable component adds more cost. _Planned_
 - **PFA-267** Operating model for enterprise Pega platform teams. _Planned_
