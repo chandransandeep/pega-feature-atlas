@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**167 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**168 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -224,6 +224,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### Customer Decision Hub and real-time decisioning
 
 - [PFA-211: Next Best Action request and arbitration pipeline](docs/articles/decisioning/PFA-211-cdh-decisioning-arbitration.md)
+- [PFA-212: Customer Decision Hub channel integration patterns](docs/articles/decisioning/pfa-212-customer-decision-hub-channel-integration-patterns.md)
 - [PFA-213: Action eligibility and suitability design](docs/articles/decisioning/pfa-213-action-eligibility-suitability-design.md)
 - [PFA-214: Contact policy enforcement in concurrent channels](docs/articles/decisioning/pfa-214-cross-channel-contact-policy-consistency.md)
 
