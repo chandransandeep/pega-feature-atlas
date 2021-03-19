@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**151 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**152 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -186,6 +186,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### Identity, security and data protection
 
 - [PFA-136: SAML federation and access group assignment](docs/articles/security/pfa-136-saml-federation-access-group-mapping.md)
+- [PFA-137: OpenID Connect architecture for enterprise SSO](docs/articles/security/pfa-137-openid-connect-enterprise-sso.md)
 - [PFA-138: Access Roles versus Access Control Policies](docs/articles/security/PFA-138-rbac-abac-customer-isolation.md)
 - [PFA-140: Securing service packages independently of case UI](docs/articles/security/pfa-140-service-package-api-security.md)
 
