@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**117 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**118 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -129,6 +129,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-087: Reporting warehouses versus operational reports](docs/articles/persistence/pfa-087-reporting-warehouses-versus-operational-reports.md)
 - [PFA-088: Pagination for million-row data sets](docs/articles/persistence/pfa-088-pagination-for-million-row-data-sets.md)
 - [PFA-089: Purging cases without erasing required audit evidence](docs/articles/persistence/pfa-089-purging-cases-without-erasing-required-audit-evidence.md)
+- [PFA-090: Managing reference data versioning across releases](docs/articles/persistence/pfa-090-managing-reference-data-versioning-across-releases.md)
 
 ### Integration architecture and API contracts
 

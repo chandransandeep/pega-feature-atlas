@@ -148,7 +148,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-087](articles/persistence/pfa-087-reporting-warehouses-versus-operational-reports.md)** Reporting warehouses versus operational reports. _Published (lab verification pending)_
 - **[PFA-088](articles/persistence/pfa-088-pagination-for-million-row-data-sets.md)** Pagination for million-row data sets. _Published (lab verification pending)_
 - **[PFA-089](articles/persistence/pfa-089-purging-cases-without-erasing-required-audit-evidence.md)** Purging cases without erasing required audit evidence. _Published (lab verification pending)_
-- **PFA-090** Managing reference data versioning across releases. _Planned_
+- **[PFA-090](articles/persistence/pfa-090-managing-reference-data-versioning-across-releases.md)** Managing reference data versioning across releases. _Published (lab verification pending)_
 
 <a id="section-07"></a>
 
