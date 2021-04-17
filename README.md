@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**169 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**170 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -238,6 +238,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### Process Fabric, external work and robotics
 
 - [PFA-241: Pega Process Fabric architecture across systems](docs/articles/process-fabric/pfa-241-process-fabric-federated-worklist.md)
+- [PFA-242: Federated worklist design and ownership boundaries](docs/articles/robotics/pfa-242-federated-worklist-design-ownership-boundaries.md)
 - [PFA-249: When to replace RPA with a stable API](docs/articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md)
 
 ### Modernization, governance and architecture decisions
