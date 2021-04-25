@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**185 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**186 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -239,6 +239,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-213: Action eligibility and suitability design](docs/articles/decisioning/pfa-213-action-eligibility-suitability-design.md)
 - [PFA-214: Contact policy enforcement in concurrent channels](docs/articles/decisioning/pfa-214-cross-channel-contact-policy-consistency.md)
 - [PFA-215: Interaction history data flow and persistence](docs/articles/decisioning/pfa-215-interaction-history-data-flow-persistence.md)
+- [PFA-216: Adaptive model feedback and delayed outcomes](docs/articles/decisioning/pfa-216-adaptive-model-feedback-delayed-outcomes.md)
 
 ### GenAI and intelligent automation
 
