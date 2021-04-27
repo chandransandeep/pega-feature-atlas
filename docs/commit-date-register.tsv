@@ -228,3 +228,4 @@ docs/articles/observability/pfa-161-distributed-logging-design-across-platform-n
 docs/articles/performance/pfa-176-measuring-coldstart-versus-steadystate-experience.md	2020-11-12	2026-10-31T02:05:38+00:00	random_past_date
 docs/articles/devops/pfa-191-managing-hotfixes-without-environments-drifting.md	2018-08-12	2026-10-31T02:05:51+00:00	random_past_date
 docs/articles/testing/pfa-206-validating-longrunning-flow-resumptions-after-release.md	2023-01-29	2026-10-31T02:05:51+00:00	random_past_date
+docs/articles/decisioning/pfa-221-proposition-data-lifecycle-and-ownership.md	2021-04-27	2026-10-31T02:05:51+00:00	random_past_date
