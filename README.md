@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**125 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**126 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -143,6 +143,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-098: Handling asynchronous partner callbacks securely](docs/articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)
 - [PFA-099: Integration error taxonomies and business recovery](docs/articles/integrations/pfa-099-integration-error-taxonomies-and-business-recovery.md)
 - [PFA-100: Controlling fan-out to dozens of downstream services](docs/articles/integrations/pfa-100-controlling-fan-out-to-dozens-of-downstream-services.md)
+- [PFA-101: API rate limits under seasonal transaction peaks](docs/articles/integrations/pfa-101-api-rate-limits-under-seasonal-transaction-peaks.md)
 
 ### Queue processors and scheduled background work
 
