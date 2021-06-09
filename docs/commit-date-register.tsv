@@ -261,3 +261,4 @@ docs/articles/robotic-automation/pfa-250-human-in-the-loop-correction-of-robotic
 docs/articles/robotic-operations/pfa-252-monitoring-robotic-failure-at-scale.md	2022-08-19	2026-10-31T06:08:32+00:00	random_past_date
 docs/articles/workflow-orchestration/pfa-253-coordinating-pega-cases-with-external-workflow-engines.md	2025-02-16	2026-10-31T06:08:32+00:00	random_past_date
 docs/articles/case-concurrency/pfa-254-avoiding-duplicate-assignments-during-synchronization.md	2024-10-24	2026-10-31T06:08:40+00:00	random_past_date
+docs/articles/access-control/pfa-255-security-design-for-shared-operator-work-surfaces.md	2021-06-09	2026-10-31T06:08:40+00:00	random_past_date

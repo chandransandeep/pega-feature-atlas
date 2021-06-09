@@ -368,7 +368,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-252](articles/robotic-operations/pfa-252-monitoring-robotic-failure-at-scale.md)** Monitoring robotic failure at scale. _Published (lab verification pending)_
 - **[PFA-253](articles/workflow-orchestration/pfa-253-coordinating-pega-cases-with-external-workflow-engines.md)** Coordinating Pega cases with external workflow engines. _Published (lab verification pending)_
 - **[PFA-254](articles/case-concurrency/pfa-254-avoiding-duplicate-assignments-during-synchronization.md)** Avoiding duplicate assignments during synchronization. _Published (lab verification pending)_
-- **PFA-255** Security design for shared operator work surfaces. _Planned_
+- **[PFA-255](articles/access-control/pfa-255-security-design-for-shared-operator-work-surfaces.md)** Security design for shared operator work surfaces. _Published (lab verification pending)_
 
 <a id="section-18"></a>
 
