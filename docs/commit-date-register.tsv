@@ -199,3 +199,4 @@ docs/articles/process-fabric/pfa-244-cross-application-work-discovery-permission
 docs/articles/security/pfa-145-authorization-after-operator-access-changes.md	2021-09-29	2026-10-28T08:24:26+00:00	random_past_date
 docs/articles/observability/pfa-158-distinguishing-api-timeout-from-slow-rule-execution.md	2022-02-02	2026-10-28T08:24:26+00:00	random_past_date
 docs/articles/performance/pfa-173-database-performance-impact-indexing-decisions.md	2018-06-26	2026-10-28T08:24:26+00:00	random_past_date
+docs/articles/delivery/pfa-188-releasing-queue-processor-changes-safely.md	2021-06-19	2026-10-28T08:24:26+00:00	random_past_date

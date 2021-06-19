@@ -281,7 +281,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-185](articles/delivery/pfa-185-upgrade-preparation-retired-features.md)** Upgrade preparation for retired features. _Published (lab verification pending)_
 - **[PFA-186](articles/delivery/pfa-186-feature-toggles-controlled-business-rollout.md)** Feature toggles for controlled business rollout. _Published (lab verification pending)_
 - **[PFA-187](articles/delivery/pfa-187-rollback-active-cases-changed-rules.md)** Rollback when active cases use newly changed rules. _Published (lab verification pending)_
-- **PFA-188** Releasing queue processor changes safely. _Planned_
+- **[PFA-188](articles/delivery/pfa-188-releasing-queue-processor-changes-safely.md)** Releasing queue processor changes safely. _Published (lab verification pending)_
 - **PFA-189** Promoting endpoint configuration across environments. _Planned_
 - **PFA-190** Guardrail exceptions as architectural debt signals. _Planned_
 - **PFA-191** Managing hotfixes without environments drifting. _Planned_
