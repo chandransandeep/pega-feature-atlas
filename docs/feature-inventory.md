@@ -216,7 +216,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 - **PFA-136** SAML federation and access group assignment. _Planned_
 - **PFA-137** OpenID Connect architecture for enterprise SSO. _Planned_
-- **PFA-138** Access Roles versus Access Control Policies. _Planned_
+- **[PFA-138](articles/security/PFA-138-rbac-abac-customer-isolation.md)** Access Roles versus Access Control Policies. _Published (lab verification pending)_
 - **PFA-139** Attribute-based authorization for customer records. _Planned_
 - **PFA-140** Securing service packages independently of case UI. _Planned_
 - **PFA-141** Multi-tenant data partitioning and cache isolation. _Planned_
