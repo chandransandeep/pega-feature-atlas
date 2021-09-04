@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**212 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**213 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -278,6 +278,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-243: External assignment identity and deep linking](docs/articles/robotics/pfa-243-external-assignment-identity-deep-linking.md)
 - [PFA-244: Cross-application work discovery and permissions](docs/articles/process-fabric/pfa-244-cross-application-work-discovery-permissions.md)
 - [PFA-245: Routing work from different systems into one portal](docs/articles/process-fabric/pfa-245-routing-work-different-systems-one-portal.md)
+- [PFA-246: Robotic Desktop Automation deployment options](docs/articles/process-fabric/pfa-246-robotic-desktop-automation-deployment-options.md)
 - [PFA-249: When to replace RPA with a stable API](docs/articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md)
 
 ### Modernization, governance and architecture decisions

@@ -359,7 +359,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-243](articles/robotics/pfa-243-external-assignment-identity-deep-linking.md)** External assignment identity and deep linking. _Published (lab verification pending)_
 - **[PFA-244](articles/process-fabric/pfa-244-cross-application-work-discovery-permissions.md)** Cross-application work discovery and permissions. _Published (lab verification pending)_
 - **[PFA-245](articles/process-fabric/pfa-245-routing-work-different-systems-one-portal.md)** Routing work from different systems into one portal. _Published (lab verification pending)_
-- **PFA-246** Robotic Desktop Automation deployment options. _Planned_
+- **[PFA-246](articles/process-fabric/pfa-246-robotic-desktop-automation-deployment-options.md)** Robotic Desktop Automation deployment options. _Published (lab verification pending)_
 - **PFA-247** Robotic runtime identity and unattended execution. _Planned_
 - **PFA-248** UI automation brittleness and recovery strategies. _Planned_
 - **[PFA-249](articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md)** When to replace RPA with a stable API. _Published (lab verification pending)_
