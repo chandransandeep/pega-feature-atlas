@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**196 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**197 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -196,6 +196,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-142: Controlling privileges for background processing](docs/articles/security/pfa-142-controlling-privileges-background-processing.md)
 - [PFA-143: Sensitive field encryption and key management](docs/articles/security/pfa-143-sensitive-field-encryption-key-management.md)
 - [PFA-144: Secrets management for integration connectors](docs/articles/security/pfa-144-secrets-management-integration-connectors.md)
+- [PFA-145: Authorization after a user's access changes](docs/articles/security/pfa-145-authorization-after-operator-access-changes.md)
 
 ### Production observability and incident diagnosis
 
