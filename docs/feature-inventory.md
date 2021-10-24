@@ -147,7 +147,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-086](articles/persistence/pfa-086-reconciliation-after-partial-data-import-failures.md)** Reconciliation after partial data import failures. _Published (lab verification pending)_
 - **[PFA-087](articles/persistence/pfa-087-reporting-warehouses-versus-operational-reports.md)** Reporting warehouses versus operational reports. _Published (lab verification pending)_
 - **[PFA-088](articles/persistence/pfa-088-pagination-for-million-row-data-sets.md)** Pagination for million-row data sets. _Published (lab verification pending)_
-- **PFA-089** Purging cases without erasing required audit evidence. _Planned_
+- **[PFA-089](articles/persistence/pfa-089-purging-cases-without-erasing-required-audit-evidence.md)** Purging cases without erasing required audit evidence. _Published (lab verification pending)_
 - **PFA-090** Managing reference data versioning across releases. _Planned_
 
 <a id="section-07"></a>
