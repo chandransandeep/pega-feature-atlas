@@ -78,7 +78,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-032](articles/case-management/PFA-032-parent-child-multi-team-dependencies.md)** Parent-child orchestration across bounded contexts. _Published (lab verification pending)_
 - **[PFA-033](articles/case-management/PFA-033-concurrent-case-locking.md)** Case locking under concurrent agent access. _Published (lab verification pending)_
 - **PFA-034** Optimistic locking and user conflict recovery. _Planned_
-- **PFA-035** Long-running cases spanning months or years. _Planned_
+- **[PFA-035](articles/case-management/pfa-035-long-running-case-release-compatibility.md)** Long-running cases spanning months or years. _Published (lab verification pending)_
 - **PFA-036** Active case migration after flow redesign. _Planned_
 - **PFA-037** Cross-case dependencies without circular waits. _Planned_
 - **PFA-038** Parallel approvals and partial completion handling. _Planned_
