@@ -307,7 +307,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-206](articles/testing/pfa-206-validating-longrunning-flow-resumptions-after-release.md)** Validating long-running flow resumptions after release. _Published (lab verification pending)_
 - **[PFA-207](articles/testing/pfa-207-regression-testing-complex-decision-tables.md)** Regression testing complex decision tables. _Published (lab verification pending)_
 - **[PFA-208](articles/testing/pfa-208-testing-attachment-security-and-size-limits.md)** Testing attachment security and size limits. _Published (lab verification pending)_
-- **PFA-209** End-to-end correlation for failed test journeys. _Planned_
+- **[PFA-209](articles/testing/pfa-209-end-to-end-correlation-for-failed-test-journeys.md)** End-to-end correlation for failed test journeys. _Published (lab verification pending)_
 - **PFA-210** Acceptance criteria for architecture quality attributes. _Planned_
 
 <a id="section-15"></a>
