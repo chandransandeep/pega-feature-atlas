@@ -238,7 +238,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-152](articles/observability/pfa-152-using-tracer-without-changing-business-behaviour.md)** Using Tracer without changing business behaviour. _Published (lab verification pending)_
 - **[PFA-153](articles/observability/pfa-153-clipboard-inspection-wrong-instance-failures.md)** Clipboard inspection for wrong-instance failures. _Published (lab verification pending)_
 - **[PFA-154](articles/observability/pfa-154-pdc-evidence-led-incident-diagnosis.md)** PDC event triage and evidence-driven diagnosis. _Published (lab verification pending)_
-- **PFA-155** Correlating service requests with background work. _Planned_
+- **[PFA-155](articles/observability/pfa-155-correlating-service-requests-background-work.md)** Correlating service requests with background work. _Published (lab verification pending)_
 - **PFA-156** Finding root causes of intermittent case lock failures. _Planned_
 - **PFA-157** Investigating queue processor items in broken status. _Planned_
 - **PFA-158** Distinguishing API timeout from slow rule execution. _Planned_
