@@ -110,3 +110,4 @@ docs/articles/persistence/pfa-077-exposed-columns-and-reporting-selectivity.md	2
 docs/articles/persistence/pfa-080-embedded-page-lists-versus-normalized-child-records.md	2020-07-26	2026-10-20T15:08:55+00:00	random_past_date
 docs/articles/persistence/pfa-081-large-blob-storage-and-retrieval-trade-offs.md	2022-09-13	2026-10-20T15:08:55+00:00	random_past_date
 docs/articles/persistence/pfa-082-search-index-consistency-in-time-critical-screens.md	2022-02-16	2026-10-20T15:08:55+00:00	random_past_date
+docs/articles/persistence/pfa-083-batch-data-migration-while-active-cases-continue.md	2021-11-21	2026-10-20T15:08:55+00:00	random_past_date
