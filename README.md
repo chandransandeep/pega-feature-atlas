@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**106 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**107 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -116,6 +116,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### Persistence, data modelling and search
 
 - [PFA-076: Class-to-table mapping for large operational datasets](docs/articles/persistence/pfa-076-class-to-table-mapping-for-large-operational-datasets.md)
+- [PFA-077: Exposed columns and reporting selectivity](docs/articles/persistence/pfa-077-exposed-columns-and-reporting-selectivity.md)
 - [PFA-078: Optimising Report Definitions through query plans](docs/articles/persistence/pfa-078-report-definition-query-plan-tuning.md)
 - [PFA-079: Index design for worklists and case search](docs/articles/persistence/pfa-079-index-design-worklists-case-search.md)
 
