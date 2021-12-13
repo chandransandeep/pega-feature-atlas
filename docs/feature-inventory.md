@@ -377,7 +377,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-256](articles/modernization/pfa-256-decomposing-monolithic-pega-applications-safely.md)** Decomposing monolithic Pega applications safely. _Published (lab verification pending)_
 - **[PFA-257](articles/application-architecture/PFA-257-modular-applications-instead-of-framework-sprawl.md)** Application framework rationalization after acquisitions. _Published (lab verification pending)_
 - **[PFA-258](articles/modernization/pfa-258-transitioning-activity-heavy-legacy-designs.md)** Transitioning from activity-heavy legacy designs. _Published (lab verification pending)_
-- **PFA-259** Building an enterprise pattern library for Pega. _Planned_
+- **[PFA-259](articles/modernization/pfa-259-enterprise-pattern-library-for-pega.md)** Building an enterprise pattern library for Pega. _Published (lab verification pending)_
 - **PFA-260** Governance of shared rules across product teams. _Planned_
 - **PFA-261** Cost modelling for platform service consumption. _Planned_
 - **PFA-262** Identifying boundaries for non-Pega services. _Planned_
