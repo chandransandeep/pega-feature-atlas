@@ -219,7 +219,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-138](articles/security/PFA-138-rbac-abac-customer-isolation.md)** Access Roles versus Access Control Policies. _Published (lab verification pending)_
 - **[PFA-139](articles/security/pfa-139-attribute-based-authorization-customer-records.md)** Attribute-based authorization for customer records. _Published (lab verification pending)_
 - **[PFA-140](articles/security/pfa-140-service-package-api-security.md)** Securing service packages independently of case UI. _Published (lab verification pending)_
-- **PFA-141** Multi-tenant data partitioning and cache isolation. _Planned_
+- **[PFA-141](articles/security/pfa-141-multi-tenant-data-partitioning-cache-isolation.md)** Multi-tenant data partitioning and cache isolation. _Published (lab verification pending)_
 - **PFA-142** Controlling privileges for background processing. _Planned_
 - **PFA-143** Sensitive field encryption and key management. _Planned_
 - **PFA-144** Secrets management for integration connectors. _Planned_
