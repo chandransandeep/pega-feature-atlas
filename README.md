@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**267 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**268 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -343,6 +343,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-265: Designing integration standards across portfolios](docs/articles/integration-architecture/pfa-265-designing-integration-standards-across-portfolios.md)
 - [PFA-266: Evaluating when a reusable component adds more cost](docs/articles/component-governance/pfa-266-evaluating-when-a-reusable-component-adds-more-cost.md)
 - [PFA-267: Operating model for enterprise Pega platform teams](docs/articles/platform-operating-model/pfa-267-operating-model-for-enterprise-pega-platform-teams.md)
+- [PFA-268: Architecture decision records for platform-specific choices](docs/articles/architecture-decisions/pfa-268-architecture-decision-records-for-platformspecific-choices.md)
 
 <!-- END AUTO ARTICLE INDEX -->
 
