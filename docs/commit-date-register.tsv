@@ -264,3 +264,4 @@ docs/articles/case-concurrency/pfa-254-avoiding-duplicate-assignments-during-syn
 docs/articles/access-control/pfa-255-security-design-for-shared-operator-work-surfaces.md	2021-06-09	2026-10-31T06:08:40+00:00	random_past_date
 docs/articles/workflow-integration/pfa-251-cross-system-work-completion-acknowledgement.md	2024-09-15	2026-10-31T06:09:01+00:00	random_past_date
 docs/articles/data-architecture/pfa-264-choosing-the-system-of-record-for-case-data.md	2021-03-16	2026-10-31T07:05:51+00:00	random_past_date
+docs/articles/integration-architecture/pfa-265-designing-integration-standards-across-portfolios.md	2022-02-08	2026-10-31T07:05:51+00:00	random_past_date
