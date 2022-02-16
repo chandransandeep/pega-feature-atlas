@@ -140,7 +140,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-079](articles/persistence/pfa-079-index-design-worklists-case-search.md)** Index design for worklists and case search. _Published (lab verification pending)_
 - **[PFA-080](articles/persistence/pfa-080-embedded-page-lists-versus-normalized-child-records.md)** Embedded page lists versus normalized child records. _Published (lab verification pending)_
 - **[PFA-081](articles/persistence/pfa-081-large-blob-storage-and-retrieval-trade-offs.md)** Large BLOB storage and retrieval trade-offs. _Published (lab verification pending)_
-- **PFA-082** Search index consistency in time-critical screens. _Planned_
+- **[PFA-082](articles/persistence/pfa-082-search-index-consistency-in-time-critical-screens.md)** Search index consistency in time-critical screens. _Published (lab verification pending)_
 - **PFA-083** Batch data migration while active cases continue. _Planned_
 - **PFA-084** Database transactions across case and API boundaries. _Planned_
 - **PFA-085** Dealing with hotspot rows in shared business counters. _Planned_
