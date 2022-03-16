@@ -23,3 +23,4 @@ docs/articles/background-processing/pfa-107-queue-processor-error-classification
 docs/articles/constellation/pfa-123-supported-dx-component-upgrade-design.md	2025-10-19	2026-10-20T12:08:22+00:00	random_past_date
 docs/articles/security/pfa-136-saml-federation-access-group-mapping.md	2024-03-19	2026-10-20T12:08:22+00:00	random_past_date
 docs/articles/observability/pfa-154-pdc-evidence-led-incident-diagnosis.md	2024-05-18	2026-10-20T12:08:22+00:00	random_past_date
+docs/articles/performance/pfa-170-parameterized-data-pages-n-plus-one.md	2022-03-16	2026-10-20T12:08:22+00:00	random_past_date

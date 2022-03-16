@@ -258,7 +258,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-167** Latency budgets across case views and external APIs. _Planned_
 - **PFA-168** Hot path optimisation of data transforms. _Planned_
 - **PFA-169** Thread contention during mass case updates. _Planned_
-- **PFA-170** Avoiding N+1 connector calls from parameterized sources. _Planned_
+- **[PFA-170](articles/performance/pfa-170-parameterized-data-pages-n-plus-one.md)** Avoiding N+1 connector calls from parameterized sources. _Published (lab verification pending)_
 - **PFA-171** Scaling workers for bursty Queue Processor demand. _Planned_
 - **PFA-172** Response time variation after cache refresh. _Planned_
 - **PFA-173** Database performance impact of indexing decisions. _Planned_
