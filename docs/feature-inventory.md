@@ -224,7 +224,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-143](articles/security/pfa-143-sensitive-field-encryption-key-management.md)** Sensitive field encryption and key management. _Published (lab verification pending)_
 - **[PFA-144](articles/security/pfa-144-secrets-management-integration-connectors.md)** Secrets management for integration connectors. _Published (lab verification pending)_
 - **[PFA-145](articles/security/pfa-145-authorization-after-operator-access-changes.md)** Authorization after a user's access changes. _Published (lab verification pending)_
-- **PFA-146** Attachment access controls and malware checks. _Planned_
+- **[PFA-146](articles/security/pfa-146-attachment-access-controls-malware-checks.md)** Attachment access controls and malware checks. _Published (lab verification pending)_
 - **PFA-147** Handling cross-border data residency constraints. _Planned_
 - **PFA-148** Reducing personal data in trace and diagnostic logs. _Planned_
 - **PFA-149** Privilege escalation pathways through custom activities. _Planned_
