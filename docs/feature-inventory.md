@@ -354,7 +354,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 17. Process Fabric, external work and robotics
 
-- **PFA-241** Pega Process Fabric architecture across systems. _Planned_
+- **[PFA-241](articles/process-fabric/pfa-241-process-fabric-federated-worklist.md)** Pega Process Fabric architecture across systems. _Published (lab verification pending)_
 - **PFA-242** Federated worklist design and ownership boundaries. _Planned_
 - **PFA-243** External assignment identity and deep linking. _Planned_
 - **PFA-244** Cross-application work discovery and permissions. _Planned_
