@@ -159,7 +159,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-093](articles/integrations/pfa-093-oauth-credentials-rotation-and-cache.md)** OAuth token refresh and credential rotation. _Published (lab verification pending)_
 - **[PFA-094](articles/integrations/pfa-094-circuit-breaker-and-bulkhead-placement-around-pega.md)** Circuit breaker and bulkhead placement around Pega. _Published (lab verification pending)_
 - **[PFA-095](articles/integrations/pfa-095-api-gateway-responsibilities-versus-service-rules.md)** API gateway responsibilities versus service rules. _Published (lab verification pending)_
-- **PFA-096** End-to-end correlation IDs for distributed diagnostics. _Planned_
+- **[PFA-096](articles/integrations/pfa-096-end-to-end-correlation-ids-for-distributed-diagnostics.md)** End-to-end correlation IDs for distributed diagnostics. _Published (lab verification pending)_
 - **PFA-097** REST schema evolution without breaking consumers. _Planned_
 - **[PFA-098](articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)** Handling asynchronous partner callbacks securely. _Published (lab verification pending)_
 - **PFA-099** Integration error taxonomies and business recovery. _Planned_
