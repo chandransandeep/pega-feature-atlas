@@ -246,7 +246,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-160](articles/observability/pfa-160-diagnosing-memory-pressure-long-requestor-sessions.md)** Diagnosing memory pressure in long requestor sessions. _Published (lab verification pending)_
 - **[PFA-161](articles/observability/pfa-161-distributed-logging-design-across-platform-nodes.md)** Distributed logging design across platform nodes. _Published (lab verification pending)_
 - **[PFA-162](articles/observability/pfa-162-safe-production-instrumentation-of-confidential-data.md)** Safe production instrumentation of confidential data. _Published (lab verification pending)_
-- **PFA-163** Incident analysis after a ruleset deployment. _Planned_
+- **[PFA-163](articles/observability/pfa-163-incident-analysis-after-a-ruleset-deployment.md)** Incident analysis after a ruleset deployment. _Published (lab verification pending)_
 - **PFA-164** Creating a support runbook for missing case updates. _Planned_
 - **PFA-165** Defining useful alerts for background backlog growth. _Planned_
 
