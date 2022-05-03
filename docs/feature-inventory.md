@@ -116,7 +116,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 - **PFA-061** Parameterized Data Pages at scale and tenant isolation. _Planned_
 - **[PFA-062](articles/data-pages/pfa-062-thread-requestor-node-cache-isolation.md)** Thread versus Requestor versus Node data scope. _Published (lab verification pending)_
-- **PFA-063** Cache refresh strategies and business freshness contracts. _Planned_
+- **[PFA-063](articles/data-pages/pfa-063-refresh-strategy-freshness-contract.md)** Cache refresh strategies and business freshness contracts. _Published (lab verification pending)_
 - **PFA-064** Cache invalidation after external system updates. _Planned_
 - **PFA-065** Handling large parameter cardinality in agent sessions. _Planned_
 - **PFA-066** Limit to a single Data Page and overwritten instances. _Planned_

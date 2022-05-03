@@ -41,3 +41,4 @@ docs/articles/modernization/pfa-263-traditional-ui-to-constellation-transition.m
 docs/articles/rule-resolution/pfa-020-pattern-versus-directed-inheritance.md	2020-05-21	2026-10-20T13:54:55+00:00	random_past_date
 docs/articles/case-management/pfa-034-optimistic-locking-conflict-recovery.md	2021-02-18	2026-10-20T13:54:55+00:00	random_past_date
 docs/articles/data-pages/pfa-062-thread-requestor-node-cache-isolation.md	2020-04-09	2026-10-20T13:54:55+00:00	random_past_date
+docs/articles/data-pages/pfa-063-refresh-strategy-freshness-contract.md	2022-05-03	2026-10-20T13:54:55+00:00	random_past_date
