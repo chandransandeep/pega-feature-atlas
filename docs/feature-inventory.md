@@ -321,7 +321,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-215](articles/decisioning/pfa-215-interaction-history-data-flow-persistence.md)** Interaction history data flow and persistence. _Published (lab verification pending)_
 - **[PFA-216](articles/decisioning/pfa-216-adaptive-model-feedback-delayed-outcomes.md)** Adaptive model feedback and delayed outcomes. _Published (lab verification pending)_
 - **[PFA-217](articles/decisioning/pfa-217-champion-challenger-decisioning-strategies.md)** Champion challenger strategies in decisioning. _Published (lab verification pending)_
-- **PFA-218** Treatment design across web, agent and outbound channels. _Planned_
+- **[PFA-218](articles/decisioning/pfa-218-treatment-design-web-agent-outbound-channels.md)** Treatment design across web, agent and outbound channels. _Published (lab verification pending)_
 - **PFA-219** Real-time container integration resilience. _Planned_
 - **PFA-220** Strategy execution latency budgets. _Planned_
 - **PFA-221** Proposition data lifecycle and ownership. _Planned_

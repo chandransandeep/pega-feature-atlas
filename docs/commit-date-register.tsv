@@ -201,3 +201,4 @@ docs/articles/observability/pfa-158-distinguishing-api-timeout-from-slow-rule-ex
 docs/articles/performance/pfa-173-database-performance-impact-indexing-decisions.md	2018-06-26	2026-10-28T08:24:26+00:00	random_past_date
 docs/articles/delivery/pfa-188-releasing-queue-processor-changes-safely.md	2021-06-19	2026-10-28T08:24:26+00:00	random_past_date
 docs/articles/testing/pfa-203-testing-access-revocation-in-active-requestors.md	2024-07-09	2026-10-28T08:24:26+00:00	random_past_date
+docs/articles/decisioning/pfa-218-treatment-design-web-agent-outbound-channels.md	2022-05-05	2026-10-28T08:24:26+00:00	random_past_date
