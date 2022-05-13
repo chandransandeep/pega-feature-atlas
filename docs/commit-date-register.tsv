@@ -105,3 +105,4 @@ docs/articles/data-pages/pfa-071-avoiding-repeated-load-during-complex-view-rend
 docs/articles/data-pages/pfa-072-managing-error-states-on-cached-external-responses.md	2025-11-02	2026-10-20T15:08:55+00:00	random_past_date
 docs/articles/data-pages/pfa-073-reference-data-distribution-across-multiple-nodes.md	2025-01-29	2026-10-20T15:08:55+00:00	random_past_date
 docs/articles/data-pages/pfa-074-clipboard-growth-in-deeply-nested-case-models.md	2023-04-15	2026-10-20T15:08:55+00:00	random_past_date
+docs/articles/persistence/pfa-076-class-to-table-mapping-for-large-operational-datasets.md	2022-05-13	2026-10-20T15:08:55+00:00	random_past_date

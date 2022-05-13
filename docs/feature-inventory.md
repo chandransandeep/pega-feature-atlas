@@ -134,7 +134,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 06. Persistence, data modelling and search
 
-- **PFA-076** Class-to-table mapping for large operational datasets. _Planned_
+- **[PFA-076](articles/persistence/pfa-076-class-to-table-mapping-for-large-operational-datasets.md)** Class-to-table mapping for large operational datasets. _Published (lab verification pending)_
 - **PFA-077** Exposed columns and reporting selectivity. _Planned_
 - **[PFA-078](articles/persistence/pfa-078-report-definition-query-plan-tuning.md)** Optimising Report Definitions through query plans. _Published (lab verification pending)_
 - **[PFA-079](articles/persistence/pfa-079-index-design-worklists-case-search.md)** Index design for worklists and case search. _Published (lab verification pending)_
