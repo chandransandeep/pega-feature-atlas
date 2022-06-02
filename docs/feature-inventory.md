@@ -265,7 +265,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-174](articles/performance/pfa-174-sizing-attachment-processing-capacity.md)** Sizing attachment processing capacity. _Published (lab verification pending)_
 - **[PFA-175](articles/performance/pfa-175-garbage-collection-pauses-interactive-response-time.md)** Garbage collection pauses and interactive response time. _Published (lab verification pending)_
 - **[PFA-176](articles/performance/pfa-176-measuring-coldstart-versus-steadystate-experience.md)** Measuring cold-start versus steady-state experience. _Published (lab verification pending)_
-- **PFA-177** Back pressure when dependencies cannot keep up. _Planned_
+- **[PFA-177](articles/performance/pfa-177-back-pressure-when-dependencies-cannot-keep-up.md)** Back pressure when dependencies cannot keep up. _Published (lab verification pending)_
 - **PFA-178** Quantifying the cost of unnecessary clipboard pages. _Planned_
 - **PFA-179** Protecting high priority transactions from batch workloads. _Planned_
 - **PFA-180** Performance regression gates before Pega upgrade. _Planned_
