@@ -98,7 +98,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-047](articles/flow-sla/pfa-047-business-calendar-sla-timezones.md)** Assignment SLAs across time zones and holiday calendars. _Published (lab verification pending)_
 - **PFA-048** Escalation architecture that avoids notification floods. _Planned_
 - **PFA-049** Wait steps versus externally signalled continuation. _Planned_
-- **PFA-050** Compensation when a downstream action fails. _Planned_
+- **[PFA-050](articles/flow-sla/pfa-050-compensation-after-partial-integration.md)** Compensation when a downstream action fails. _Published (lab verification pending)_
 - **PFA-051** Parallel branches and joining asynchronous results. _Planned_
 - **PFA-052** Routing on dynamic workload rather than fixed groups. _Planned_
 - **PFA-053** Case cancellation while integration is in flight. _Planned_
