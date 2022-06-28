@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**208 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**209 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -233,6 +233,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-186: Feature toggles for controlled business rollout](docs/articles/delivery/pfa-186-feature-toggles-controlled-business-rollout.md)
 - [PFA-187: Rollback when active cases use newly changed rules](docs/articles/delivery/pfa-187-rollback-active-cases-changed-rules.md)
 - [PFA-188: Releasing queue processor changes safely](docs/articles/delivery/pfa-188-releasing-queue-processor-changes-safely.md)
+- [PFA-189: Promoting endpoint configuration across environments](docs/articles/delivery/pfa-189-promoting-endpoint-configuration-across-environments.md)
 
 ### Verification, testing and quality engineering
 
