@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**255 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**256 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -308,6 +308,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-236: Fallback when a model provider is unavailable](docs/articles/genai/pfa-236-fallback-when-a-model-provider-is-unavailable.md)
 - [PFA-237: Governance of AI-generated rule changes](docs/articles/ai-governance/pfa-237-governance-of-ai-generated-rule-changes.md)
 - [PFA-238: Versioning AI prompts alongside case rules](docs/articles/ai-governance/pfa-238-versioning-ai-prompts-alongside-case-rules.md)
+- [PFA-239: Auditing automated decisions and human overrides](docs/articles/decision-governance/pfa-239-auditing-automated-decisions-and-human-overrides.md)
 
 ### Process Fabric, external work and robotics
 

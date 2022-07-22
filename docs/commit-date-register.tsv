@@ -255,3 +255,4 @@ docs/articles/decisioning/pfa-224-auditability-of-automated-customer-recommendat
 docs/articles/decisioning/pfa-225-designing-decision-fallback-when-models-are-unavailable.md	2023-05-01	2026-10-31T05:13:28+00:00	random_past_date
 docs/articles/ai-governance/pfa-237-governance-of-ai-generated-rule-changes.md	2024-01-19	2026-10-31T05:13:28+00:00	random_past_date
 docs/articles/ai-governance/pfa-238-versioning-ai-prompts-alongside-case-rules.md	2024-10-20	2026-10-31T05:13:28+00:00	random_past_date
+docs/articles/decision-governance/pfa-239-auditing-automated-decisions-and-human-overrides.md	2022-07-22	2026-10-31T06:08:24+00:00	random_past_date
