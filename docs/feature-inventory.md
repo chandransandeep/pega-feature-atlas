@@ -277,7 +277,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-181](articles/devops/PFA-181-deployment-manager-release-gates.md)** Deployment Manager pipeline topology and control gates. _Published (lab verification pending)_
 - **PFA-182** Parallel branch development in shared rule applications. _Planned_
 - **PFA-183** Packaging rules and data with product definitions. _Planned_
-- **PFA-184** Schema changes during rolling deployments. _Planned_
+- **[PFA-184](articles/devops/pfa-184-rolling-deployment-schema-compatibility.md)** Schema changes during rolling deployments. _Published (lab verification pending)_
 - **PFA-185** Upgrade preparation for retired features. _Planned_
 - **PFA-186** Feature toggles for controlled business rollout. _Planned_
 - **PFA-187** Rollback when active cases use newly changed rules. _Planned_
