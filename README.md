@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**269 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**270 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -345,6 +345,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-267: Operating model for enterprise Pega platform teams](docs/articles/platform-operating-model/pfa-267-operating-model-for-enterprise-pega-platform-teams.md)
 - [PFA-268: Architecture decision records for platform-specific choices](docs/articles/architecture-decisions/pfa-268-architecture-decision-records-for-platformspecific-choices.md)
 - [PFA-269: Creating a deprecation roadmap for legacy rules](docs/articles/legacy-modernization/pfa-269-creating-a-deprecation-roadmap-for-legacy-rules.md)
+- [PFA-270: Measuring architectural fitness during quarterly releases](docs/articles/architecture-fitness/pfa-270-measuring-architectural-fitness-during-quarterly-releases.md)
 
 <!-- END AUTO ARTICLE INDEX -->
 
