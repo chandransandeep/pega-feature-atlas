@@ -365,7 +365,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-249](articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md)** When to replace RPA with a stable API. _Published (lab verification pending)_
 - **[PFA-250](articles/robotic-automation/pfa-250-human-in-the-loop-correction-of-robotic-results.md)** Human-in-the-loop correction of robotic results. _Published (lab verification pending)_
 - **PFA-251** Cross-system work completion acknowledgement. _Planned_
-- **PFA-252** Monitoring robotic failure at scale. _Planned_
+- **[PFA-252](articles/robotic-operations/pfa-252-monitoring-robotic-failure-at-scale.md)** Monitoring robotic failure at scale. _Published (lab verification pending)_
 - **PFA-253** Coordinating Pega cases with external workflow engines. _Planned_
 - **PFA-254** Avoiding duplicate assignments during synchronization. _Planned_
 - **PFA-255** Security design for shared operator work surfaces. _Planned_
