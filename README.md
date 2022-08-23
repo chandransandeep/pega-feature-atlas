@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**79 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**80 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -70,6 +70,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-037: Cross-case dependencies without circular waits](docs/articles/case-management/pfa-037-cross-case-dependencies-without-circular-waits.md)
 - [PFA-038: Parallel approvals and partial completion handling](docs/articles/case-management/pfa-038-parallel-approvals-and-partial-completion-handling.md)
 - [PFA-039: Re-opening cases without duplicate side effects](docs/articles/case-management/pfa-039-re-opening-cases-without-duplicate-side-effects.md)
+- [PFA-040: Case archival with searchable audit history](docs/articles/case-management/pfa-040-case-archival-with-searchable-audit-history.md)
 
 ### Flow engine, SLAs and event orchestration
 
