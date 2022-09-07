@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**118 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**119 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -134,6 +134,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### Integration architecture and API contracts
 
 - [PFA-091: Connect REST timeout, retry and idempotency design](docs/articles/integrations/PFA-091-connect-rest-timeouts-and-retries.md)
+- [PFA-092: Service REST for synchronous case creation](docs/articles/integrations/pfa-092-service-rest-for-synchronous-case-creation.md)
 - [PFA-093: OAuth token refresh and credential rotation](docs/articles/integrations/pfa-093-oauth-credentials-rotation-and-cache.md)
 - [PFA-098: Handling asynchronous partner callbacks securely](docs/articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)
 
