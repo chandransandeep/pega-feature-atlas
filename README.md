@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**108 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**109 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -120,6 +120,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-078: Optimising Report Definitions through query plans](docs/articles/persistence/pfa-078-report-definition-query-plan-tuning.md)
 - [PFA-079: Index design for worklists and case search](docs/articles/persistence/pfa-079-index-design-worklists-case-search.md)
 - [PFA-080: Embedded page lists versus normalized child records](docs/articles/persistence/pfa-080-embedded-page-lists-versus-normalized-child-records.md)
+- [PFA-081: Large BLOB storage and retrieval trade-offs](docs/articles/persistence/pfa-081-large-blob-storage-and-retrieval-trade-offs.md)
 
 ### Integration architecture and API contracts
 
