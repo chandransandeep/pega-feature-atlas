@@ -228,7 +228,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-147](articles/security/pfa-147-cross-border-data-residency-constraints.md)** Handling cross-border data residency constraints. _Published (lab verification pending)_
 - **[PFA-148](articles/security/pfa-148-reducing-personal-data-in-trace-and-diagnostic-logs.md)** Reducing personal data in trace and diagnostic logs. _Published (lab verification pending)_
 - **[PFA-149](articles/security/pfa-149-privilege-escalation-pathways-through-custom-activities.md)** Privilege escalation pathways through custom activities. _Published (lab verification pending)_
-- **PFA-150** Security regression testing during application upgrades. _Planned_
+- **[PFA-150](articles/security/pfa-150-security-regression-testing-during-application-upgrades.md)** Security regression testing during application upgrades. _Published (lab verification pending)_
 
 <a id="section-11"></a>
 

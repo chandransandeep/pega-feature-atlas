@@ -232,3 +232,4 @@ docs/articles/decisioning/pfa-221-proposition-data-lifecycle-and-ownership.md	20
 docs/articles/genai/pfa-236-fallback-when-a-model-provider-is-unavailable.md	2025-05-22	2026-10-31T02:05:51+00:00	random_past_date
 docs/articles/robotics/pfa-248-ui-automation-brittleness-and-recovery-strategies.md	2023-08-04	2026-10-31T02:05:51+00:00	random_past_date
 docs/articles/security/pfa-149-privilege-escalation-pathways-through-custom-activities.md	2019-10-23	2026-10-31T03:08:02+00:00	random_past_date
+docs/articles/security/pfa-150-security-regression-testing-during-application-upgrades.md	2022-09-23	2026-10-31T03:08:02+00:00	random_past_date

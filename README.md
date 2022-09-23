@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**232 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**233 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -201,6 +201,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-147: Handling cross-border data residency constraints](docs/articles/security/pfa-147-cross-border-data-residency-constraints.md)
 - [PFA-148: Reducing personal data in trace and diagnostic logs](docs/articles/security/pfa-148-reducing-personal-data-in-trace-and-diagnostic-logs.md)
 - [PFA-149: Privilege escalation pathways through custom activities](docs/articles/security/pfa-149-privilege-escalation-pathways-through-custom-activities.md)
+- [PFA-150: Security regression testing during application upgrades](docs/articles/security/pfa-150-security-regression-testing-during-application-upgrades.md)
 
 ### Production observability and incident diagnosis
 
