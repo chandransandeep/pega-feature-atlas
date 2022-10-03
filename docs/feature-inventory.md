@@ -380,7 +380,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-259](articles/modernization/pfa-259-enterprise-pattern-library-for-pega.md)** Building an enterprise pattern library for Pega. _Published (lab verification pending)_
 - **[PFA-260](articles/modernization/pfa-260-governance-shared-rules-product-teams.md)** Governance of shared rules across product teams. _Published (lab verification pending)_
 - **[PFA-261](articles/modernization/pfa-261-cost-modelling-platform-service-consumption.md)** Cost modelling for platform service consumption. _Published (lab verification pending)_
-- **PFA-262** Identifying boundaries for non-Pega services. _Planned_
+- **[PFA-262](articles/modernization/pfa-262-identifying-boundaries-non-pega-services.md)** Identifying boundaries for non-Pega services. _Published (lab verification pending)_
 - **[PFA-263](articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)** Migration from Traditional UI to Constellation. _Published (lab verification pending)_
 - **PFA-264** Choosing system of record for case data. _Planned_
 - **PFA-265** Designing integration standards across portfolios. _Planned_
