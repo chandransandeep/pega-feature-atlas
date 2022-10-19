@@ -58,3 +58,4 @@ docs/articles/platform-runtime/pfa-005-session-affinity-versus-stateless-applica
 docs/articles/platform-runtime/pfa-007-what-actually-scales-when-additional-nodes-are-added.md	2020-12-29	2026-10-20T14:56:09+00:00	random_past_date
 docs/articles/platform-runtime/pfa-009-multi-region-deployment-and-latency-sensitive-workflows.md	2020-05-20	2026-10-20T14:56:09+00:00	random_past_date
 docs/articles/platform-runtime/pfa-010-pega-cloud-connectivity-boundaries-for-enterprise-apis.md	2025-10-05	2026-10-20T14:56:09+00:00	random_past_date
+docs/articles/platform-runtime/pfa-011-managing-internal-service-discovery-and-endpoint-changes.md	2022-10-19	2026-10-20T14:56:09+00:00	random_past_date

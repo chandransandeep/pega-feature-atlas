@@ -44,7 +44,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-008](articles/platform-runtime/pfa-008-stream-service-and-background-recovery.md)** Shared stream service dependencies and their failure modes. _Published (lab verification pending)_
 - **[PFA-009](articles/platform-runtime/pfa-009-multi-region-deployment-and-latency-sensitive-workflows.md)** Multi-region deployment and latency-sensitive workflows. _Published (lab verification pending)_
 - **[PFA-010](articles/platform-runtime/pfa-010-pega-cloud-connectivity-boundaries-for-enterprise-apis.md)** Pega Cloud connectivity boundaries for enterprise APIs. _Published (lab verification pending)_
-- **PFA-011** Managing internal service discovery and endpoint changes. _Planned_
+- **[PFA-011](articles/platform-runtime/pfa-011-managing-internal-service-discovery-and-endpoint-changes.md)** Managing internal service discovery and endpoint changes. _Published (lab verification pending)_
 - **PFA-012** Separating interaction and background service capacity. _Planned_
 - **PFA-013** Disaster recovery objectives for case processing. _Planned_
 - **PFA-014** Identifying bottlenecks during a new regional rollout. _Planned_
