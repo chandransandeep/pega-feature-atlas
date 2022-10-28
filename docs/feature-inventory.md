@@ -358,7 +358,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-242](articles/robotics/pfa-242-federated-worklist-design-ownership-boundaries.md)** Federated worklist design and ownership boundaries. _Published (lab verification pending)_
 - **[PFA-243](articles/robotics/pfa-243-external-assignment-identity-deep-linking.md)** External assignment identity and deep linking. _Published (lab verification pending)_
 - **[PFA-244](articles/process-fabric/pfa-244-cross-application-work-discovery-permissions.md)** Cross-application work discovery and permissions. _Published (lab verification pending)_
-- **PFA-245** Routing work from different systems into one portal. _Planned_
+- **[PFA-245](articles/process-fabric/pfa-245-routing-work-different-systems-one-portal.md)** Routing work from different systems into one portal. _Published (lab verification pending)_
 - **PFA-246** Robotic Desktop Automation deployment options. _Planned_
 - **PFA-247** Robotic runtime identity and unattended execution. _Planned_
 - **PFA-248** UI automation brittleness and recovery strategies. _Planned_
