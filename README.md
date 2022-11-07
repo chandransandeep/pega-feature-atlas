@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**218 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**219 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -250,6 +250,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-202: Load tests with diverse real-world case shapes](docs/articles/testing/pfa-202-load-tests-diverse-case-shapes.md)
 - [PFA-203: Testing access revocation in an active requestor](docs/articles/testing/pfa-203-testing-access-revocation-in-active-requestors.md)
 - [PFA-204: Comparing old and new rules during modernization](docs/articles/testing/pfa-204-comparing-old-new-rules-modernization.md)
+- [PFA-205: Synthetic production monitoring of high-value journeys](docs/articles/testing/pfa-205-synthetic-production-monitoring-high-value-journeys.md)
 
 ### Customer Decision Hub and real-time decisioning
 

@@ -218,3 +218,4 @@ docs/articles/security/pfa-147-cross-border-data-residency-constraints.md	2024-0
 docs/articles/observability/pfa-160-diagnosing-memory-pressure-long-requestor-sessions.md	2022-07-04	2026-10-30T08:15:50+00:00	random_past_date
 docs/articles/performance/pfa-175-garbage-collection-pauses-interactive-response-time.md	2019-04-17	2026-10-30T08:15:50+00:00	random_past_date
 docs/articles/delivery/pfa-190-guardrail-exceptions-architectural-debt-signals.md	2021-01-04	2026-10-30T08:15:50+00:00	random_past_date
+docs/articles/testing/pfa-205-synthetic-production-monitoring-high-value-journeys.md	2022-11-07	2026-10-30T08:15:50+00:00	random_past_date
