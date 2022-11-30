@@ -54,3 +54,4 @@ docs/articles/rule-resolution/pfa-021-reusable-built-on-component-contracts.md	2
 docs/articles/flow-sla/pfa-049-wait-step-versus-external-event.md	2024-12-21	2026-10-20T14:00:14+00:00	random_past_date
 docs/articles/data-pages/pfa-064-external-event-cache-invalidation.md	2020-03-29	2026-10-20T14:00:14+00:00	random_past_date
 docs/articles/data-pages/pfa-075-authorization-revocation-cached-lookups.md	2024-04-09	2026-10-20T14:00:14+00:00	random_past_date
+docs/articles/platform-runtime/pfa-005-session-affinity-versus-stateless-application-assumptions.md	2022-11-30	2026-10-20T14:56:09+00:00	random_past_date
