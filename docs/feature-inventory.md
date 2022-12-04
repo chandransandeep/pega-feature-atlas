@@ -226,7 +226,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-145](articles/security/pfa-145-authorization-after-operator-access-changes.md)** Authorization after a user's access changes. _Published (lab verification pending)_
 - **[PFA-146](articles/security/pfa-146-attachment-access-controls-malware-checks.md)** Attachment access controls and malware checks. _Published (lab verification pending)_
 - **[PFA-147](articles/security/pfa-147-cross-border-data-residency-constraints.md)** Handling cross-border data residency constraints. _Published (lab verification pending)_
-- **PFA-148** Reducing personal data in trace and diagnostic logs. _Planned_
+- **[PFA-148](articles/security/pfa-148-reducing-personal-data-in-trace-and-diagnostic-logs.md)** Reducing personal data in trace and diagnostic logs. _Published (lab verification pending)_
 - **PFA-149** Privilege escalation pathways through custom activities. _Planned_
 - **PFA-150** Security regression testing during application upgrades. _Planned_
 
