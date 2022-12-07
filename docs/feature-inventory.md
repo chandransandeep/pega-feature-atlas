@@ -96,7 +96,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 - **[PFA-046](articles/flow-sla/pfa-046-flow-persistence-and-transaction-checkpoints.md)** Flow persistence and transaction checkpoints. _Published (lab verification pending)_
 - **[PFA-047](articles/flow-sla/pfa-047-business-calendar-sla-timezones.md)** Assignment SLAs across time zones and holiday calendars. _Published (lab verification pending)_
-- **PFA-048** Escalation architecture that avoids notification floods. _Planned_
+- **[PFA-048](articles/flow-sla/pfa-048-escalation-architecture-that-avoids-notification-floods.md)** Escalation architecture that avoids notification floods. _Published (lab verification pending)_
 - **[PFA-049](articles/flow-sla/pfa-049-wait-step-versus-external-event.md)** Wait steps versus externally signalled continuation. _Published (lab verification pending)_
 - **[PFA-050](articles/flow-sla/pfa-050-compensation-after-partial-integration.md)** Compensation when a downstream action fails. _Published (lab verification pending)_
 - **PFA-051** Parallel branches and joining asynchronous results. _Planned_

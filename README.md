@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**86 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**87 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -81,6 +81,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 
 - [PFA-046: Flow persistence and transaction checkpoints](docs/articles/flow-sla/pfa-046-flow-persistence-and-transaction-checkpoints.md)
 - [PFA-047: Assignment SLAs across time zones and holiday calendars](docs/articles/flow-sla/pfa-047-business-calendar-sla-timezones.md)
+- [PFA-048: Escalation architecture that avoids notification floods](docs/articles/flow-sla/pfa-048-escalation-architecture-that-avoids-notification-floods.md)
 - [PFA-049: Wait steps versus externally signalled continuation](docs/articles/flow-sla/pfa-049-wait-step-versus-external-event.md)
 - [PFA-050: Compensation when a downstream action fails](docs/articles/flow-sla/pfa-050-compensation-after-partial-integration.md)
 
