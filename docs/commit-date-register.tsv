@@ -238,3 +238,4 @@ docs/articles/observability/pfa-163-incident-analysis-after-a-ruleset-deployment
 docs/articles/observability/pfa-164-creating-a-support-runbook-for-missing-case-updates.md	2023-06-10	2026-10-31T03:08:02+00:00	random_past_date
 docs/articles/observability/pfa-165-defining-useful-alerts-for-background-backlog-growth.md	2023-08-13	2026-10-31T03:08:02+00:00	random_past_date
 docs/articles/performance/pfa-177-back-pressure-when-dependencies-cannot-keep-up.md	2022-06-02	2026-10-31T03:08:02+00:00	random_past_date
+docs/articles/performance/pfa-178-quantifying-the-cost-of-unnecessary-clipboard-pages.md	2022-12-18	2026-10-31T03:08:02+00:00	random_past_date

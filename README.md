@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**238 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**239 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -235,6 +235,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-175: Garbage collection pauses and interactive response time](docs/articles/performance/pfa-175-garbage-collection-pauses-interactive-response-time.md)
 - [PFA-176: Measuring cold-start versus steady-state experience](docs/articles/performance/pfa-176-measuring-coldstart-versus-steadystate-experience.md)
 - [PFA-177: Back pressure when dependencies cannot keep up](docs/articles/performance/pfa-177-back-pressure-when-dependencies-cannot-keep-up.md)
+- [PFA-178: Quantifying the cost of unnecessary clipboard pages](docs/articles/performance/pfa-178-quantifying-the-cost-of-unnecessary-clipboard-pages.md)
 
 ### Delivery pipelines and safe upgrades
 
