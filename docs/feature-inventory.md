@@ -244,7 +244,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-158](articles/observability/pfa-158-distinguishing-api-timeout-from-slow-rule-execution.md)** Distinguishing API timeout from slow rule execution. _Published (lab verification pending)_
 - **[PFA-159](articles/observability/pfa-159-detecting-repeated-data-page-loads.md)** Detecting repeated data page loads. _Published (lab verification pending)_
 - **[PFA-160](articles/observability/pfa-160-diagnosing-memory-pressure-long-requestor-sessions.md)** Diagnosing memory pressure in long requestor sessions. _Published (lab verification pending)_
-- **PFA-161** Distributed logging design across platform nodes. _Planned_
+- **[PFA-161](articles/observability/pfa-161-distributed-logging-design-across-platform-nodes.md)** Distributed logging design across platform nodes. _Published (lab verification pending)_
 - **PFA-162** Safe production instrumentation of confidential data. _Planned_
 - **PFA-163** Incident analysis after a ruleset deployment. _Planned_
 - **PFA-164** Creating a support runbook for missing case updates. _Planned_
