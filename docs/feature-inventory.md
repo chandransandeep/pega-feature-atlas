@@ -154,7 +154,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 07. Integration architecture and API contracts
 
-- **PFA-091** Connect REST timeout, retry and idempotency design. _Planned_
+- **[PFA-091](articles/integrations/PFA-091-connect-rest-timeouts-and-retries.md)** Connect REST timeout, retry and idempotency design. _Published (lab verification pending)_
 - **PFA-092** Service REST for synchronous case creation. _Planned_
 - **PFA-093** OAuth token refresh and credential rotation. _Planned_
 - **PFA-094** Circuit breaker and bulkhead placement around Pega. _Planned_
