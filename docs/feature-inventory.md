@@ -240,7 +240,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-154](articles/observability/pfa-154-pdc-evidence-led-incident-diagnosis.md)** PDC event triage and evidence-driven diagnosis. _Published (lab verification pending)_
 - **[PFA-155](articles/observability/pfa-155-correlating-service-requests-background-work.md)** Correlating service requests with background work. _Published (lab verification pending)_
 - **[PFA-156](articles/observability/pfa-156-intermittent-case-lock-root-cause.md)** Finding root causes of intermittent case lock failures. _Published (lab verification pending)_
-- **PFA-157** Investigating queue processor items in broken status. _Planned_
+- **[PFA-157](articles/observability/pfa-157-investigating-broken-queue-processor-items.md)** Investigating queue processor items in broken status. _Published (lab verification pending)_
 - **PFA-158** Distinguishing API timeout from slow rule execution. _Planned_
 - **PFA-159** Detecting repeated data page loads. _Planned_
 - **PFA-160** Diagnosing memory pressure in long requestor sessions. _Planned_

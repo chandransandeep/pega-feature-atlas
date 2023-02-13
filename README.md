@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**189 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**190 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -205,6 +205,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-154: PDC event triage and evidence-driven diagnosis](docs/articles/observability/pfa-154-pdc-evidence-led-incident-diagnosis.md)
 - [PFA-155: Correlating service requests with background work](docs/articles/observability/pfa-155-correlating-service-requests-background-work.md)
 - [PFA-156: Finding root causes of intermittent case lock failures](docs/articles/observability/pfa-156-intermittent-case-lock-root-cause.md)
+- [PFA-157: Investigating queue processor items in broken status](docs/articles/observability/pfa-157-investigating-broken-queue-processor-items.md)
 
 ### Performance engineering and scalability
 
