@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**87 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**88 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -84,6 +84,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-048: Escalation architecture that avoids notification floods](docs/articles/flow-sla/pfa-048-escalation-architecture-that-avoids-notification-floods.md)
 - [PFA-049: Wait steps versus externally signalled continuation](docs/articles/flow-sla/pfa-049-wait-step-versus-external-event.md)
 - [PFA-050: Compensation when a downstream action fails](docs/articles/flow-sla/pfa-050-compensation-after-partial-integration.md)
+- [PFA-051: Parallel branches and joining asynchronous results](docs/articles/flow-sla/pfa-051-parallel-branches-and-joining-asynchronous-results.md)
 
 ### Data pages, caching and clipboard
 

@@ -99,7 +99,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-048](articles/flow-sla/pfa-048-escalation-architecture-that-avoids-notification-floods.md)** Escalation architecture that avoids notification floods. _Published (lab verification pending)_
 - **[PFA-049](articles/flow-sla/pfa-049-wait-step-versus-external-event.md)** Wait steps versus externally signalled continuation. _Published (lab verification pending)_
 - **[PFA-050](articles/flow-sla/pfa-050-compensation-after-partial-integration.md)** Compensation when a downstream action fails. _Published (lab verification pending)_
-- **PFA-051** Parallel branches and joining asynchronous results. _Planned_
+- **[PFA-051](articles/flow-sla/pfa-051-parallel-branches-and-joining-asynchronous-results.md)** Parallel branches and joining asynchronous results. _Published (lab verification pending)_
 - **PFA-052** Routing on dynamic workload rather than fixed groups. _Planned_
 - **PFA-053** Case cancellation while integration is in flight. _Planned_
 - **PFA-054** Timeout budgets across an end-to-end case step. _Planned_
