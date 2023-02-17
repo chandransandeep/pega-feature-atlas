@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**249 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**250 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -288,6 +288,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-219: Real-time container integration resilience](docs/articles/decisioning/pfa-219-real-time-container-integration-resilience.md)
 - [PFA-220: Strategy execution latency budgets](docs/articles/decisioning/pfa-220-strategy-execution-latency-budgets.md)
 - [PFA-221: Proposition data lifecycle and ownership](docs/articles/decisioning/pfa-221-proposition-data-lifecycle-and-ownership.md)
+- [PFA-222: Data quality failure modes in real-time decisions](docs/articles/decisioning/pfa-222-data-quality-failure-modes-in-real-time-decisions.md)
 
 ### GenAI and intelligent automation
 

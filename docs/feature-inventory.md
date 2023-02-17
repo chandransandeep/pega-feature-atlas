@@ -325,7 +325,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-219](articles/decisioning/pfa-219-real-time-container-integration-resilience.md)** Real-time container integration resilience. _Published (lab verification pending)_
 - **[PFA-220](articles/decisioning/pfa-220-strategy-execution-latency-budgets.md)** Strategy execution latency budgets. _Published (lab verification pending)_
 - **[PFA-221](articles/decisioning/pfa-221-proposition-data-lifecycle-and-ownership.md)** Proposition data lifecycle and ownership. _Published (lab verification pending)_
-- **PFA-222** Data quality failure modes in real-time decisions. _Planned_
+- **[PFA-222](articles/decisioning/pfa-222-data-quality-failure-modes-in-real-time-decisions.md)** Data quality failure modes in real-time decisions. _Published (lab verification pending)_
 - **PFA-223** Business-managed decisions with approval controls. _Planned_
 - **PFA-224** Auditability of automated customer recommendations. _Planned_
 - **PFA-225** Designing decision fallback when models are unavailable. _Planned_
