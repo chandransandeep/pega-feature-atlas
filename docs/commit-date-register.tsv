@@ -143,3 +143,4 @@ docs/articles/background-processing/pfa-118-replacing-legacy-agents-safely.md	20
 docs/articles/background-processing/pfa-119-separating-poison-message-retries-from-business-retries.md	2018-02-19	2026-10-20T15:18:46+00:00	random_past_date
 docs/articles/background-processing/pfa-120-monitoring-queue-latency-against-customer-facing-slas.md	2020-08-19	2026-10-20T15:18:46+00:00	random_past_date
 docs/articles/constellation/pfa-122-view-metadata-and-server-side-business-rules.md	2025-09-29	2026-10-20T15:18:46+00:00	random_past_date
+docs/articles/constellation/pfa-126-embedding-a-case-experience-into-an-external-portal.md	2023-02-18	2026-10-20T15:18:46+00:00	random_past_date

@@ -199,7 +199,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-123](articles/constellation/pfa-123-supported-dx-component-upgrade-design.md)** Building extensible Constellation UI components. _Published (lab verification pending)_
 - **[PFA-124](articles/constellation/pfa-124-traditional-ui-constellation-assessment.md)** Traditional UI versus Constellation migration decisions. _Published (lab verification pending)_
 - **[PFA-125](articles/constellation/pfa-125-reusable-views-constellation-metadata.md)** Building reusable views across case types. _Published (lab verification pending)_
-- **PFA-126** Embedding a case experience into an external portal. _Planned_
+- **[PFA-126](articles/constellation/pfa-126-embedding-a-case-experience-into-an-external-portal.md)** Embedding a case experience into an external portal. _Published (lab verification pending)_
 - **PFA-127** State refresh when data changes outside the browser. _Planned_
 - **PFA-128** Validation design across UI and server boundaries. _Planned_
 - **PFA-129** Optimizing payload size for large case views. _Planned_
