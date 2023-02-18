@@ -88,7 +88,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-042](articles/case-management/pfa-042-high-volume-case-creation-through-service-endpoints.md)** High-volume case creation through service endpoints. _Published (lab verification pending)_
 - **[PFA-043](articles/case-management/pfa-043-bulk-case-transitions-without-lock-storms.md)** Bulk case transitions without lock storms. _Published (lab verification pending)_
 - **[PFA-044](articles/case-management/pfa-044-case-attachments-and-content-lifecycle-boundaries.md)** Case attachments and content lifecycle boundaries. _Published (lab verification pending)_
-- **PFA-045** Case ownership models across teams and jurisdictions. _Planned_
+- **[PFA-045](articles/case-management/pfa-045-case-ownership-models-across-teams-and-jurisdictions.md)** Case ownership models across teams and jurisdictions. _Published (lab verification pending)_
 
 <a id="section-04"></a>
 
