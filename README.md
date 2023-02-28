@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**242 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**243 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -253,6 +253,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-191: Managing hotfixes without environments drifting](docs/articles/devops/pfa-191-managing-hotfixes-without-environments-drifting.md)
 - [PFA-192: Testing migration of long-running open cases](docs/articles/delivery/pfa-192-testing-migration-of-longrunning-open-cases.md)
 - [PFA-193: Deployment ordering across dependent Pega components](docs/articles/delivery/pfa-193-deployment-ordering-across-dependent-pega-components.md)
+- [PFA-194: Production cutover for a new case platform](docs/articles/delivery/pfa-194-production-cutover-for-a-new-case-platform.md)
 
 ### Verification, testing and quality engineering
 
