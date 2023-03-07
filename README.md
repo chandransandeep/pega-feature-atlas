@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**155 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**156 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -201,6 +201,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### Performance engineering and scalability
 
 - [PFA-166: Defining repeatable Pega load testing scenarios](docs/articles/performance/pfa-166-repeatable-case-load-test-design.md)
+- [PFA-167: Latency budgets across case views and external APIs](docs/articles/performance/pfa-167-latency-budgets-case-views-external-apis.md)
 - [PFA-170: Avoiding N+1 connector calls from parameterized sources](docs/articles/performance/pfa-170-parameterized-data-pages-n-plus-one.md)
 
 ### Delivery pipelines and safe upgrades
