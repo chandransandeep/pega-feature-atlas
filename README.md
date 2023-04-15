@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**104 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**105 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -110,6 +110,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-071: Avoiding repeated load during complex view rendering](docs/articles/data-pages/pfa-071-avoiding-repeated-load-during-complex-view-rendering.md)
 - [PFA-072: Managing error states on cached external responses](docs/articles/data-pages/pfa-072-managing-error-states-on-cached-external-responses.md)
 - [PFA-073: Reference data distribution across multiple nodes](docs/articles/data-pages/pfa-073-reference-data-distribution-across-multiple-nodes.md)
+- [PFA-074: Clipboard growth in deeply nested case models](docs/articles/data-pages/pfa-074-clipboard-growth-in-deeply-nested-case-models.md)
 - [PFA-075: Caching secure lookups after access revocation](docs/articles/data-pages/pfa-075-authorization-revocation-cached-lookups.md)
 
 ### Persistence, data modelling and search

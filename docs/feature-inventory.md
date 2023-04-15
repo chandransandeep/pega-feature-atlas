@@ -127,7 +127,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-071](articles/data-pages/pfa-071-avoiding-repeated-load-during-complex-view-rendering.md)** Avoiding repeated load during complex view rendering. _Published (lab verification pending)_
 - **[PFA-072](articles/data-pages/pfa-072-managing-error-states-on-cached-external-responses.md)** Managing error states on cached external responses. _Published (lab verification pending)_
 - **[PFA-073](articles/data-pages/pfa-073-reference-data-distribution-across-multiple-nodes.md)** Reference data distribution across multiple nodes. _Published (lab verification pending)_
-- **PFA-074** Clipboard growth in deeply nested case models. _Planned_
+- **[PFA-074](articles/data-pages/pfa-074-clipboard-growth-in-deeply-nested-case-models.md)** Clipboard growth in deeply nested case models. _Published (lab verification pending)_
 - **[PFA-075](articles/data-pages/pfa-075-authorization-revocation-cached-lookups.md)** Caching secure lookups after access revocation. _Published (lab verification pending)_
 
 <a id="section-06"></a>
