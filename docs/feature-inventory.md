@@ -363,7 +363,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-247](articles/robotics/pfa-247-robotic-runtime-identity-unattended-execution.md)** Robotic runtime identity and unattended execution. _Published (lab verification pending)_
 - **[PFA-248](articles/robotics/pfa-248-ui-automation-brittleness-and-recovery-strategies.md)** UI automation brittleness and recovery strategies. _Published (lab verification pending)_
 - **[PFA-249](articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md)** When to replace RPA with a stable API. _Published (lab verification pending)_
-- **PFA-250** Human-in-the-loop correction of robotic results. _Planned_
+- **[PFA-250](articles/robotic-automation/pfa-250-human-in-the-loop-correction-of-robotic-results.md)** Human-in-the-loop correction of robotic results. _Published (lab verification pending)_
 - **PFA-251** Cross-system work completion acknowledgement. _Planned_
 - **PFA-252** Monitoring robotic failure at scale. _Planned_
 - **PFA-253** Coordinating Pega cases with external workflow engines. _Planned_
