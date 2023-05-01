@@ -328,7 +328,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-222](articles/decisioning/pfa-222-data-quality-failure-modes-in-real-time-decisions.md)** Data quality failure modes in real-time decisions. _Published (lab verification pending)_
 - **[PFA-223](articles/decisioning/pfa-223-business-managed-decisions-with-approval-controls.md)** Business-managed decisions with approval controls. _Published (lab verification pending)_
 - **[PFA-224](articles/decisioning/pfa-224-auditability-of-automated-customer-recommendations.md)** Auditability of automated customer recommendations. _Published (lab verification pending)_
-- **PFA-225** Designing decision fallback when models are unavailable. _Planned_
+- **[PFA-225](articles/decisioning/pfa-225-designing-decision-fallback-when-models-are-unavailable.md)** Designing decision fallback when models are unavailable. _Published (lab verification pending)_
 
 <a id="section-16"></a>
 

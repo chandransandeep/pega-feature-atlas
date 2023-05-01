@@ -252,3 +252,4 @@ docs/articles/testing/pfa-210-acceptance-criteria-for-architecture-quality-attri
 docs/articles/decisioning/pfa-222-data-quality-failure-modes-in-real-time-decisions.md	2023-02-17	2026-10-31T05:13:28+00:00	random_past_date
 docs/articles/decisioning/pfa-223-business-managed-decisions-with-approval-controls.md	2025-11-04	2026-10-31T05:13:28+00:00	random_past_date
 docs/articles/decisioning/pfa-224-auditability-of-automated-customer-recommendations.md	2024-12-30	2026-10-31T05:13:28+00:00	random_past_date
+docs/articles/decisioning/pfa-225-designing-decision-fallback-when-models-are-unavailable.md	2023-05-01	2026-10-31T05:13:28+00:00	random_past_date
