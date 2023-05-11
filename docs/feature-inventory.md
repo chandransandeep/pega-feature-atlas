@@ -274,7 +274,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 ## 13. Delivery pipelines and safe upgrades
 
-- **PFA-181** Deployment Manager pipeline topology and control gates. _Planned_
+- **[PFA-181](articles/devops/PFA-181-deployment-manager-release-gates.md)** Deployment Manager pipeline topology and control gates. _Published (lab verification pending)_
 - **PFA-182** Parallel branch development in shared rule applications. _Planned_
 - **PFA-183** Packaging rules and data with product definitions. _Planned_
 - **PFA-184** Schema changes during rolling deployments. _Planned_
