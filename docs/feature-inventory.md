@@ -75,7 +75,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 ## 03. Case architecture and concurrency
 
 - **PFA-031** Modelling multi-party enterprise case hierarchies. _Planned_
-- **PFA-032** Parent-child orchestration across bounded contexts. _Planned_
+- **[PFA-032](articles/case-management/PFA-032-parent-child-multi-team-dependencies.md)** Parent-child orchestration across bounded contexts. _Published (lab verification pending)_
 - **[PFA-033](articles/case-management/PFA-033-concurrent-case-locking.md)** Case locking under concurrent agent access. _Published (lab verification pending)_
 - **PFA-034** Optimistic locking and user conflict recovery. _Planned_
 - **PFA-035** Long-running cases spanning months or years. _Planned_
