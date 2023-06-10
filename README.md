@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**235 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**236 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -218,6 +218,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-161: Distributed logging design across platform nodes](docs/articles/observability/pfa-161-distributed-logging-design-across-platform-nodes.md)
 - [PFA-162: Safe production instrumentation of confidential data](docs/articles/observability/pfa-162-safe-production-instrumentation-of-confidential-data.md)
 - [PFA-163: Incident analysis after a ruleset deployment](docs/articles/observability/pfa-163-incident-analysis-after-a-ruleset-deployment.md)
+- [PFA-164: Creating a support runbook for missing case updates](docs/articles/observability/pfa-164-creating-a-support-runbook-for-missing-case-updates.md)
 
 ### Performance engineering and scalability
 

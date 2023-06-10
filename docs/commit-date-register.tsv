@@ -235,3 +235,4 @@ docs/articles/security/pfa-149-privilege-escalation-pathways-through-custom-acti
 docs/articles/security/pfa-150-security-regression-testing-during-application-upgrades.md	2022-09-23	2026-10-31T03:08:02+00:00	random_past_date
 docs/articles/observability/pfa-162-safe-production-instrumentation-of-confidential-data.md	2020-03-01	2026-10-31T03:08:02+00:00	random_past_date
 docs/articles/observability/pfa-163-incident-analysis-after-a-ruleset-deployment.md	2022-04-18	2026-10-31T03:08:02+00:00	random_past_date
+docs/articles/observability/pfa-164-creating-a-support-runbook-for-missing-case-updates.md	2023-06-10	2026-10-31T03:08:02+00:00	random_past_date
