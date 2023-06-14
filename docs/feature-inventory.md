@@ -61,7 +61,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-020](articles/rule-resolution/pfa-020-pattern-versus-directed-inheritance.md)** When directed inheritance beats pattern inheritance. _Published (lab verification pending)_
 - **[PFA-021](articles/rule-resolution/pfa-021-reusable-built-on-component-contracts.md)** Designing reusable component applications. _Published (lab verification pending)_
 - **[PFA-022](articles/rule-resolution/pfa-022-avoiding-dependency-cycles-across-shared-rulesets.md)** Avoiding dependency cycles across shared rulesets. _Published (lab verification pending)_
-- **PFA-023** Specialisation patterns without copying whole rules. _Planned_
+- **[PFA-023](articles/rule-resolution/pfa-023-specialisation-patterns-without-copying-whole-rules.md)** Specialisation patterns without copying whole rules. _Published (lab verification pending)_
 - **PFA-024** Dynamic class referencing and long-term maintainability. _Planned_
 - **PFA-025** Rule availability and production rollback constraints. _Planned_
 - **PFA-026** Delegated business rules with architectural boundaries. _Planned_
