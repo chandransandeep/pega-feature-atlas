@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**120 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**121 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -137,6 +137,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-092: Service REST for synchronous case creation](docs/articles/integrations/pfa-092-service-rest-for-synchronous-case-creation.md)
 - [PFA-093: OAuth token refresh and credential rotation](docs/articles/integrations/pfa-093-oauth-credentials-rotation-and-cache.md)
 - [PFA-094: Circuit breaker and bulkhead placement around Pega](docs/articles/integrations/pfa-094-circuit-breaker-and-bulkhead-placement-around-pega.md)
+- [PFA-095: API gateway responsibilities versus service rules](docs/articles/integrations/pfa-095-api-gateway-responsibilities-versus-service-rules.md)
 - [PFA-098: Handling asynchronous partner callbacks securely](docs/articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)
 
 ### Queue processors and scheduled background work

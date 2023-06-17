@@ -158,7 +158,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-092](articles/integrations/pfa-092-service-rest-for-synchronous-case-creation.md)** Service REST for synchronous case creation. _Published (lab verification pending)_
 - **[PFA-093](articles/integrations/pfa-093-oauth-credentials-rotation-and-cache.md)** OAuth token refresh and credential rotation. _Published (lab verification pending)_
 - **[PFA-094](articles/integrations/pfa-094-circuit-breaker-and-bulkhead-placement-around-pega.md)** Circuit breaker and bulkhead placement around Pega. _Published (lab verification pending)_
-- **PFA-095** API gateway responsibilities versus service rules. _Planned_
+- **[PFA-095](articles/integrations/pfa-095-api-gateway-responsibilities-versus-service-rules.md)** API gateway responsibilities versus service rules. _Published (lab verification pending)_
 - **PFA-096** End-to-end correlation IDs for distributed diagnostics. _Planned_
 - **PFA-097** REST schema evolution without breaking consumers. _Planned_
 - **[PFA-098](articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)** Handling asynchronous partner callbacks securely. _Published (lab verification pending)_
