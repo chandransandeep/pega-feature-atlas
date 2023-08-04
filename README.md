@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**230 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**231 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -294,6 +294,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-245: Routing work from different systems into one portal](docs/articles/process-fabric/pfa-245-routing-work-different-systems-one-portal.md)
 - [PFA-246: Robotic Desktop Automation deployment options](docs/articles/process-fabric/pfa-246-robotic-desktop-automation-deployment-options.md)
 - [PFA-247: Robotic runtime identity and unattended execution](docs/articles/robotics/pfa-247-robotic-runtime-identity-unattended-execution.md)
+- [PFA-248: UI automation brittleness and recovery strategies](docs/articles/robotics/pfa-248-ui-automation-brittleness-and-recovery-strategies.md)
 - [PFA-249: When to replace RPA with a stable API](docs/articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md)
 
 ### Modernization, governance and architecture decisions

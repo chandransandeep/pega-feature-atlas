@@ -230,3 +230,4 @@ docs/articles/devops/pfa-191-managing-hotfixes-without-environments-drifting.md	
 docs/articles/testing/pfa-206-validating-longrunning-flow-resumptions-after-release.md	2023-01-29	2026-10-31T02:05:51+00:00	random_past_date
 docs/articles/decisioning/pfa-221-proposition-data-lifecycle-and-ownership.md	2021-04-27	2026-10-31T02:05:51+00:00	random_past_date
 docs/articles/genai/pfa-236-fallback-when-a-model-provider-is-unavailable.md	2025-05-22	2026-10-31T02:05:51+00:00	random_past_date
+docs/articles/robotics/pfa-248-ui-automation-brittleness-and-recovery-strategies.md	2023-08-04	2026-10-31T02:05:51+00:00	random_past_date
