@@ -185,7 +185,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-114](articles/background-processing/pfa-114-scaling-background-processing-without-api-overload.md)** Scaling background processing without API overload. _Published (lab verification pending)_
 - **[PFA-115](articles/background-processing/pfa-115-queue-item-locking-and-concurrent-case-updates.md)** Queue item locking and concurrent case updates. _Published (lab verification pending)_
 - **[PFA-116](articles/background-processing/pfa-116-execution-access-groups-and-security-context.md)** Execution access groups and security context. _Published (lab verification pending)_
-- **PFA-117** Commit boundaries before and after enqueueing work. _Planned_
+- **[PFA-117](articles/background-processing/pfa-117-commit-boundaries-before-and-after-enqueueing-work.md)** Commit boundaries before and after enqueueing work. _Published (lab verification pending)_
 - **PFA-118** Replacing legacy agents safely. _Planned_
 - **PFA-119** Separating poison-message retries from business retries. _Planned_
 - **PFA-120** Monitoring queue latency against customer-facing SLAs. _Planned_
