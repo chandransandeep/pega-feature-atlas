@@ -221,7 +221,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-140](articles/security/pfa-140-service-package-api-security.md)** Securing service packages independently of case UI. _Published (lab verification pending)_
 - **[PFA-141](articles/security/pfa-141-multi-tenant-data-partitioning-cache-isolation.md)** Multi-tenant data partitioning and cache isolation. _Published (lab verification pending)_
 - **[PFA-142](articles/security/pfa-142-controlling-privileges-background-processing.md)** Controlling privileges for background processing. _Published (lab verification pending)_
-- **PFA-143** Sensitive field encryption and key management. _Planned_
+- **[PFA-143](articles/security/pfa-143-sensitive-field-encryption-key-management.md)** Sensitive field encryption and key management. _Published (lab verification pending)_
 - **PFA-144** Secrets management for integration connectors. _Planned_
 - **PFA-145** Authorization after a user's access changes. _Planned_
 - **PFA-146** Attachment access controls and malware checks. _Planned_

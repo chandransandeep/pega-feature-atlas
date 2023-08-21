@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**180 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**181 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -194,6 +194,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-140: Securing service packages independently of case UI](docs/articles/security/pfa-140-service-package-api-security.md)
 - [PFA-141: Multi-tenant data partitioning and cache isolation](docs/articles/security/pfa-141-multi-tenant-data-partitioning-cache-isolation.md)
 - [PFA-142: Controlling privileges for background processing](docs/articles/security/pfa-142-controlling-privileges-background-processing.md)
+- [PFA-143: Sensitive field encryption and key management](docs/articles/security/pfa-143-sensitive-field-encryption-key-management.md)
 
 ### Production observability and incident diagnosis
 
