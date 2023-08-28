@@ -178,7 +178,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-107** Queue Processor execution, retry and failure lifecycle. _Planned_
 - **PFA-108** Idempotent consumers for financial transactions. _Planned_
 - **PFA-109** Delayed Queue Processor scheduling semantics. _Planned_
-- **PFA-110** Job Scheduler versus Queue Processor responsibilities. _Planned_
+- **[PFA-110](articles/background-processing/PFA-110-job-schedulers-versus-queue-processors.md)** Job Scheduler versus Queue Processor responsibilities. _Published (lab verification pending)_
 - **PFA-111** Broken queue remediation and safe manual replay. _Planned_
 - **PFA-112** Processing order versus horizontal throughput. _Planned_
 - **PFA-113** Backlog sizing during upstream traffic spikes. _Planned_
