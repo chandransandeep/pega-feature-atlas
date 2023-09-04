@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**248 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**249 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -273,6 +273,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-207: Regression testing complex decision tables](docs/articles/testing/pfa-207-regression-testing-complex-decision-tables.md)
 - [PFA-208: Testing attachment security and size limits](docs/articles/testing/pfa-208-testing-attachment-security-and-size-limits.md)
 - [PFA-209: End-to-end correlation for failed test journeys](docs/articles/testing/pfa-209-end-to-end-correlation-for-failed-test-journeys.md)
+- [PFA-210: Acceptance criteria for architecture quality attributes](docs/articles/testing/pfa-210-acceptance-criteria-for-architecture-quality-attributes.md)
 
 ### Customer Decision Hub and real-time decisioning
 
