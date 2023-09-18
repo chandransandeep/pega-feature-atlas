@@ -157,3 +157,4 @@ docs/articles/security/pfa-139-attribute-based-authorization-customer-records.md
 docs/articles/observability/pfa-152-using-tracer-without-changing-business-behaviour.md	2025-07-29	2026-10-23T07:28:58+00:00	random_past_date
 docs/articles/performance/pfa-167-latency-budgets-case-views-external-apis.md	2023-03-07	2026-10-23T07:28:58+00:00	random_past_date
 docs/articles/delivery/pfa-182-parallel-branch-development-shared-rule-applications.md	2020-02-08	2026-10-23T07:28:58+00:00	random_past_date
+docs/articles/testing/pfa-197-concurrency-tests-case-locking-optimistic-updates.md	2023-09-18	2026-10-23T07:28:58+00:00	random_past_date

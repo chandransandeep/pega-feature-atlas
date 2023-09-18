@@ -295,7 +295,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 ## 14. Verification, testing and quality engineering
 
 - **[PFA-196](articles/testing/pfa-196-pegaunit-shared-rule-contract-testing.md)** PegaUnit test strategy for reusable rule components. _Published (lab verification pending)_
-- **PFA-197** Concurrency tests for case locking and optimistic updates. _Planned_
+- **[PFA-197](articles/testing/pfa-197-concurrency-tests-case-locking-optimistic-updates.md)** Concurrency tests for case locking and optimistic updates. _Published (lab verification pending)_
 - **[PFA-198](articles/testing/pfa-198-rest-service-consumer-contract-testing.md)** Contract tests for service REST integrations. _Published (lab verification pending)_
 - **PFA-199** Failure injection for unavailable downstream APIs. _Planned_
 - **PFA-200** Testing retry and duplicate message processing. _Planned_
