@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**44 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**45 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -67,6 +67,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 
 ### Queue processors and scheduled background work
 
+- [PFA-106: Standard versus Dedicated Queue Processor selection](docs/articles/background-processing/pfa-106-standard-versus-dedicated-queue-processor.md)
 - [PFA-107: Queue Processor execution, retry and failure lifecycle](docs/articles/background-processing/pfa-107-queue-processor-error-classification.md)
 - [PFA-110: Job Scheduler versus Queue Processor responsibilities](docs/articles/background-processing/PFA-110-job-schedulers-versus-queue-processors.md)
 

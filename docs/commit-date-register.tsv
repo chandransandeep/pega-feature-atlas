@@ -44,3 +44,4 @@ docs/articles/data-pages/pfa-062-thread-requestor-node-cache-isolation.md	2020-0
 docs/articles/data-pages/pfa-063-refresh-strategy-freshness-contract.md	2022-05-03	2026-10-20T13:54:55+00:00	random_past_date
 docs/articles/data-pages/pfa-068-read-only-editable-savable-write-path.md	2018-07-02	2026-10-20T13:54:55+00:00	random_past_date
 docs/articles/data-pages/pfa-069-report-versus-connector-data-pages.md	2019-05-06	2026-10-20T13:54:55+00:00	random_past_date
+docs/articles/background-processing/pfa-106-standard-versus-dedicated-queue-processor.md	2023-10-28	2026-10-20T13:54:55+00:00	random_past_date
