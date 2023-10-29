@@ -375,7 +375,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 ## 18. Modernization, governance and architecture decisions
 
 - **PFA-256** Decomposing monolithic Pega applications safely. _Planned_
-- **PFA-257** Application framework rationalization after acquisitions. _Planned_
+- **[PFA-257](articles/application-architecture/PFA-257-modular-applications-instead-of-framework-sprawl.md)** Application framework rationalization after acquisitions. _Published (lab verification pending)_
 - **PFA-258** Transitioning from activity-heavy legacy designs. _Planned_
 - **PFA-259** Building an enterprise pattern library for Pega. _Planned_
 - **PFA-260** Governance of shared rules across product teams. _Planned_
