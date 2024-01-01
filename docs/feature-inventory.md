@@ -338,7 +338,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-227](articles/genai/pfa-227-genai-case-summary-sensitive-data-controls.md)** GenAI-assisted case summary with sensitive data controls. _Published (lab verification pending)_
 - **[PFA-228](articles/genai/pfa-228-prompt-injection-case-attachment-boundaries.md)** Prompt injection threats in case attachments. _Published (lab verification pending)_
 - **[PFA-229](articles/genai/pfa-229-human-approval-ai-generated-recommendations.md)** Human approval for AI-generated recommendations. _Published (lab verification pending)_
-- **PFA-230** Grounding strategies for case-specific knowledge. _Planned_
+- **[PFA-230](articles/genai/pfa-230-grounding-strategies-case-specific-knowledge.md)** Grounding strategies for case-specific knowledge. _Published (lab verification pending)_
 - **PFA-231** Agentic process design versus deterministic flows. _Planned_
 - **PFA-232** Safe tool invocation by autonomous workflows. _Planned_
 - **PFA-233** Retrieval architecture for internal procedural knowledge. _Planned_
