@@ -59,7 +59,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-018** Access group and application stack resolution context. _Planned_
 - **[PFA-019](articles/rule-resolution/pfa-019-parallel-team-ruleset-release-contracts.md)** Ruleset versioning for parallel delivery teams. _Published (lab verification pending)_
 - **[PFA-020](articles/rule-resolution/pfa-020-pattern-versus-directed-inheritance.md)** When directed inheritance beats pattern inheritance. _Published (lab verification pending)_
-- **PFA-021** Designing reusable component applications. _Planned_
+- **[PFA-021](articles/rule-resolution/pfa-021-reusable-built-on-component-contracts.md)** Designing reusable component applications. _Published (lab verification pending)_
 - **PFA-022** Avoiding dependency cycles across shared rulesets. _Planned_
 - **PFA-023** Specialisation patterns without copying whole rules. _Planned_
 - **PFA-024** Dynamic class referencing and long-term maintainability. _Planned_

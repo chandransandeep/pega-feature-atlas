@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**50 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**51 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -37,6 +37,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-016: Rule resolution precedence across inherited classes](docs/articles/rule-resolution/PFA-016-rule-resolution-framework-overrides.md)
 - [PFA-019: Ruleset versioning for parallel delivery teams](docs/articles/rule-resolution/pfa-019-parallel-team-ruleset-release-contracts.md)
 - [PFA-020: When directed inheritance beats pattern inheritance](docs/articles/rule-resolution/pfa-020-pattern-versus-directed-inheritance.md)
+- [PFA-021: Designing reusable component applications](docs/articles/rule-resolution/pfa-021-reusable-built-on-component-contracts.md)
 
 ### Case architecture and concurrency
 
