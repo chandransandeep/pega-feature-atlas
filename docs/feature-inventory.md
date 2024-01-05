@@ -206,7 +206,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-130](articles/constellation/pfa-130-accessibility-architecture-for-enterprise-forms.md)** Accessibility architecture for enterprise forms. _Published (lab verification pending)_
 - **[PFA-131](articles/constellation/pfa-131-routing-and-navigation-across-multi-application-portals.md)** Routing and navigation across multi-application portals. _Published (lab verification pending)_
 - **[PFA-132](articles/constellation/pfa-132-custom-component-upgrade-compatibility.md)** Custom component upgrade compatibility. _Published (lab verification pending)_
-- **PFA-133** Attachment workflows across browser and Pega storage. _Planned_
+- **[PFA-133](articles/constellation/pfa-133-attachment-workflows-browser-pega-storage.md)** Attachment workflows across browser and Pega storage. _Published (lab verification pending)_
 - **[PFA-134](articles/constellation/pfa-134-testing-constellation-views-stable-contracts.md)** Testing Constellation views through stable contracts. _Published (lab verification pending)_
 - **PFA-135** Deciding when a separate frontend is justified. _Planned_
 
