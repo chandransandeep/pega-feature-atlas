@@ -242,7 +242,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-156](articles/observability/pfa-156-intermittent-case-lock-root-cause.md)** Finding root causes of intermittent case lock failures. _Published (lab verification pending)_
 - **[PFA-157](articles/observability/pfa-157-investigating-broken-queue-processor-items.md)** Investigating queue processor items in broken status. _Published (lab verification pending)_
 - **[PFA-158](articles/observability/pfa-158-distinguishing-api-timeout-from-slow-rule-execution.md)** Distinguishing API timeout from slow rule execution. _Published (lab verification pending)_
-- **PFA-159** Detecting repeated data page loads. _Planned_
+- **[PFA-159](articles/observability/pfa-159-detecting-repeated-data-page-loads.md)** Detecting repeated data page loads. _Published (lab verification pending)_
 - **PFA-160** Diagnosing memory pressure in long requestor sessions. _Planned_
 - **PFA-161** Distributed logging design across platform nodes. _Planned_
 - **PFA-162** Safe production instrumentation of confidential data. _Planned_

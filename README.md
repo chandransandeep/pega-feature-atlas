@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**206 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**207 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -209,6 +209,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-156: Finding root causes of intermittent case lock failures](docs/articles/observability/pfa-156-intermittent-case-lock-root-cause.md)
 - [PFA-157: Investigating queue processor items in broken status](docs/articles/observability/pfa-157-investigating-broken-queue-processor-items.md)
 - [PFA-158: Distinguishing API timeout from slow rule execution](docs/articles/observability/pfa-158-distinguishing-api-timeout-from-slow-rule-execution.md)
+- [PFA-159: Detecting repeated data page loads](docs/articles/observability/pfa-159-detecting-repeated-data-page-loads.md)
 
 ### Performance engineering and scalability
 
