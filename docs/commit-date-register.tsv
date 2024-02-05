@@ -164,3 +164,4 @@ docs/articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md	2025-02-08
 docs/articles/modernization/pfa-256-decomposing-monolithic-pega-applications-safely.md	2019-12-06	2026-10-23T07:29:59+00:00	random_past_date
 docs/articles/security/pfa-141-multi-tenant-data-partitioning-cache-isolation.md	2022-01-26	2026-10-24T07:13:45+00:00	random_past_date
 docs/articles/observability/pfa-153-clipboard-inspection-wrong-instance-failures.md	2019-07-13	2026-10-24T07:13:45+00:00	random_past_date
+docs/articles/performance/pfa-168-hot-path-optimisation-data-transforms.md	2024-02-05	2026-10-24T07:13:45+00:00	random_past_date
