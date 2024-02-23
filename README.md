@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**61 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**62 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -38,6 +38,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-011: Managing internal service discovery and endpoint changes](docs/articles/platform-runtime/pfa-011-managing-internal-service-discovery-and-endpoint-changes.md)
 - [PFA-012: Separating interaction and background service capacity](docs/articles/platform-runtime/pfa-012-separating-interaction-and-background-service-capacity.md)
 - [PFA-013: Disaster recovery objectives for case processing](docs/articles/platform-runtime/pfa-013-disaster-recovery-objectives-for-case-processing.md)
+- [PFA-014: Identifying bottlenecks during a new regional rollout](docs/articles/platform-runtime/pfa-014-identifying-bottlenecks-during-a-new-regional-rollout.md)
 
 ### Rule resolution and application composition
 
