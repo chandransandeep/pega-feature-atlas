@@ -207,7 +207,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-131](articles/constellation/pfa-131-routing-and-navigation-across-multi-application-portals.md)** Routing and navigation across multi-application portals. _Published (lab verification pending)_
 - **[PFA-132](articles/constellation/pfa-132-custom-component-upgrade-compatibility.md)** Custom component upgrade compatibility. _Published (lab verification pending)_
 - **PFA-133** Attachment workflows across browser and Pega storage. _Planned_
-- **PFA-134** Testing Constellation views through stable contracts. _Planned_
+- **[PFA-134](articles/constellation/pfa-134-testing-constellation-views-stable-contracts.md)** Testing Constellation views through stable contracts. _Published (lab verification pending)_
 - **PFA-135** Deciding when a separate frontend is justified. _Planned_
 
 <a id="section-10"></a>
