@@ -81,7 +81,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-035](articles/case-management/pfa-035-long-running-case-release-compatibility.md)** Long-running cases spanning months or years. _Published (lab verification pending)_
 - **[PFA-036](articles/case-management/pfa-036-active-case-migration-after-flow-redesign.md)** Active case migration after flow redesign. _Published (lab verification pending)_
 - **[PFA-037](articles/case-management/pfa-037-cross-case-dependencies-without-circular-waits.md)** Cross-case dependencies without circular waits. _Published (lab verification pending)_
-- **PFA-038** Parallel approvals and partial completion handling. _Planned_
+- **[PFA-038](articles/case-management/pfa-038-parallel-approvals-and-partial-completion-handling.md)** Parallel approvals and partial completion handling. _Published (lab verification pending)_
 - **PFA-039** Re-opening cases without duplicate side effects. _Planned_
 - **PFA-040** Case archival with searchable audit history. _Planned_
 - **PFA-041** Temporary cases versus immediate persistence. _Planned_
