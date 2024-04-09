@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**53 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**54 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -60,6 +60,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-067: Chained Data Pages and hidden integration fan-out](docs/articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md)
 - [PFA-068: Read-only versus editable Data Pages](docs/articles/data-pages/pfa-068-read-only-editable-savable-write-path.md)
 - [PFA-069: Report-backed versus connector-backed Data Pages](docs/articles/data-pages/pfa-069-report-versus-connector-data-pages.md)
+- [PFA-075: Caching secure lookups after access revocation](docs/articles/data-pages/pfa-075-authorization-revocation-cached-lookups.md)
 
 ### Persistence, data modelling and search
 

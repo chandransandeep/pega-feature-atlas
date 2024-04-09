@@ -128,7 +128,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-072** Managing error states on cached external responses. _Planned_
 - **PFA-073** Reference data distribution across multiple nodes. _Planned_
 - **PFA-074** Clipboard growth in deeply nested case models. _Planned_
-- **PFA-075** Caching secure lookups after access revocation. _Planned_
+- **[PFA-075](articles/data-pages/pfa-075-authorization-revocation-cached-lookups.md)** Caching secure lookups after access revocation. _Published (lab verification pending)_
 
 <a id="section-06"></a>
 
