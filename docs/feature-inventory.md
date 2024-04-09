@@ -299,7 +299,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-198](articles/testing/pfa-198-rest-service-consumer-contract-testing.md)** Contract tests for service REST integrations. _Published (lab verification pending)_
 - **[PFA-199](articles/testing/pfa-199-failure-injection-unavailable-downstream-apis.md)** Failure injection for unavailable downstream APIs. _Published (lab verification pending)_
 - **[PFA-200](articles/testing/pfa-200-testing-retry-duplicate-message-processing.md)** Testing retry and duplicate message processing. _Published (lab verification pending)_
-- **PFA-201** Data page isolation tests across user identities. _Planned_
+- **[PFA-201](articles/testing/pfa-201-data-page-isolation-tests-user-identities.md)** Data page isolation tests across user identities. _Published (lab verification pending)_
 - **PFA-202** Load tests with diverse real-world case shapes. _Planned_
 - **PFA-203** Testing access revocation in an active requestor. _Planned_
 - **PFA-204** Comparing old and new rules during modernization. _Planned_
