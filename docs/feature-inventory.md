@@ -41,7 +41,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-005** Session affinity versus stateless application assumptions. _Planned_
 - **PFA-006** Sizing JVM heap for high requestor concurrency. _Planned_
 - **PFA-007** What actually scales when additional nodes are added. _Planned_
-- **PFA-008** Shared stream service dependencies and their failure modes. _Planned_
+- **[PFA-008](articles/platform-runtime/pfa-008-stream-service-and-background-recovery.md)** Shared stream service dependencies and their failure modes. _Published (lab verification pending)_
 - **PFA-009** Multi-region deployment and latency-sensitive workflows. _Planned_
 - **PFA-010** Pega Cloud connectivity boundaries for enterprise APIs. _Planned_
 - **PFA-011** Managing internal service discovery and endpoint changes. _Planned_
