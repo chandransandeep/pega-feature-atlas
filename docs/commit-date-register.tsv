@@ -112,3 +112,4 @@ docs/articles/persistence/pfa-081-large-blob-storage-and-retrieval-trade-offs.md
 docs/articles/persistence/pfa-082-search-index-consistency-in-time-critical-screens.md	2022-02-16	2026-10-20T15:08:55+00:00	random_past_date
 docs/articles/persistence/pfa-083-batch-data-migration-while-active-cases-continue.md	2021-11-21	2026-10-20T15:08:55+00:00	random_past_date
 docs/articles/persistence/pfa-084-database-transactions-across-case-and-api-boundaries.md	2020-12-29	2026-10-20T15:08:55+00:00	random_past_date
+docs/articles/persistence/pfa-085-dealing-with-hotspot-rows-in-shared-business-counters.md	2024-06-17	2026-10-20T15:08:55+00:00	random_past_date

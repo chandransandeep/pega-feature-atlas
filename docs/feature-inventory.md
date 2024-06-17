@@ -143,7 +143,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-082](articles/persistence/pfa-082-search-index-consistency-in-time-critical-screens.md)** Search index consistency in time-critical screens. _Published (lab verification pending)_
 - **[PFA-083](articles/persistence/pfa-083-batch-data-migration-while-active-cases-continue.md)** Batch data migration while active cases continue. _Published (lab verification pending)_
 - **[PFA-084](articles/persistence/pfa-084-database-transactions-across-case-and-api-boundaries.md)** Database transactions across case and API boundaries. _Published (lab verification pending)_
-- **PFA-085** Dealing with hotspot rows in shared business counters. _Planned_
+- **[PFA-085](articles/persistence/pfa-085-dealing-with-hotspot-rows-in-shared-business-counters.md)** Dealing with hotspot rows in shared business counters. _Published (lab verification pending)_
 - **PFA-086** Reconciliation after partial data import failures. _Planned_
 - **PFA-087** Reporting warehouses versus operational reports. _Planned_
 - **PFA-088** Pagination for million-row data sets. _Planned_
