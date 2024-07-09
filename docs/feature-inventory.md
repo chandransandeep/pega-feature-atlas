@@ -301,7 +301,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-200](articles/testing/pfa-200-testing-retry-duplicate-message-processing.md)** Testing retry and duplicate message processing. _Published (lab verification pending)_
 - **[PFA-201](articles/testing/pfa-201-data-page-isolation-tests-user-identities.md)** Data page isolation tests across user identities. _Published (lab verification pending)_
 - **[PFA-202](articles/testing/pfa-202-load-tests-diverse-case-shapes.md)** Load tests with diverse real-world case shapes. _Published (lab verification pending)_
-- **PFA-203** Testing access revocation in an active requestor. _Planned_
+- **[PFA-203](articles/testing/pfa-203-testing-access-revocation-in-active-requestors.md)** Testing access revocation in an active requestor. _Published (lab verification pending)_
 - **PFA-204** Comparing old and new rules during modernization. _Planned_
 - **PFA-205** Synthetic production monitoring of high-value journeys. _Planned_
 - **PFA-206** Validating long-running flow resumptions after release. _Planned_
