@@ -69,3 +69,4 @@ docs/articles/rule-resolution/pfa-022-avoiding-dependency-cycles-across-shared-r
 docs/articles/rule-resolution/pfa-023-specialisation-patterns-without-copying-whole-rules.md	2023-06-14	2026-10-20T14:59:40+00:00	random_past_date
 docs/articles/rule-resolution/pfa-024-dynamic-class-referencing-and-long-term-maintainability.md	2021-10-27	2026-10-20T14:59:40+00:00	random_past_date
 docs/articles/rule-resolution/pfa-025-rule-availability-and-production-rollback-constraints.md	2018-05-04	2026-10-20T14:59:40+00:00	random_past_date
+docs/articles/rule-resolution/pfa-026-delegated-business-rules-with-architectural-boundaries.md	2024-07-11	2026-10-20T14:59:40+00:00	random_past_date

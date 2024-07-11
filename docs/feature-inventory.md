@@ -64,7 +64,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-023](articles/rule-resolution/pfa-023-specialisation-patterns-without-copying-whole-rules.md)** Specialisation patterns without copying whole rules. _Published (lab verification pending)_
 - **[PFA-024](articles/rule-resolution/pfa-024-dynamic-class-referencing-and-long-term-maintainability.md)** Dynamic class referencing and long-term maintainability. _Published (lab verification pending)_
 - **[PFA-025](articles/rule-resolution/pfa-025-rule-availability-and-production-rollback-constraints.md)** Rule availability and production rollback constraints. _Published (lab verification pending)_
-- **PFA-026** Delegated business rules with architectural boundaries. _Planned_
+- **[PFA-026](articles/rule-resolution/pfa-026-delegated-business-rules-with-architectural-boundaries.md)** Delegated business rules with architectural boundaries. _Published (lab verification pending)_
 - **PFA-027** Branch conflicts in high-churn decision tables. _Planned_
 - **PFA-028** Safe customization of locked product extensions. _Planned_
 - **PFA-029** Detecting application stack drift across environments. _Planned_
