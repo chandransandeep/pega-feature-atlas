@@ -335,7 +335,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 ## 16. GenAI and intelligent automation
 
 - **[PFA-226](articles/genai/PFA-226-genai-control-plane-data-boundaries.md)** Pega GenAI architecture and enterprise data boundaries. _Published (lab verification pending)_
-- **PFA-227** GenAI-assisted case summary with sensitive data controls. _Planned_
+- **[PFA-227](articles/genai/pfa-227-genai-case-summary-sensitive-data-controls.md)** GenAI-assisted case summary with sensitive data controls. _Published (lab verification pending)_
 - **[PFA-228](articles/genai/pfa-228-prompt-injection-case-attachment-boundaries.md)** Prompt injection threats in case attachments. _Published (lab verification pending)_
 - **PFA-229** Human approval for AI-generated recommendations. _Planned_
 - **PFA-230** Grounding strategies for case-specific knowledge. _Planned_

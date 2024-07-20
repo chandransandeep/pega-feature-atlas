@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**159 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**160 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -225,6 +225,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### GenAI and intelligent automation
 
 - [PFA-226: Pega GenAI architecture and enterprise data boundaries](docs/articles/genai/PFA-226-genai-control-plane-data-boundaries.md)
+- [PFA-227: GenAI-assisted case summary with sensitive data controls](docs/articles/genai/pfa-227-genai-case-summary-sensitive-data-controls.md)
 - [PFA-228: Prompt injection threats in case attachments](docs/articles/genai/pfa-228-prompt-injection-case-attachment-boundaries.md)
 
 ### Process Fabric, external work and robotics
