@@ -76,3 +76,4 @@ docs/articles/rule-resolution/pfa-029-detecting-application-stack-drift-across-e
 docs/articles/rule-resolution/pfa-030-upgrading-frameworks-without-breaking-implementation-rules.md	2018-09-18	2026-10-20T14:59:40+00:00	random_past_date
 docs/articles/case-management/pfa-031-modelling-multi-party-enterprise-case-hierarchies.md	2018-11-03	2026-10-20T14:59:40+00:00	random_past_date
 docs/articles/case-management/pfa-036-active-case-migration-after-flow-redesign.md	2023-12-19	2026-10-20T14:59:40+00:00	random_past_date
+docs/articles/case-management/pfa-037-cross-case-dependencies-without-circular-waits.md	2024-08-03	2026-10-20T14:59:40+00:00	random_past_date

@@ -80,7 +80,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-034](articles/case-management/pfa-034-optimistic-locking-conflict-recovery.md)** Optimistic locking and user conflict recovery. _Published (lab verification pending)_
 - **[PFA-035](articles/case-management/pfa-035-long-running-case-release-compatibility.md)** Long-running cases spanning months or years. _Published (lab verification pending)_
 - **[PFA-036](articles/case-management/pfa-036-active-case-migration-after-flow-redesign.md)** Active case migration after flow redesign. _Published (lab verification pending)_
-- **PFA-037** Cross-case dependencies without circular waits. _Planned_
+- **[PFA-037](articles/case-management/pfa-037-cross-case-dependencies-without-circular-waits.md)** Cross-case dependencies without circular waits. _Published (lab verification pending)_
 - **PFA-038** Parallel approvals and partial completion handling. _Planned_
 - **PFA-039** Re-opening cases without duplicate side effects. _Planned_
 - **PFA-040** Case archival with searchable audit history. _Planned_

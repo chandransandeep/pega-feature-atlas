@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**76 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**77 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -67,6 +67,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-034: Optimistic locking and user conflict recovery](docs/articles/case-management/pfa-034-optimistic-locking-conflict-recovery.md)
 - [PFA-035: Long-running cases spanning months or years](docs/articles/case-management/pfa-035-long-running-case-release-compatibility.md)
 - [PFA-036: Active case migration after flow redesign](docs/articles/case-management/pfa-036-active-case-migration-after-flow-redesign.md)
+- [PFA-037: Cross-case dependencies without circular waits](docs/articles/case-management/pfa-037-cross-case-dependencies-without-circular-waits.md)
 
 ### Flow engine, SLAs and event orchestration
 
