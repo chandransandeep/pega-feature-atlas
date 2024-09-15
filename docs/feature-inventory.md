@@ -364,7 +364,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-248](articles/robotics/pfa-248-ui-automation-brittleness-and-recovery-strategies.md)** UI automation brittleness and recovery strategies. _Published (lab verification pending)_
 - **[PFA-249](articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md)** When to replace RPA with a stable API. _Published (lab verification pending)_
 - **[PFA-250](articles/robotic-automation/pfa-250-human-in-the-loop-correction-of-robotic-results.md)** Human-in-the-loop correction of robotic results. _Published (lab verification pending)_
-- **PFA-251** Cross-system work completion acknowledgement. _Planned_
+- **[PFA-251](articles/workflow-integration/pfa-251-cross-system-work-completion-acknowledgement.md)** Cross-system work completion acknowledgement. _Published (lab verification pending)_
 - **[PFA-252](articles/robotic-operations/pfa-252-monitoring-robotic-failure-at-scale.md)** Monitoring robotic failure at scale. _Published (lab verification pending)_
 - **[PFA-253](articles/workflow-orchestration/pfa-253-coordinating-pega-cases-with-external-workflow-engines.md)** Coordinating Pega cases with external workflow engines. _Published (lab verification pending)_
 - **[PFA-254](articles/case-concurrency/pfa-254-avoiding-duplicate-assignments-during-synchronization.md)** Avoiding duplicate assignments during synchronization. _Published (lab verification pending)_
