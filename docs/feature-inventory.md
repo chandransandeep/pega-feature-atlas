@@ -165,7 +165,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-099](articles/integrations/pfa-099-integration-error-taxonomies-and-business-recovery.md)** Integration error taxonomies and business recovery. _Published (lab verification pending)_
 - **[PFA-100](articles/integrations/pfa-100-controlling-fan-out-to-dozens-of-downstream-services.md)** Controlling fan-out to dozens of downstream services. _Published (lab verification pending)_
 - **[PFA-101](articles/integrations/pfa-101-api-rate-limits-under-seasonal-transaction-peaks.md)** API rate limits under seasonal transaction peaks. _Published (lab verification pending)_
-- **PFA-102** Large payload handling and streaming alternatives. _Planned_
+- **[PFA-102](articles/integrations/pfa-102-large-payload-handling-and-streaming-alternatives.md)** Large payload handling and streaming alternatives. _Published (lab verification pending)_
 - **PFA-103** Signed webhooks and replay attack prevention. _Planned_
 - **PFA-104** Transactional outbox options for critical integrations. _Planned_
 - **PFA-105** Preventing sensitive fields from reaching remote logs. _Planned_
