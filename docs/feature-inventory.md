@@ -205,7 +205,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-129](articles/constellation/pfa-129-optimizing-payload-size-for-large-case-views.md)** Optimizing payload size for large case views. _Published (lab verification pending)_
 - **[PFA-130](articles/constellation/pfa-130-accessibility-architecture-for-enterprise-forms.md)** Accessibility architecture for enterprise forms. _Published (lab verification pending)_
 - **[PFA-131](articles/constellation/pfa-131-routing-and-navigation-across-multi-application-portals.md)** Routing and navigation across multi-application portals. _Published (lab verification pending)_
-- **PFA-132** Custom component upgrade compatibility. _Planned_
+- **[PFA-132](articles/constellation/pfa-132-custom-component-upgrade-compatibility.md)** Custom component upgrade compatibility. _Published (lab verification pending)_
 - **PFA-133** Attachment workflows across browser and Pega storage. _Planned_
 - **PFA-134** Testing Constellation views through stable contracts. _Planned_
 - **PFA-135** Deciding when a separate frontend is justified. _Planned_

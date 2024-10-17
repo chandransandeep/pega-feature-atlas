@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**149 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**150 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -180,6 +180,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-129: Optimizing payload size for large case views](docs/articles/constellation/pfa-129-optimizing-payload-size-for-large-case-views.md)
 - [PFA-130: Accessibility architecture for enterprise forms](docs/articles/constellation/pfa-130-accessibility-architecture-for-enterprise-forms.md)
 - [PFA-131: Routing and navigation across multi-application portals](docs/articles/constellation/pfa-131-routing-and-navigation-across-multi-application-portals.md)
+- [PFA-132: Custom component upgrade compatibility](docs/articles/constellation/pfa-132-custom-component-upgrade-compatibility.md)
 
 ### Identity, security and data protection
 
