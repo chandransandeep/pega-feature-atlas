@@ -119,3 +119,4 @@ docs/articles/persistence/pfa-088-pagination-for-million-row-data-sets.md	2023-0
 docs/articles/persistence/pfa-089-purging-cases-without-erasing-required-audit-evidence.md	2021-10-24	2026-10-20T15:12:12+00:00	random_past_date
 docs/articles/persistence/pfa-090-managing-reference-data-versioning-across-releases.md	2021-04-10	2026-10-20T15:12:12+00:00	random_past_date
 docs/articles/integrations/pfa-092-service-rest-for-synchronous-case-creation.md	2022-09-07	2026-10-20T15:12:12+00:00	random_past_date
+docs/articles/integrations/pfa-094-circuit-breaker-and-bulkhead-placement-around-pega.md	2024-10-19	2026-10-20T15:12:12+00:00	random_past_date
