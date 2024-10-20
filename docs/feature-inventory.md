@@ -346,7 +346,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-235](articles/genai/pfa-235-llm-request-cost-latency-budgets.md)** LLM request cost and latency budgets. _Published (lab verification pending)_
 - **[PFA-236](articles/genai/pfa-236-fallback-when-a-model-provider-is-unavailable.md)** Fallback when a model provider is unavailable. _Published (lab verification pending)_
 - **[PFA-237](articles/ai-governance/pfa-237-governance-of-ai-generated-rule-changes.md)** Governance of AI-generated rule changes. _Published (lab verification pending)_
-- **PFA-238** Versioning AI prompts alongside case rules. _Planned_
+- **[PFA-238](articles/ai-governance/pfa-238-versioning-ai-prompts-alongside-case-rules.md)** Versioning AI prompts alongside case rules. _Published (lab verification pending)_
 - **PFA-239** Auditing automated decisions and human overrides. _Planned_
 - **PFA-240** Designing safe escalation from AI assistant to agent. _Planned_
 
