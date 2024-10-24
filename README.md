@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**260 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**261 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -325,6 +325,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-250: Human-in-the-loop correction of robotic results](docs/articles/robotic-automation/pfa-250-human-in-the-loop-correction-of-robotic-results.md)
 - [PFA-252: Monitoring robotic failure at scale](docs/articles/robotic-operations/pfa-252-monitoring-robotic-failure-at-scale.md)
 - [PFA-253: Coordinating Pega cases with external workflow engines](docs/articles/workflow-orchestration/pfa-253-coordinating-pega-cases-with-external-workflow-engines.md)
+- [PFA-254: Avoiding duplicate assignments during synchronization](docs/articles/case-concurrency/pfa-254-avoiding-duplicate-assignments-during-synchronization.md)
 
 ### Modernization, governance and architecture decisions
 
