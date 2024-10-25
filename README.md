@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**139 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**140 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -163,6 +163,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-115: Queue item locking and concurrent case updates](docs/articles/background-processing/pfa-115-queue-item-locking-and-concurrent-case-updates.md)
 - [PFA-116: Execution access groups and security context](docs/articles/background-processing/pfa-116-execution-access-groups-and-security-context.md)
 - [PFA-117: Commit boundaries before and after enqueueing work](docs/articles/background-processing/pfa-117-commit-boundaries-before-and-after-enqueueing-work.md)
+- [PFA-118: Replacing legacy agents safely](docs/articles/background-processing/pfa-118-replacing-legacy-agents-safely.md)
 
 ### Constellation, DX API and experience design
 
