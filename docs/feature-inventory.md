@@ -102,7 +102,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-051](articles/flow-sla/pfa-051-parallel-branches-and-joining-asynchronous-results.md)** Parallel branches and joining asynchronous results. _Published (lab verification pending)_
 - **[PFA-052](articles/flow-sla/pfa-052-routing-on-dynamic-workload-rather-than-fixed-groups.md)** Routing on dynamic workload rather than fixed groups. _Published (lab verification pending)_
 - **[PFA-053](articles/flow-sla/pfa-053-case-cancellation-while-integration-is-in-flight.md)** Case cancellation while integration is in flight. _Published (lab verification pending)_
-- **PFA-054** Timeout budgets across an end-to-end case step. _Planned_
+- **[PFA-054](articles/flow-sla/pfa-054-timeout-budgets-across-an-end-to-end-case-step.md)** Timeout budgets across an end-to-end case step. _Published (lab verification pending)_
 - **PFA-055** Orchestrating human and robotic assignments together. _Planned_
 - **PFA-056** Recovering stalled flows after an application release. _Planned_
 - **PFA-057** SLA rules and custom timer design trade-offs. _Planned_

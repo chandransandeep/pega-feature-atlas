@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**90 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**91 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -87,6 +87,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-051: Parallel branches and joining asynchronous results](docs/articles/flow-sla/pfa-051-parallel-branches-and-joining-asynchronous-results.md)
 - [PFA-052: Routing on dynamic workload rather than fixed groups](docs/articles/flow-sla/pfa-052-routing-on-dynamic-workload-rather-than-fixed-groups.md)
 - [PFA-053: Case cancellation while integration is in flight](docs/articles/flow-sla/pfa-053-case-cancellation-while-integration-is-in-flight.md)
+- [PFA-054: Timeout budgets across an end-to-end case step](docs/articles/flow-sla/pfa-054-timeout-budgets-across-an-end-to-end-case-step.md)
 
 ### Data pages, caching and clipboard
 
