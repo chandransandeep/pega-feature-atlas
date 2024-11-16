@@ -343,7 +343,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-232](articles/genai/pfa-232-safe-tool-invocation-autonomous-workflows.md)** Safe tool invocation by autonomous workflows. _Published (lab verification pending)_
 - **[PFA-233](articles/genai/pfa-233-retrieval-architecture-internal-procedural-knowledge.md)** Retrieval architecture for internal procedural knowledge. _Published (lab verification pending)_
 - **[PFA-234](articles/genai/pfa-234-evaluating-ai-output-traceable-test-sets.md)** Evaluating AI output with traceable test sets. _Published (lab verification pending)_
-- **PFA-235** LLM request cost and latency budgets. _Planned_
+- **[PFA-235](articles/genai/pfa-235-llm-request-cost-latency-budgets.md)** LLM request cost and latency budgets. _Published (lab verification pending)_
 - **PFA-236** Fallback when a model provider is unavailable. _Planned_
 - **PFA-237** Governance of AI-generated rule changes. _Planned_
 - **PFA-238** Versioning AI prompts alongside case rules. _Planned_
