@@ -387,7 +387,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-266](articles/component-governance/pfa-266-evaluating-when-a-reusable-component-adds-more-cost.md)** Evaluating when a reusable component adds more cost. _Published (lab verification pending)_
 - **[PFA-267](articles/platform-operating-model/pfa-267-operating-model-for-enterprise-pega-platform-teams.md)** Operating model for enterprise Pega platform teams. _Published (lab verification pending)_
 - **[PFA-268](articles/architecture-decisions/pfa-268-architecture-decision-records-for-platformspecific-choices.md)** Architecture decision records for platform-specific choices. _Published (lab verification pending)_
-- **PFA-269** Creating a deprecation roadmap for legacy rules. _Planned_
+- **[PFA-269](articles/legacy-modernization/pfa-269-creating-a-deprecation-roadmap-for-legacy-rules.md)** Creating a deprecation roadmap for legacy rules. _Published (lab verification pending)_
 - **PFA-270** Measuring architectural fitness during quarterly releases. _Planned_
 
 ## Publishing policy
