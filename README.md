@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**51 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**52 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -49,6 +49,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### Flow engine, SLAs and event orchestration
 
 - [PFA-047: Assignment SLAs across time zones and holiday calendars](docs/articles/flow-sla/pfa-047-business-calendar-sla-timezones.md)
+- [PFA-049: Wait steps versus externally signalled continuation](docs/articles/flow-sla/pfa-049-wait-step-versus-external-event.md)
 - [PFA-050: Compensation when a downstream action fails](docs/articles/flow-sla/pfa-050-compensation-after-partial-integration.md)
 
 ### Data pages, caching and clipboard
