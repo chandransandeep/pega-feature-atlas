@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**251 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**252 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -290,6 +290,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-221: Proposition data lifecycle and ownership](docs/articles/decisioning/pfa-221-proposition-data-lifecycle-and-ownership.md)
 - [PFA-222: Data quality failure modes in real-time decisions](docs/articles/decisioning/pfa-222-data-quality-failure-modes-in-real-time-decisions.md)
 - [PFA-223: Business-managed decisions with approval controls](docs/articles/decisioning/pfa-223-business-managed-decisions-with-approval-controls.md)
+- [PFA-224: Auditability of automated customer recommendations](docs/articles/decisioning/pfa-224-auditability-of-automated-customer-recommendations.md)
 
 ### GenAI and intelligent automation
 

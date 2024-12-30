@@ -327,7 +327,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-221](articles/decisioning/pfa-221-proposition-data-lifecycle-and-ownership.md)** Proposition data lifecycle and ownership. _Published (lab verification pending)_
 - **[PFA-222](articles/decisioning/pfa-222-data-quality-failure-modes-in-real-time-decisions.md)** Data quality failure modes in real-time decisions. _Published (lab verification pending)_
 - **[PFA-223](articles/decisioning/pfa-223-business-managed-decisions-with-approval-controls.md)** Business-managed decisions with approval controls. _Published (lab verification pending)_
-- **PFA-224** Auditability of automated customer recommendations. _Planned_
+- **[PFA-224](articles/decisioning/pfa-224-auditability-of-automated-customer-recommendations.md)** Auditability of automated customer recommendations. _Published (lab verification pending)_
 - **PFA-225** Designing decision fallback when models are unavailable. _Planned_
 
 <a id="section-16"></a>
