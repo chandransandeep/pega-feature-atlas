@@ -48,7 +48,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-012](articles/platform-runtime/pfa-012-separating-interaction-and-background-service-capacity.md)** Separating interaction and background service capacity. _Published (lab verification pending)_
 - **[PFA-013](articles/platform-runtime/pfa-013-disaster-recovery-objectives-for-case-processing.md)** Disaster recovery objectives for case processing. _Published (lab verification pending)_
 - **[PFA-014](articles/platform-runtime/pfa-014-identifying-bottlenecks-during-a-new-regional-rollout.md)** Identifying bottlenecks during a new regional rollout. _Published (lab verification pending)_
-- **PFA-015** Startup sequencing after infrastructure maintenance. _Planned_
+- **[PFA-015](articles/platform-runtime/pfa-015-startup-sequencing-after-infrastructure-maintenance.md)** Startup sequencing after infrastructure maintenance. _Published (lab verification pending)_
 
 <a id="section-02"></a>
 
