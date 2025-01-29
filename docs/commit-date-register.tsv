@@ -103,3 +103,4 @@ docs/articles/data-pages/pfa-066-limit-to-a-single-data-page-and-overwritten-ins
 docs/articles/data-pages/pfa-070-designing-a-business-safe-cache-key.md	2018-12-06	2026-10-20T15:06:03+00:00	random_past_date
 docs/articles/data-pages/pfa-071-avoiding-repeated-load-during-complex-view-rendering.md	2019-06-16	2026-10-20T15:06:03+00:00	random_past_date
 docs/articles/data-pages/pfa-072-managing-error-states-on-cached-external-responses.md	2025-11-02	2026-10-20T15:08:55+00:00	random_past_date
+docs/articles/data-pages/pfa-073-reference-data-distribution-across-multiple-nodes.md	2025-01-29	2026-10-20T15:08:55+00:00	random_past_date
