@@ -381,7 +381,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-260** Governance of shared rules across product teams. _Planned_
 - **PFA-261** Cost modelling for platform service consumption. _Planned_
 - **PFA-262** Identifying boundaries for non-Pega services. _Planned_
-- **PFA-263** Migration from Traditional UI to Constellation. _Planned_
+- **[PFA-263](articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)** Migration from Traditional UI to Constellation. _Published (lab verification pending)_
 - **PFA-264** Choosing system of record for case data. _Planned_
 - **PFA-265** Designing integration standards across portfolios. _Planned_
 - **PFA-266** Evaluating when a reusable component adds more cost. _Planned_
