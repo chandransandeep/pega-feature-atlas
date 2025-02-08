@@ -362,7 +362,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **PFA-246** Robotic Desktop Automation deployment options. _Planned_
 - **PFA-247** Robotic runtime identity and unattended execution. _Planned_
 - **PFA-248** UI automation brittleness and recovery strategies. _Planned_
-- **PFA-249** When to replace RPA with a stable API. _Planned_
+- **[PFA-249](articles/robotics/pfa-249-when-to-replace-rpa-with-stable-api.md)** When to replace RPA with a stable API. _Published (lab verification pending)_
 - **PFA-250** Human-in-the-loop correction of robotic results. _Planned_
 - **PFA-251** Cross-system work completion acknowledgement. _Planned_
 - **PFA-252** Monitoring robotic failure at scale. _Planned_
