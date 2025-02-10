@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**96 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**97 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -93,6 +93,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-057: SLA rules and custom timer design trade-offs](docs/articles/flow-sla/pfa-057-sla-rules-and-custom-timer-design-trade-offs.md)
 - [PFA-058: Business event ingestion without duplicate resumes](docs/articles/flow-sla/pfa-058-business-event-ingestion-without-duplicate-resumes.md)
 - [PFA-059: Validation rules at trusted execution boundaries](docs/articles/flow-sla/pfa-059-validation-rules-at-trusted-execution-boundaries.md)
+- [PFA-060: Workflow exception models for regulated processes](docs/articles/flow-sla/pfa-060-workflow-exception-models-for-regulated-processes.md)
 
 ### Data pages, caching and clipboard
 

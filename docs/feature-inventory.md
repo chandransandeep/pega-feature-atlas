@@ -108,7 +108,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-057](articles/flow-sla/pfa-057-sla-rules-and-custom-timer-design-trade-offs.md)** SLA rules and custom timer design trade-offs. _Published (lab verification pending)_
 - **[PFA-058](articles/flow-sla/pfa-058-business-event-ingestion-without-duplicate-resumes.md)** Business event ingestion without duplicate resumes. _Published (lab verification pending)_
 - **[PFA-059](articles/flow-sla/pfa-059-validation-rules-at-trusted-execution-boundaries.md)** Validation rules at trusted execution boundaries. _Published (lab verification pending)_
-- **PFA-060** Workflow exception models for regulated processes. _Planned_
+- **[PFA-060](articles/flow-sla/pfa-060-workflow-exception-models-for-regulated-processes.md)** Workflow exception models for regulated processes. _Published (lab verification pending)_
 
 <a id="section-05"></a>
 
