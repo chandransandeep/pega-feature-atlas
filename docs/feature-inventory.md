@@ -348,7 +348,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-237](articles/ai-governance/pfa-237-governance-of-ai-generated-rule-changes.md)** Governance of AI-generated rule changes. _Published (lab verification pending)_
 - **[PFA-238](articles/ai-governance/pfa-238-versioning-ai-prompts-alongside-case-rules.md)** Versioning AI prompts alongside case rules. _Published (lab verification pending)_
 - **[PFA-239](articles/decision-governance/pfa-239-auditing-automated-decisions-and-human-overrides.md)** Auditing automated decisions and human overrides. _Published (lab verification pending)_
-- **PFA-240** Designing safe escalation from AI assistant to agent. _Planned_
+- **[PFA-240](articles/ai-assistance/pfa-240-designing-safe-escalation-from-ai-assistant-to-agent.md)** Designing safe escalation from AI assistant to agent. _Published (lab verification pending)_
 
 <a id="section-17"></a>
 
