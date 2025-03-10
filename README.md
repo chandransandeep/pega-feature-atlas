@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**136 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**137 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -160,6 +160,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-112: Processing order versus horizontal throughput](docs/articles/background-processing/pfa-112-processing-order-versus-horizontal-throughput.md)
 - [PFA-113: Backlog sizing during upstream traffic spikes](docs/articles/background-processing/pfa-113-backlog-sizing-during-upstream-traffic-spikes.md)
 - [PFA-114: Scaling background processing without API overload](docs/articles/background-processing/pfa-114-scaling-background-processing-without-api-overload.md)
+- [PFA-115: Queue item locking and concurrent case updates](docs/articles/background-processing/pfa-115-queue-item-locking-and-concurrent-case-updates.md)
 
 ### Constellation, DX API and experience design
 
