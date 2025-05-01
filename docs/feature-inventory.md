@@ -202,7 +202,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-126](articles/constellation/pfa-126-embedding-a-case-experience-into-an-external-portal.md)** Embedding a case experience into an external portal. _Published (lab verification pending)_
 - **[PFA-127](articles/constellation/pfa-127-state-refresh-when-data-changes-outside-the-browser.md)** State refresh when data changes outside the browser. _Published (lab verification pending)_
 - **[PFA-128](articles/constellation/pfa-128-validation-design-across-ui-and-server-boundaries.md)** Validation design across UI and server boundaries. _Published (lab verification pending)_
-- **PFA-129** Optimizing payload size for large case views. _Planned_
+- **[PFA-129](articles/constellation/pfa-129-optimizing-payload-size-for-large-case-views.md)** Optimizing payload size for large case views. _Published (lab verification pending)_
 - **PFA-130** Accessibility architecture for enterprise forms. _Planned_
 - **PFA-131** Routing and navigation across multi-application portals. _Planned_
 - **PFA-132** Custom component upgrade compatibility. _Planned_

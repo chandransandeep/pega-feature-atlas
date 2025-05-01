@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**146 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**147 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -177,6 +177,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-126: Embedding a case experience into an external portal](docs/articles/constellation/pfa-126-embedding-a-case-experience-into-an-external-portal.md)
 - [PFA-127: State refresh when data changes outside the browser](docs/articles/constellation/pfa-127-state-refresh-when-data-changes-outside-the-browser.md)
 - [PFA-128: Validation design across UI and server boundaries](docs/articles/constellation/pfa-128-validation-design-across-ui-and-server-boundaries.md)
+- [PFA-129: Optimizing payload size for large case views](docs/articles/constellation/pfa-129-optimizing-payload-size-for-large-case-views.md)
 
 ### Identity, security and data protection
 
