@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**186 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**187 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -248,6 +248,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-228: Prompt injection threats in case attachments](docs/articles/genai/pfa-228-prompt-injection-case-attachment-boundaries.md)
 - [PFA-229: Human approval for AI-generated recommendations](docs/articles/genai/pfa-229-human-approval-ai-generated-recommendations.md)
 - [PFA-230: Grounding strategies for case-specific knowledge](docs/articles/genai/pfa-230-grounding-strategies-case-specific-knowledge.md)
+- [PFA-231: Agentic process design versus deterministic flows](docs/articles/genai/pfa-231-agentic-process-design-versus-deterministic-flows.md)
 
 ### Process Fabric, external work and robotics
 
