@@ -170,3 +170,4 @@ docs/articles/testing/pfa-199-failure-injection-unavailable-downstream-apis.md	2
 docs/articles/decisioning/pfa-212-customer-decision-hub-channel-integration-patterns.md	2021-03-19	2026-10-24T07:13:45+00:00	random_past_date
 docs/articles/genai/pfa-229-human-approval-ai-generated-recommendations.md	2025-02-19	2026-10-24T07:13:45+00:00	random_past_date
 docs/articles/robotics/pfa-242-federated-worklist-design-ownership-boundaries.md	2021-04-17	2026-10-24T07:13:45+00:00	random_past_date
+docs/articles/constellation/pfa-135-separate-frontend-decision-boundaries.md	2025-05-27	2026-10-25T08:09:27+00:00	random_past_date

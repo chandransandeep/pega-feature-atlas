@@ -208,7 +208,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-132](articles/constellation/pfa-132-custom-component-upgrade-compatibility.md)** Custom component upgrade compatibility. _Published (lab verification pending)_
 - **[PFA-133](articles/constellation/pfa-133-attachment-workflows-browser-pega-storage.md)** Attachment workflows across browser and Pega storage. _Published (lab verification pending)_
 - **[PFA-134](articles/constellation/pfa-134-testing-constellation-views-stable-contracts.md)** Testing Constellation views through stable contracts. _Published (lab verification pending)_
-- **PFA-135** Deciding when a separate frontend is justified. _Planned_
+- **[PFA-135](articles/constellation/pfa-135-separate-frontend-decision-boundaries.md)** Deciding when a separate frontend is justified. _Published (lab verification pending)_
 
 <a id="section-10"></a>
 
