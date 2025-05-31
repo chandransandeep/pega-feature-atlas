@@ -134,3 +134,4 @@ docs/articles/background-processing/pfa-108-idempotent-consumers-for-financial-t
 docs/articles/background-processing/pfa-109-delayed-queue-processor-scheduling-semantics.md	2025-12-02	2026-10-20T15:15:23+00:00	random_past_date
 docs/articles/background-processing/pfa-111-broken-queue-remediation-and-safe-manual-replay.md	2019-03-09	2026-10-20T15:15:23+00:00	random_past_date
 docs/articles/background-processing/pfa-112-processing-order-versus-horizontal-throughput.md	2025-06-04	2026-10-20T15:15:23+00:00	random_past_date
+docs/articles/background-processing/pfa-113-backlog-sizing-during-upstream-traffic-spikes.md	2025-05-31	2026-10-20T15:15:23+00:00	random_past_date
