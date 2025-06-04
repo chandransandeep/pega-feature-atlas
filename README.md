@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**133 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**134 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -157,6 +157,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-109: Delayed Queue Processor scheduling semantics](docs/articles/background-processing/pfa-109-delayed-queue-processor-scheduling-semantics.md)
 - [PFA-110: Job Scheduler versus Queue Processor responsibilities](docs/articles/background-processing/PFA-110-job-schedulers-versus-queue-processors.md)
 - [PFA-111: Broken queue remediation and safe manual replay](docs/articles/background-processing/pfa-111-broken-queue-remediation-and-safe-manual-replay.md)
+- [PFA-112: Processing order versus horizontal throughput](docs/articles/background-processing/pfa-112-processing-order-versus-horizontal-throughput.md)
 
 ### Constellation, DX API and experience design
 

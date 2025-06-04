@@ -180,7 +180,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-109](articles/background-processing/pfa-109-delayed-queue-processor-scheduling-semantics.md)** Delayed Queue Processor scheduling semantics. _Published (lab verification pending)_
 - **[PFA-110](articles/background-processing/PFA-110-job-schedulers-versus-queue-processors.md)** Job Scheduler versus Queue Processor responsibilities. _Published (lab verification pending)_
 - **[PFA-111](articles/background-processing/pfa-111-broken-queue-remediation-and-safe-manual-replay.md)** Broken queue remediation and safe manual replay. _Published (lab verification pending)_
-- **PFA-112** Processing order versus horizontal throughput. _Planned_
+- **[PFA-112](articles/background-processing/pfa-112-processing-order-versus-horizontal-throughput.md)** Processing order versus horizontal throughput. _Published (lab verification pending)_
 - **PFA-113** Backlog sizing during upstream traffic spikes. _Planned_
 - **PFA-114** Scaling background processing without API overload. _Planned_
 - **PFA-115** Queue item locking and concurrent case updates. _Planned_
