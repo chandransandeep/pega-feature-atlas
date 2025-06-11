@@ -240,3 +240,4 @@ docs/articles/observability/pfa-165-defining-useful-alerts-for-background-backlo
 docs/articles/performance/pfa-177-back-pressure-when-dependencies-cannot-keep-up.md	2022-06-02	2026-10-31T03:08:02+00:00	random_past_date
 docs/articles/performance/pfa-178-quantifying-the-cost-of-unnecessary-clipboard-pages.md	2022-12-18	2026-10-31T03:08:02+00:00	random_past_date
 docs/articles/performance/pfa-179-protecting-high-priority-transactions-from-batch-workloads.md	2024-10-13	2026-10-31T04:11:52+00:00	random_past_date
+docs/articles/delivery/pfa-192-testing-migration-of-longrunning-open-cases.md	2025-06-11	2026-10-31T04:12:14+00:00	random_past_date
