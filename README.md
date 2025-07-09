@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**202 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**203 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -262,6 +262,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-230: Grounding strategies for case-specific knowledge](docs/articles/genai/pfa-230-grounding-strategies-case-specific-knowledge.md)
 - [PFA-231: Agentic process design versus deterministic flows](docs/articles/genai/pfa-231-agentic-process-design-versus-deterministic-flows.md)
 - [PFA-232: Safe tool invocation by autonomous workflows](docs/articles/genai/pfa-232-safe-tool-invocation-autonomous-workflows.md)
+- [PFA-233: Retrieval architecture for internal procedural knowledge](docs/articles/genai/pfa-233-retrieval-architecture-internal-procedural-knowledge.md)
 
 ### Process Fabric, external work and robotics
 
