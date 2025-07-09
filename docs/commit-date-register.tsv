@@ -65,3 +65,4 @@ docs/articles/platform-runtime/pfa-014-identifying-bottlenecks-during-a-new-regi
 docs/articles/platform-runtime/pfa-015-startup-sequencing-after-infrastructure-maintenance.md	2025-01-14	2026-10-20T14:56:09+00:00	random_past_date
 docs/articles/rule-resolution/pfa-017-circumstancing-across-regions-and-business-lines.md	2020-10-30	2026-10-20T14:56:09+00:00	random_past_date
 docs/articles/rule-resolution/pfa-018-access-group-and-application-stack-resolution-context.md	2024-07-30	2026-10-20T14:56:09+00:00	random_past_date
+docs/articles/rule-resolution/pfa-022-avoiding-dependency-cycles-across-shared-rulesets.md	2025-07-09	2026-10-20T14:56:09+00:00	random_past_date
