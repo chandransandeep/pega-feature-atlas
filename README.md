@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**49 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**50 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -29,6 +29,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-002: Requestor and thread lifecycle during simultaneous cases](docs/articles/platform-runtime/pfa-002-requestor-thread-lifecycle-clipboard.md)
 - [PFA-003: Pega node roles and split deployment architecture](docs/articles/platform-runtime/pfa-003-web-background-nodes-classification.md)
 - [PFA-004: Cluster behaviour during node loss and session failover](docs/articles/platform-runtime/pfa-004-node-loss-session-and-background-recovery.md)
+- [PFA-006: Sizing JVM heap for high requestor concurrency](docs/articles/platform-runtime/pfa-006-jvm-requestor-memory-capacity.md)
 - [PFA-008: Shared stream service dependencies and their failure modes](docs/articles/platform-runtime/pfa-008-stream-service-and-background-recovery.md)
 
 ### Rule resolution and application composition
