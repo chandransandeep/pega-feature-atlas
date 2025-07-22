@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**179 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**180 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -254,6 +254,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 
 - [PFA-256: Decomposing monolithic Pega applications safely](docs/articles/modernization/pfa-256-decomposing-monolithic-pega-applications-safely.md)
 - [PFA-257: Application framework rationalization after acquisitions](docs/articles/application-architecture/PFA-257-modular-applications-instead-of-framework-sprawl.md)
+- [PFA-258: Transitioning from activity-heavy legacy designs](docs/articles/modernization/pfa-258-transitioning-activity-heavy-legacy-designs.md)
 - [PFA-263: Migration from Traditional UI to Constellation](docs/articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)
 
 <!-- END AUTO ARTICLE INDEX -->
