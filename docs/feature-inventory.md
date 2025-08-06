@@ -317,7 +317,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-211](articles/decisioning/PFA-211-cdh-decisioning-arbitration.md)** Next Best Action request and arbitration pipeline. _Published (lab verification pending)_
 - **PFA-212** Customer Decision Hub channel integration patterns. _Planned_
 - **PFA-213** Action eligibility and suitability design. _Planned_
-- **PFA-214** Contact policy enforcement in concurrent channels. _Planned_
+- **[PFA-214](articles/decisioning/pfa-214-cross-channel-contact-policy-consistency.md)** Contact policy enforcement in concurrent channels. _Published (lab verification pending)_
 - **PFA-215** Interaction history data flow and persistence. _Planned_
 - **PFA-216** Adaptive model feedback and delayed outcomes. _Planned_
 - **PFA-217** Champion challenger strategies in decisioning. _Planned_
