@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**182 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**183 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -212,6 +212,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-168: Hot path optimisation of data transforms](docs/articles/performance/pfa-168-hot-path-optimisation-data-transforms.md)
 - [PFA-169: Thread contention during mass case updates](docs/articles/performance/pfa-169-thread-contention-mass-case-updates.md)
 - [PFA-170: Avoiding N+1 connector calls from parameterized sources](docs/articles/performance/pfa-170-parameterized-data-pages-n-plus-one.md)
+- [PFA-171: Scaling workers for bursty Queue Processor demand](docs/articles/performance/pfa-171-scaling-queue-processor-bursts.md)
 
 ### Delivery pipelines and safe upgrades
 
