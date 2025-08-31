@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**246 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**247 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -237,6 +237,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-177: Back pressure when dependencies cannot keep up](docs/articles/performance/pfa-177-back-pressure-when-dependencies-cannot-keep-up.md)
 - [PFA-178: Quantifying the cost of unnecessary clipboard pages](docs/articles/performance/pfa-178-quantifying-the-cost-of-unnecessary-clipboard-pages.md)
 - [PFA-179: Protecting high priority transactions from batch workloads](docs/articles/performance/pfa-179-protecting-high-priority-transactions-from-batch-workloads.md)
+- [PFA-180: Performance regression gates before Pega upgrade](docs/articles/performance/pfa-180-performance-regression-gates-before-a-pega-upgrade.md)
 
 ### Delivery pipelines and safe upgrades
 

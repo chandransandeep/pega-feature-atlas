@@ -268,7 +268,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-177](articles/performance/pfa-177-back-pressure-when-dependencies-cannot-keep-up.md)** Back pressure when dependencies cannot keep up. _Published (lab verification pending)_
 - **[PFA-178](articles/performance/pfa-178-quantifying-the-cost-of-unnecessary-clipboard-pages.md)** Quantifying the cost of unnecessary clipboard pages. _Published (lab verification pending)_
 - **[PFA-179](articles/performance/pfa-179-protecting-high-priority-transactions-from-batch-workloads.md)** Protecting high priority transactions from batch workloads. _Published (lab verification pending)_
-- **PFA-180** Performance regression gates before Pega upgrade. _Planned_
+- **[PFA-180](articles/performance/pfa-180-performance-regression-gates-before-a-pega-upgrade.md)** Performance regression gates before Pega upgrade. _Published (lab verification pending)_
 
 <a id="section-13"></a>
 
