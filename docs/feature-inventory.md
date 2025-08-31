@@ -342,7 +342,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-231](articles/genai/pfa-231-agentic-process-design-versus-deterministic-flows.md)** Agentic process design versus deterministic flows. _Published (lab verification pending)_
 - **[PFA-232](articles/genai/pfa-232-safe-tool-invocation-autonomous-workflows.md)** Safe tool invocation by autonomous workflows. _Published (lab verification pending)_
 - **[PFA-233](articles/genai/pfa-233-retrieval-architecture-internal-procedural-knowledge.md)** Retrieval architecture for internal procedural knowledge. _Published (lab verification pending)_
-- **PFA-234** Evaluating AI output with traceable test sets. _Planned_
+- **[PFA-234](articles/genai/pfa-234-evaluating-ai-output-traceable-test-sets.md)** Evaluating AI output with traceable test sets. _Published (lab verification pending)_
 - **PFA-235** LLM request cost and latency budgets. _Planned_
 - **PFA-236** Fallback when a model provider is unavailable. _Planned_
 - **PFA-237** Governance of AI-generated rule changes. _Planned_
