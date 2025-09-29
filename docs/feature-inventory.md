@@ -195,7 +195,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 ## 09. Constellation, DX API and experience design
 
 - **[PFA-121](articles/constellation/PFA-121-dx-api-view-boundaries.md)** Constellation rendering architecture and DX API boundaries. _Published (lab verification pending)_
-- **PFA-122** View metadata and server-side business rules. _Planned_
+- **[PFA-122](articles/constellation/pfa-122-view-metadata-and-server-side-business-rules.md)** View metadata and server-side business rules. _Published (lab verification pending)_
 - **[PFA-123](articles/constellation/pfa-123-supported-dx-component-upgrade-design.md)** Building extensible Constellation UI components. _Published (lab verification pending)_
 - **[PFA-124](articles/constellation/pfa-124-traditional-ui-constellation-assessment.md)** Traditional UI versus Constellation migration decisions. _Published (lab verification pending)_
 - **[PFA-125](articles/constellation/pfa-125-reusable-views-constellation-metadata.md)** Building reusable views across case types. _Published (lab verification pending)_

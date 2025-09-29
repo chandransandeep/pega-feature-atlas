@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**142 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**143 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -170,6 +170,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ### Constellation, DX API and experience design
 
 - [PFA-121: Constellation rendering architecture and DX API boundaries](docs/articles/constellation/PFA-121-dx-api-view-boundaries.md)
+- [PFA-122: View metadata and server-side business rules](docs/articles/constellation/pfa-122-view-metadata-and-server-side-business-rules.md)
 - [PFA-123: Building extensible Constellation UI components](docs/articles/constellation/pfa-123-supported-dx-component-upgrade-design.md)
 - [PFA-124: Traditional UI versus Constellation migration decisions](docs/articles/constellation/pfa-124-traditional-ui-constellation-assessment.md)
 - [PFA-125: Building reusable views across case types](docs/articles/constellation/pfa-125-reusable-views-constellation-metadata.md)
