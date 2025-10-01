@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**144 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**145 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -175,6 +175,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-124: Traditional UI versus Constellation migration decisions](docs/articles/constellation/pfa-124-traditional-ui-constellation-assessment.md)
 - [PFA-125: Building reusable views across case types](docs/articles/constellation/pfa-125-reusable-views-constellation-metadata.md)
 - [PFA-126: Embedding a case experience into an external portal](docs/articles/constellation/pfa-126-embedding-a-case-experience-into-an-external-portal.md)
+- [PFA-127: State refresh when data changes outside the browser](docs/articles/constellation/pfa-127-state-refresh-when-data-changes-outside-the-browser.md)
 
 ### Identity, security and data protection
 
