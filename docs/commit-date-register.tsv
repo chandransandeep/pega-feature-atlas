@@ -57,3 +57,4 @@ docs/articles/data-pages/pfa-075-authorization-revocation-cached-lookups.md	2024
 docs/articles/platform-runtime/pfa-005-session-affinity-versus-stateless-application-assumptions.md	2022-11-30	2026-10-20T14:56:09+00:00	random_past_date
 docs/articles/platform-runtime/pfa-007-what-actually-scales-when-additional-nodes-are-added.md	2020-12-29	2026-10-20T14:56:09+00:00	random_past_date
 docs/articles/platform-runtime/pfa-009-multi-region-deployment-and-latency-sensitive-workflows.md	2020-05-20	2026-10-20T14:56:09+00:00	random_past_date
+docs/articles/platform-runtime/pfa-010-pega-cloud-connectivity-boundaries-for-enterprise-apis.md	2025-10-05	2026-10-20T14:56:09+00:00	random_past_date
