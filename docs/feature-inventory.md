@@ -125,7 +125,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-069](articles/data-pages/pfa-069-report-versus-connector-data-pages.md)** Report-backed versus connector-backed Data Pages. _Published (lab verification pending)_
 - **[PFA-070](articles/data-pages/pfa-070-designing-a-business-safe-cache-key.md)** Designing a business-safe cache key. _Published (lab verification pending)_
 - **[PFA-071](articles/data-pages/pfa-071-avoiding-repeated-load-during-complex-view-rendering.md)** Avoiding repeated load during complex view rendering. _Published (lab verification pending)_
-- **PFA-072** Managing error states on cached external responses. _Planned_
+- **[PFA-072](articles/data-pages/pfa-072-managing-error-states-on-cached-external-responses.md)** Managing error states on cached external responses. _Published (lab verification pending)_
 - **PFA-073** Reference data distribution across multiple nodes. _Planned_
 - **PFA-074** Clipboard growth in deeply nested case models. _Planned_
 - **[PFA-075](articles/data-pages/pfa-075-authorization-revocation-cached-lookups.md)** Caching secure lookups after access revocation. _Published (lab verification pending)_
