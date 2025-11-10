@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**93 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**94 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -90,6 +90,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-054: Timeout budgets across an end-to-end case step](docs/articles/flow-sla/pfa-054-timeout-budgets-across-an-end-to-end-case-step.md)
 - [PFA-055: Orchestrating human and robotic assignments together](docs/articles/flow-sla/pfa-055-orchestrating-human-and-robotic-assignments-together.md)
 - [PFA-056: Recovering stalled flows after an application release](docs/articles/flow-sla/pfa-056-recovering-stalled-flows-after-an-application-release.md)
+- [PFA-057: SLA rules and custom timer design trade-offs](docs/articles/flow-sla/pfa-057-sla-rules-and-custom-timer-design-trade-offs.md)
 
 ### Data pages, caching and clipboard
 
