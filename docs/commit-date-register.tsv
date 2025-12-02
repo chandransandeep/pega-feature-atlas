@@ -131,3 +131,4 @@ docs/articles/integrations/pfa-103-signed-webhooks-and-replay-attack-prevention.
 docs/articles/integrations/pfa-104-transactional-outbox-options-for-critical-integrations.md	2018-09-22	2026-10-20T15:15:23+00:00	random_past_date
 docs/articles/integrations/pfa-105-preventing-sensitive-fields-from-reaching-remote-logs.md	2021-01-12	2026-10-20T15:15:23+00:00	random_past_date
 docs/articles/background-processing/pfa-108-idempotent-consumers-for-financial-transactions.md	2021-07-04	2026-10-20T15:15:23+00:00	random_past_date
+docs/articles/background-processing/pfa-109-delayed-queue-processor-scheduling-semantics.md	2025-12-02	2026-10-20T15:15:23+00:00	random_past_date

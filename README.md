@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**131 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**132 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -154,6 +154,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-106: Standard versus Dedicated Queue Processor selection](docs/articles/background-processing/pfa-106-standard-versus-dedicated-queue-processor.md)
 - [PFA-107: Queue Processor execution, retry and failure lifecycle](docs/articles/background-processing/pfa-107-queue-processor-error-classification.md)
 - [PFA-108: Idempotent consumers for financial transactions](docs/articles/background-processing/pfa-108-idempotent-consumers-for-financial-transactions.md)
+- [PFA-109: Delayed Queue Processor scheduling semantics](docs/articles/background-processing/pfa-109-delayed-queue-processor-scheduling-semantics.md)
 - [PFA-110: Job Scheduler versus Queue Processor responsibilities](docs/articles/background-processing/PFA-110-job-schedulers-versus-queue-processors.md)
 
 ### Constellation, DX API and experience design
