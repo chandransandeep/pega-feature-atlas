@@ -175,7 +175,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 ## 08. Queue processors and scheduled background work
 
 - **PFA-106** Standard versus Dedicated Queue Processor selection. _Planned_
-- **PFA-107** Queue Processor execution, retry and failure lifecycle. _Planned_
+- **[PFA-107](articles/background-processing/pfa-107-queue-processor-error-classification.md)** Queue Processor execution, retry and failure lifecycle. _Published (lab verification pending)_
 - **PFA-108** Idempotent consumers for financial transactions. _Planned_
 - **PFA-109** Delayed Queue Processor scheduling semantics. _Planned_
 - **[PFA-110](articles/background-processing/PFA-110-job-schedulers-versus-queue-processors.md)** Job Scheduler versus Queue Processor responsibilities. _Published (lab verification pending)_
