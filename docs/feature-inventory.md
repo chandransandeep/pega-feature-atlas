@@ -36,7 +36,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 
 - **[PFA-001](articles/platform-runtime/pfa-001-request-lifecycle-http-to-rule.md)** Request lifecycle from HTTP entry point to rule execution. _Published (lab verification pending)_
 - **[PFA-002](articles/platform-runtime/pfa-002-requestor-thread-lifecycle-clipboard.md)** Requestor and thread lifecycle during simultaneous cases. _Published (lab verification pending)_
-- **PFA-003** Pega node roles and split deployment architecture. _Planned_
+- **[PFA-003](articles/platform-runtime/pfa-003-web-background-nodes-classification.md)** Pega node roles and split deployment architecture. _Published (lab verification pending)_
 - **PFA-004** Cluster behaviour during node loss and session failover. _Planned_
 - **PFA-005** Session affinity versus stateless application assumptions. _Planned_
 - **PFA-006** Sizing JVM heap for high requestor concurrency. _Planned_
