@@ -21,7 +21,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 ## Published articles by subject
 
 <!-- BEGIN AUTO ARTICLE INDEX -->
-**207 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
+**208 catalogue articles** are published; the live status remains in [the 270-topic catalogue](docs/feature-inventory.md). Two additional introductory studies appear above.
 
 ### Platform runtime and distributed deployment
 
@@ -221,6 +221,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [PFA-171: Scaling workers for bursty Queue Processor demand](docs/articles/performance/pfa-171-scaling-queue-processor-bursts.md)
 - [PFA-172: Response time variation after cache refresh](docs/articles/performance/pfa-172-cache-refresh-response-time-variation.md)
 - [PFA-173: Database performance impact of indexing decisions](docs/articles/performance/pfa-173-database-performance-impact-indexing-decisions.md)
+- [PFA-174: Sizing attachment processing capacity](docs/articles/performance/pfa-174-sizing-attachment-processing-capacity.md)
 
 ### Delivery pipelines and safe upgrades
 

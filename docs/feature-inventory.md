@@ -262,7 +262,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-171](articles/performance/pfa-171-scaling-queue-processor-bursts.md)** Scaling workers for bursty Queue Processor demand. _Published (lab verification pending)_
 - **[PFA-172](articles/performance/pfa-172-cache-refresh-response-time-variation.md)** Response time variation after cache refresh. _Published (lab verification pending)_
 - **[PFA-173](articles/performance/pfa-173-database-performance-impact-indexing-decisions.md)** Database performance impact of indexing decisions. _Published (lab verification pending)_
-- **PFA-174** Sizing attachment processing capacity. _Planned_
+- **[PFA-174](articles/performance/pfa-174-sizing-attachment-processing-capacity.md)** Sizing attachment processing capacity. _Published (lab verification pending)_
 - **PFA-175** Garbage collection pauses and interactive response time. _Planned_
 - **PFA-176** Measuring cold-start versus steady-state experience. _Planned_
 - **PFA-177** Back pressure when dependencies cannot keep up. _Planned_
