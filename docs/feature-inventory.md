@@ -163,7 +163,7 @@ This is the editorial plan for Pega Feature Atlas. It is not a list of completed
 - **[PFA-097](articles/integrations/pfa-097-rest-schema-evolution-without-breaking-consumers.md)** REST schema evolution without breaking consumers. _Published (lab verification pending)_
 - **[PFA-098](articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)** Handling asynchronous partner callbacks securely. _Published (lab verification pending)_
 - **[PFA-099](articles/integrations/pfa-099-integration-error-taxonomies-and-business-recovery.md)** Integration error taxonomies and business recovery. _Published (lab verification pending)_
-- **PFA-100** Controlling fan-out to dozens of downstream services. _Planned_
+- **[PFA-100](articles/integrations/pfa-100-controlling-fan-out-to-dozens-of-downstream-services.md)** Controlling fan-out to dozens of downstream services. _Published (lab verification pending)_
 - **PFA-101** API rate limits under seasonal transaction peaks. _Planned_
 - **PFA-102** Large payload handling and streaming alternatives. _Planned_
 - **PFA-103** Signed webhooks and replay attack prevention. _Planned_
