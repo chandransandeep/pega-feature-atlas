@@ -1,0 +1,6 @@
+title: Pega Feature Atlas
+description: Real problems. Reproducible Pega solutions.
+theme: jekyll-theme-cayman
+url: https://chandransandeep.github.io
+baseurl: /pega-feature-atlas
+markdown: kramdown
