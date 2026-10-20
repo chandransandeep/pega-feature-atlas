@@ -1,26 +1,23 @@
 ---
 layout: default
-title: Pega Feature Atlas: Architecture in Practice
+title: Pega Feature Atlas
 ---
 
 # Pega Feature Atlas
 
-**Pega architecture in practice. Internals, design decisions, failure modes, production trade-offs.**
+**Pega architecture in practice. Technical designs, implementation boundaries, failure modes and production trade-offs.**
 
-This publication is for **Senior System Architects, Lead System Architects, integration architects and engineering leads**. It does not duplicate Pega Academy or beginner Dev Studio walkthroughs.
+Written for Senior System Architects, Lead System Architects and enterprise platform engineers. This is an independent engineering publication, not a glossary or certification course.
 
-## Featured deep dive
+[Browse published deep dives]({{ '/articles/' | relative_url }}) | [Explore all 270 topics]({{ '/feature-inventory.html' | relative_url }}) | [How publication dates work]({{ '/publication-process.html' | relative_url }})
 
-### [Architectural study #01: Data Pages: the hidden cost of caching customer-specific data]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
+## Featured architecture studies
 
-*When should an architecture use Thread, Requestor or Node caching? What changes with tenant isolation, parameter cardinality, freshness targets, memory pressure and horizontal scaling?*
+- [Parameterized Data Pages at scale]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
+- [Queue Processors and idempotent external side effects]({{ '/articles/002-queue-processors-idempotent-integration.html' | relative_url }})
 
-Includes a reference system design, alternatives and trade-offs, recommended experiments, and production diagnostics.
+## What is in every study?
 
-## Upcoming
+A real architecture problem, an explanatory technical diagram, specific Pega objects and their boundaries, design alternatives, failure modes and lab verification steps. Production measurements or screenshots are added only when they exist.
 
-Architecture studies on **queue processing and ordering**, **case locking**, **integration resilience**, **Constellation boundaries**, **data model design**, **security context**, **deployment safety**, **observability** and **decisioning**.
-
-[Topic roadmap]({{ '/feature-inventory.html' | relative_url }}) · [Editorial and validation standard]({{ '/article-template.html' | relative_url }})
-
-*Published content distinguishes architecture analysis from experimentally validated results. Independent of Pegasystems.*
+*Independent engineering reference. Not affiliated with Pegasystems.*
