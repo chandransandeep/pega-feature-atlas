@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pega Feature Atlas — Architecture in Practice
+title: Pega Feature Atlas: Architecture in Practice
 ---
 
 # Pega Feature Atlas
@@ -11,7 +11,7 @@ This publication is for **Senior System Architects, Lead System Architects, inte
 
 ## Featured deep dive
 
-### [Architectural study #01 — Data Pages: the hidden cost of caching customer-specific data]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
+### [Architectural study #01: Data Pages: the hidden cost of caching customer-specific data]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
 
 *When should an architecture use Thread, Requestor or Node caching? What changes with tenant isolation, parameter cardinality, freshness targets, memory pressure and horizontal scaling?*
 
