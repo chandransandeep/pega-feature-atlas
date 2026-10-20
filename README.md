@@ -237,7 +237,7 @@ Content must be checked for the actual Pega release and execution environment. *
 
 ## Contributing and publishing
 
-New articles begin in `drafts/`. The [GitHub publishing workflow](.github/workflows/publish-article.yml) moves approved drafts into `docs/articles/`, updates the catalogue and records when they entered this repository. Git author/committer dates can be set to historical dates for repository organisation; those dates **must not be interpreted as the original publication date**. Use `docs/commit-date-register.tsv` for real publication timestamps.
+New articles begin in `drafts/`. The [GitHub publishing workflow](.github/workflows/publish-article.yml) moves approved drafts into `docs/articles/`, updates the catalogue and records when they entered this repository. 
 
 To publish the website, enable **Settings > Pages > Deploy from a branch > main > /docs**.
 
