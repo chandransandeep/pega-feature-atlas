@@ -1,22 +1,31 @@
 # Pega Feature Atlas
 
-**Pega engineering in practice — realistic problems, build steps, test cases, and troubleshooting.**
+**Architectural patterns, internals, trade-offs and production engineering for Pega Platform.**
 
-A community-maintained collection of original, practical tutorials for engineers building and supporting Pega applications. **Not another glossary, certification summary, or copy of Pega documentation.**
+This is an independent, **Senior / Lead System Architect-level** technical publication, inspired by deep-dive engineering posts shared by practitioners on LinkedIn.
 
-## Read the tutorials
-- [01 — Parameterized Data Pages: fix the wrong-customer results problem](docs/articles/01-data-page-customer-lookup.md)
-- [02 — Queue Processors: move post-submission tasks out of the user's request](docs/articles/02-queue-processor-post-submit.md)
-- [Practical feature / scenario roadmap](docs/feature-inventory.md)
-- [Article quality and screenshot checklist](docs/article-template.md)
+**Not:** beginner tutorials, UI click guides, product feature definitions, certification prep, or an imitation of Pega Community.
 
-## How each tutorial works
-**Problem → Sample application → Exact Pega rule setup → Test inputs and expected outputs → Break it intentionally → Debug with Pega tools → Production notes → References.**
+**Yes:** architecture decisions backed by Pega-specific configuration, failure modes, diagrams, quantitative reasoning, production diagnostics, security and scalability considerations.
 
-We publish *feature use-cases* rather than repeating theoretical definitions. Articles distinguish **expected results** from results **actually observed in a Pega lab**. No fake screenshots, configuration claims, or test evidence.
+## Read
+- [Architecture study #01 — Designing Data Page caching for customer-scoped data](docs/articles/01-data-page-customer-lookup.md)
+- [Architectural topic roadmap](docs/feature-inventory.md)
+- [Publication standard and article outline](docs/article-template.md)
 
-## GitHub Pages
-The `docs/` directory is prepared for a GitHub Pages site. To make it live, go to **Settings → Pages → Deploy from a branch → main → /docs → Save**. Then visit [Pega Feature Atlas](https://chandransandeep.github.io/pega-feature-atlas/). That URL will only work after Pages is activated and deployed.
+## Article contract
+Each article covers:
+1. A real **enterprise problem and architecture constraints**
+2. **What Pega actually does** underneath the feature (and what is version-dependent)
+3. At least **two competing design approaches**, when applicable
+4. A **reference architecture** with class/rule naming and data/control flow
+5. The **design decision** — why one pattern wins and in which conditions it does *not*
+6. **Failure, security, scale and observability** scenarios
+7. Reproducible **architect-level verification experiments** and official references
 
-## Disclaimer
-Independent articles; not affiliated with or endorsed by Pegasystems. Product names are their owners' trademarks. Use demo/sample data, and never publish restricted client configurations or copyrighted Pega Academy content.
+When no Pega sandbox execution exists, tests are labeled as **proposed validation**, never portrayed as measured results or real screenshots. Real project information must be sanitized.
+
+## Website
+Source files under `docs/` support GitHub Pages. When ready, configure **Settings → Pages → Deploy from a branch → main → /docs**.
+
+**Independent material. Not affiliated with Pegasystems.**
