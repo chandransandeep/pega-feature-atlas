@@ -1,28 +1,26 @@
 ---
 layout: default
-title: Pega Feature Atlas
+title: Pega Feature Atlas — Architecture in Practice
 ---
 
 # Pega Feature Atlas
 
-**Real problems. Reproducible Pega solutions.**
+**Pega architecture in practice. Internals, design decisions, failure modes, production trade-offs.**
 
-Hands-on Pega walkthroughs with rule configuration, realistic example data, verification steps, debugging techniques and architectural decisions. Not a glossary.
+This publication is for **Senior System Architects, Lead System Architects, integration architects and engineering leads**. It does not duplicate Pega Academy or beginner Dev Studio walkthroughs.
 
-## Start with a real scenario
+## Featured deep dive
 
-### [01 — Parameterized Data Pages: the wrong customer's orders show up]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
-Create a customer-scoped order lookup; test different customer IDs; inspect separate data page instances; avoid stale or mixed data.
+### [Architectural study #01 — Data Pages: the hidden cost of caching customer-specific data]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
 
-### [02 — Queue Processors: submission works, but notification is slow]({{ '/articles/02-queue-processor-post-submit.html' | relative_url }})
-Separate background work from the user's flow, configure a processor, verify processing, and design safe retries.
+*When should an architecture use Thread, Requestor or Node caching? What changes with tenant isolation, parameter cardinality, freshness targets, memory pressure and horizontal scaling?*
 
-## Explore the practical coverage plan
+Includes a reference system design, alternatives and trade-offs, recommended experiments, and production diagnostics.
 
-[Feature and scenario roadmap]({{ '/feature-inventory.html' | relative_url }}) · [Article checklist and evidence standards]({{ '/article-template.html' | relative_url }})
+## Upcoming
 
-**Verification status:** Initial recipes are research-backed and **not yet lab-executed**. Any figures and example outcomes in the articles are explicitly test expectations, not actual run logs.
+Architecture studies on **queue processing and ordering**, **case locking**, **integration resilience**, **Constellation boundaries**, **data model design**, **security context**, **deployment safety**, **observability** and **decisioning**.
 
----
+[Topic roadmap]({{ '/feature-inventory.html' | relative_url }}) · [Editorial and validation standard]({{ '/article-template.html' | relative_url }})
 
-*An independent practical guide. Not affiliated with Pegasystems.*
+*Published content distinguishes architecture analysis from experimentally validated results. Independent of Pegasystems.*
