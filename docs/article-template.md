@@ -11,15 +11,15 @@ The test for every article: *Would an experienced architect learn a consequentia
 
 ## Required outline
 
-1. **The enterprise scenario** — workload, system boundaries, functional and NFR constraints
-2. **The architectural question** — decision to make, not definition to memorise
-3. **How the Pega feature behaves** — rule resolution, scope, transaction context, runtime/storage, dependencies as relevant, and version-specific caveats
-4. **Architecture options** — practical competing patterns, diagrams and decision matrix
-5. **Recommended design and why** — class/rule inventory, concrete configuration decisions and explicit assumptions
-6. **Design failure modes** — demonstrate stale state, race conditions, security boundaries, partial failure, replays, bottlenecks or relevant issues
-7. **Capacity and performance model** — state assumptions and equations; no fabricated measurement
-8. **Production observability** — Pega-specific tools and signals, plus what each would prove
-9. **Validation plan** — repeatable experiments, expected outcomes and acceptance criteria
+1. **The enterprise scenario**: workload, system boundaries, functional and NFR constraints
+2. **The architectural question**: decision to make, not definition to memorise
+3. **How the Pega feature behaves**: rule resolution, scope, transaction context, runtime/storage, dependencies as relevant, and version-specific caveats
+4. **Architecture options**: practical competing patterns, diagrams and decision matrix
+5. **Recommended design and why**: class/rule inventory, concrete configuration decisions and explicit assumptions
+6. **Design failure modes**: demonstrate stale state, race conditions, security boundaries, partial failure, replays, bottlenecks or relevant issues
+7. **Capacity and performance model**: state assumptions and equations; no fabricated measurement
+8. **Production observability**: Pega-specific tools and signals, plus what each would prove
+9. **Validation plan**: repeatable experiments, expected outcomes and acceptance criteria
 10. **Upgrade/Constellation/version applicability**, official primary references and unresolved questions
 
 ## Evidence standard
