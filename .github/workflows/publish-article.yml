@@ -1,20 +1,21 @@
-name: Publish architecture article
+name: Publish Pega architecture articles
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "drafts/**/*.md"
+      - "drafts/*.md"
   workflow_dispatch:
     inputs:
-      draft_path:
-        description: "Markdown draft under drafts/, e.g. drafts/019-case-locking.md"
-        required: true
-        type: string
       earliest_year:
-        description: "Earliest year for the randomly selected Git date"
-        required: true
+        description: "Default earliest year for historical Git timestamps"
+        required: false
         default: "2018"
         type: string
       latest_year:
-        description: "Latest year for the randomly selected Git date"
-        required: true
+        description: "Default latest year for historical Git timestamps"
+        required: false
         default: "2025"
         type: string
 
@@ -22,86 +23,115 @@ permissions:
   contents: write
 
 concurrency:
-  group: publish-architecture-articles
+  group: pega-atlas-publication
   cancel-in-progress: false
 
 jobs:
   publish:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: Check out latest main
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
 
-      - name: Validate draft, select date and record actual publication date
+      - name: Publish all staged drafts with individual dated commits
         shell: bash
         env:
-          DRAFT_PATH: ${{ inputs.draft_path }}
-          EARLIEST_YEAR: ${{ inputs.earliest_year }}
-          LATEST_YEAR: ${{ inputs.latest_year }}
-        run: |
-          python3 - <<'PY'
-          import datetime as dt
-          import os
-          from pathlib import Path
-          import secrets
-
-          path = Path(os.environ["DRAFT_PATH"])
-          if (path.is_absolute() or ".." in path.parts or len(path.parts) != 2
-              or path.parts[0] != "drafts" or path.suffix.lower() != ".md"
-              or not path.name.replace("-", "").replace("_", "").replace(".", "").isalnum()):
-              raise SystemExit("Only drafts/<safe-filename>.md is permitted.")
-          if not path.is_file():
-              raise SystemExit("Draft not found: " + str(path))
-          content = path.read_text(encoding="utf-8")
-          if len(content.strip()) < 300:
-              raise SystemExit("Draft too short. Publish substantive articles only.")
-
-          try:
-              first = int(os.environ["EARLIEST_YEAR"])
-              last = int(os.environ["LATEST_YEAR"])
-          except ValueError:
-              raise SystemExit("Year inputs must be numbers.")
-          current_year = dt.datetime.now(dt.timezone.utc).year
-          if not (2000 <= first <= last < current_year):
-              raise SystemExit("Choose a valid past-year range, before the current year.")
-
-          start = dt.date(first, 1, 1)
-          end = dt.date(last, 12, 31)
-          selected = start + dt.timedelta(days=secrets.randbelow((end - start).days + 1))
-          stamp = f"{selected.isoformat()}T12:00:00+0000"
-          actual = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-          target = Path("docs/articles") / path.name
-          if target.exists():
-              raise SystemExit(f"Already exists: {target}")
-
-          target.parent.mkdir(parents=True, exist_ok=True)
-          target.write_text(content, encoding="utf-8")
-          path.unlink()
-
-          register = Path("docs/commit-date-register.tsv")
-          if not register.exists():
-              register.write_text("article\tgit_author_and_committer_date\tactual_publish_utc\tdate_method\n", encoding="utf-8")
-          with register.open("a", encoding="utf-8") as f:
-              f.write(f"{target}\t{selected.isoformat()}\t{actual}\trandom_past_date\n")
-
-          with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
-              f.write(f"HISTORICAL_GIT_DATE={stamp}\n")
-              f.write(f"ARTICLE_PATH={target}\n")
-              f.write(f"DRAFT_PATH_VALIDATED={path}\n")
-          print(f"Selected Git timestamp: {stamp}")
-          print(f"Actual publication UTC: {actual}")
-          PY
-
-      - name: Commit article using selected Git timestamps
-        shell: bash
+          EARLIEST_YEAR: ${{ inputs.earliest_year || '2018' }}
+          LATEST_YEAR: ${{ inputs.latest_year || '2025' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- "$ARTICLE_PATH" "$DRAFT_PATH_VALIDATED" docs/commit-date-register.tsv
-          GIT_AUTHOR_DATE="$HISTORICAL_GIT_DATE" \
-          GIT_COMMITTER_DATE="$HISTORICAL_GIT_DATE" \
-          git commit -m "Publish architecture article: $ARTICLE_PATH"
-          git push origin HEAD:main
+          python3 - <<'PY'
+          from pathlib import Path
+          import datetime as dt
+          import os
+          import re
+          import secrets
+          import subprocess
+
+          draft_root = Path("drafts")
+          drafts = sorted(draft_root.rglob("*.md")) if draft_root.exists() else []
+          if not drafts:
+              print("No staged articles. Nothing to publish.")
+              raise SystemExit(0)
+
+          first = int(os.environ["EARLIEST_YEAR"])
+          last = int(os.environ["LATEST_YEAR"])
+          if not (2000 <= first <= last < dt.datetime.now(dt.timezone.utc).year):
+              raise SystemExit("Invalid historical year range")
+
+          registry = Path("docs/commit-date-register.tsv")
+          registry.parent.mkdir(parents=True, exist_ok=True)
+          if not registry.exists():
+              registry.write_text("article\tgit_author_and_committer_date\tactual_publish_utc\tdate_method\n")
+
+          inventory_path = Path("docs/feature-inventory.md")
+          inventory = inventory_path.read_text(encoding="utf-8")
+          count = 0
+          for draft in drafts:
+              relative = draft.relative_to(draft_root)
+              if any(not re.fullmatch(r"[a-zA-Z0-9_-]+", part) for part in relative.parts[:-1]):
+                  raise SystemExit("Invalid folder: " + str(draft))
+              if not re.fullmatch(r"[a-zA-Z0-9_-]+\.md", relative.name):
+                  raise SystemExit("Invalid filename: " + str(draft))
+              raw = draft.read_text(encoding="utf-8")
+              if len(raw.strip()) < 3000 or not raw.startswith("---\n"):
+                  raise SystemExit("Draft lacks a substantive article and YAML front matter: " + str(draft))
+
+              top = raw.split("---", 2)[1]
+              def meta(name):
+                  found = re.search(r"^" + re.escape(name) + r":\s*[\"']?([A-Za-z0-9_-]+)", top, re.M)
+                  return found.group(1) if found else None
+              category = meta("category")
+              topic_id = meta("topic_id")
+              if not category or not re.fullmatch(r"[a-z0-9-]+", category):
+                  raise SystemExit("Missing category slug in " + str(draft))
+              if not topic_id or not re.fullmatch(r"PFA-\d{3}", topic_id):
+                  raise SystemExit("Missing PFA topic ID in " + str(draft))
+              dest = Path("docs/articles") / category / relative.name
+              if dest.exists():
+                  raise SystemExit("Destination exists: " + str(dest))
+              marker = "- **" + topic_id + "** "
+              if inventory.count(marker) != 1:
+                  raise SystemExit("Topic must appear exactly once as planned in inventory: " + topic_id)
+
+              minyear = max(first, int(meta("earliest_git_year") or first))
+              if minyear > last:
+                  raise SystemExit("No eligible historical years for " + str(draft))
+              begin, end = dt.date(minyear, 1, 1), dt.date(last, 12, 31)
+              old_date = begin + dt.timedelta(days=secrets.randbelow((end - begin).days + 1))
+              timestamp = old_date.isoformat() + "T12:00:00+0000"
+              published = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              dest.write_text(raw, encoding="utf-8")
+              draft.unlink()
+
+              # Replace just the corresponding inventory entry with a direct article link.
+              lines = inventory.splitlines(keepends=True)
+              for ix, line in enumerate(lines):
+                  if line.startswith(marker):
+                      linked_id = "[" + topic_id + "](articles/" + category + "/" + relative.name + ")"
+                      lines[ix] = line.replace("**" + topic_id + "**", "**" + linked_id + "**", 1).replace("_Planned_", "_Published (lab verification pending)_")
+                      break
+              inventory = "".join(lines)
+              inventory_path.write_text(inventory, encoding="utf-8")
+              with registry.open("a", encoding="utf-8") as f:
+                  f.write(f"{dest}\t{old_date.isoformat()}\t{published}\trandom_past_date\n")
+
+              subprocess.run(["git", "add", "--", str(dest), str(draft), str(inventory_path), str(registry)], check=True)
+              env = os.environ.copy()
+              env["GIT_AUTHOR_DATE"] = timestamp
+              env["GIT_COMMITTER_DATE"] = timestamp
+              subprocess.run(["git", "commit", "-m", "Publish " + topic_id + ": " + dest.stem], check=True, env=env)
+              print(f"{topic_id}: {dest} | Git {old_date} | actual {published}", flush=True)
+              count += 1
+          print("Published articles:", count)
+          PY
+          if [ -n "$(git log -1 --format=%s | grep '^Publish PFA-' || true)" ]; then
+            git push origin HEAD:main
+          fi
