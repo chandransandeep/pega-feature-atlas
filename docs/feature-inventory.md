@@ -1,0 +1,397 @@
+---
+layout: default
+title: Pega Architecture Topic Catalogue
+---
+
+# Architecture topic catalogue
+
+This is the editorial plan for Pega Feature Atlas. It is not a list of completed articles. Every entry is an architectural question or design challenge intended for experienced Pega engineers. Content is published only after technical review.
+
+**Coverage:** 18 domains, 270 subjects.
+
+## Browse domains
+
+- [01. Platform runtime and distributed deployment](#section-01)
+- [02. Rule resolution and application composition](#section-02)
+- [03. Case architecture and concurrency](#section-03)
+- [04. Flow engine, SLAs and event orchestration](#section-04)
+- [05. Data pages, caching and clipboard](#section-05)
+- [06. Persistence, data modelling and search](#section-06)
+- [07. Integration architecture and API contracts](#section-07)
+- [08. Queue processors and scheduled background work](#section-08)
+- [09. Constellation, DX API and experience design](#section-09)
+- [10. Identity, security and data protection](#section-10)
+- [11. Production observability and incident diagnosis](#section-11)
+- [12. Performance engineering and scalability](#section-12)
+- [13. Delivery pipelines and safe upgrades](#section-13)
+- [14. Verification, testing and quality engineering](#section-14)
+- [15. Customer Decision Hub and real-time decisioning](#section-15)
+- [16. GenAI and intelligent automation](#section-16)
+- [17. Process Fabric, external work and robotics](#section-17)
+- [18. Modernization, governance and architecture decisions](#section-18)
+
+<a id="section-01"></a>
+
+## 01. Platform runtime and distributed deployment
+
+- **PFA-001** Request lifecycle from HTTP entry point to rule execution. _Planned_
+- **PFA-002** Requestor and thread lifecycle during simultaneous cases. _Planned_
+- **PFA-003** Pega node roles and split deployment architecture. _Planned_
+- **PFA-004** Cluster behaviour during node loss and session failover. _Planned_
+- **PFA-005** Session affinity versus stateless application assumptions. _Planned_
+- **PFA-006** Sizing JVM heap for high requestor concurrency. _Planned_
+- **PFA-007** What actually scales when additional nodes are added. _Planned_
+- **PFA-008** Shared stream service dependencies and their failure modes. _Planned_
+- **PFA-009** Multi-region deployment and latency-sensitive workflows. _Planned_
+- **PFA-010** Pega Cloud connectivity boundaries for enterprise APIs. _Planned_
+- **PFA-011** Managing internal service discovery and endpoint changes. _Planned_
+- **PFA-012** Separating interaction and background service capacity. _Planned_
+- **PFA-013** Disaster recovery objectives for case processing. _Planned_
+- **PFA-014** Identifying bottlenecks during a new regional rollout. _Planned_
+- **PFA-015** Startup sequencing after infrastructure maintenance. _Planned_
+
+<a id="section-02"></a>
+
+## 02. Rule resolution and application composition
+
+- **PFA-016** Rule resolution precedence across inherited classes. _Planned_
+- **PFA-017** Circumstancing across regions and business lines. _Planned_
+- **PFA-018** Access group and application stack resolution context. _Planned_
+- **PFA-019** Ruleset versioning for parallel delivery teams. _Planned_
+- **PFA-020** When directed inheritance beats pattern inheritance. _Planned_
+- **PFA-021** Designing reusable component applications. _Planned_
+- **PFA-022** Avoiding dependency cycles across shared rulesets. _Planned_
+- **PFA-023** Specialisation patterns without copying whole rules. _Planned_
+- **PFA-024** Dynamic class referencing and long-term maintainability. _Planned_
+- **PFA-025** Rule availability and production rollback constraints. _Planned_
+- **PFA-026** Delegated business rules with architectural boundaries. _Planned_
+- **PFA-027** Branch conflicts in high-churn decision tables. _Planned_
+- **PFA-028** Safe customization of locked product extensions. _Planned_
+- **PFA-029** Detecting application stack drift across environments. _Planned_
+- **PFA-030** Upgrading frameworks without breaking implementation rules. _Planned_
+
+<a id="section-03"></a>
+
+## 03. Case architecture and concurrency
+
+- **PFA-031** Modelling multi-party enterprise case hierarchies. _Planned_
+- **PFA-032** Parent-child orchestration across bounded contexts. _Planned_
+- **PFA-033** Case locking under concurrent agent access. _Planned_
+- **PFA-034** Optimistic locking and user conflict recovery. _Planned_
+- **PFA-035** Long-running cases spanning months or years. _Planned_
+- **PFA-036** Active case migration after flow redesign. _Planned_
+- **PFA-037** Cross-case dependencies without circular waits. _Planned_
+- **PFA-038** Parallel approvals and partial completion handling. _Planned_
+- **PFA-039** Re-opening cases without duplicate side effects. _Planned_
+- **PFA-040** Case archival with searchable audit history. _Planned_
+- **PFA-041** Temporary cases versus immediate persistence. _Planned_
+- **PFA-042** High-volume case creation through service endpoints. _Planned_
+- **PFA-043** Bulk case transitions without lock storms. _Planned_
+- **PFA-044** Case attachments and content lifecycle boundaries. _Planned_
+- **PFA-045** Case ownership models across teams and jurisdictions. _Planned_
+
+<a id="section-04"></a>
+
+## 04. Flow engine, SLAs and event orchestration
+
+- **PFA-046** Flow persistence and transaction checkpoints. _Planned_
+- **PFA-047** Assignment SLAs across time zones and holiday calendars. _Planned_
+- **PFA-048** Escalation architecture that avoids notification floods. _Planned_
+- **PFA-049** Wait steps versus externally signalled continuation. _Planned_
+- **PFA-050** Compensation when a downstream action fails. _Planned_
+- **PFA-051** Parallel branches and joining asynchronous results. _Planned_
+- **PFA-052** Routing on dynamic workload rather than fixed groups. _Planned_
+- **PFA-053** Case cancellation while integration is in flight. _Planned_
+- **PFA-054** Timeout budgets across an end-to-end case step. _Planned_
+- **PFA-055** Orchestrating human and robotic assignments together. _Planned_
+- **PFA-056** Recovering stalled flows after an application release. _Planned_
+- **PFA-057** SLA rules and custom timer design trade-offs. _Planned_
+- **PFA-058** Business event ingestion without duplicate resumes. _Planned_
+- **PFA-059** Validation rules at trusted execution boundaries. _Planned_
+- **PFA-060** Workflow exception models for regulated processes. _Planned_
+
+<a id="section-05"></a>
+
+## 05. Data pages, caching and clipboard
+
+- **PFA-061** Parameterized Data Pages at scale and tenant isolation. _Planned_
+- **PFA-062** Thread versus Requestor versus Node data scope. _Planned_
+- **PFA-063** Cache refresh strategies and business freshness contracts. _Planned_
+- **PFA-064** Cache invalidation after external system updates. _Planned_
+- **PFA-065** Handling large parameter cardinality in agent sessions. _Planned_
+- **PFA-066** Limit to a single Data Page and overwritten instances. _Planned_
+- **PFA-067** Chained Data Pages and hidden integration fan-out. _Planned_
+- **PFA-068** Read-only versus editable Data Pages. _Planned_
+- **PFA-069** Report-backed versus connector-backed Data Pages. _Planned_
+- **PFA-070** Designing a business-safe cache key. _Planned_
+- **PFA-071** Avoiding repeated load during complex view rendering. _Planned_
+- **PFA-072** Managing error states on cached external responses. _Planned_
+- **PFA-073** Reference data distribution across multiple nodes. _Planned_
+- **PFA-074** Clipboard growth in deeply nested case models. _Planned_
+- **PFA-075** Caching secure lookups after access revocation. _Planned_
+
+<a id="section-06"></a>
+
+## 06. Persistence, data modelling and search
+
+- **PFA-076** Class-to-table mapping for large operational datasets. _Planned_
+- **PFA-077** Exposed columns and reporting selectivity. _Planned_
+- **PFA-078** Optimising Report Definitions through query plans. _Planned_
+- **PFA-079** Index design for worklists and case search. _Planned_
+- **PFA-080** Embedded page lists versus normalized child records. _Planned_
+- **PFA-081** Large BLOB storage and retrieval trade-offs. _Planned_
+- **PFA-082** Search index consistency in time-critical screens. _Planned_
+- **PFA-083** Batch data migration while active cases continue. _Planned_
+- **PFA-084** Database transactions across case and API boundaries. _Planned_
+- **PFA-085** Dealing with hotspot rows in shared business counters. _Planned_
+- **PFA-086** Reconciliation after partial data import failures. _Planned_
+- **PFA-087** Reporting warehouses versus operational reports. _Planned_
+- **PFA-088** Pagination for million-row data sets. _Planned_
+- **PFA-089** Purging cases without erasing required audit evidence. _Planned_
+- **PFA-090** Managing reference data versioning across releases. _Planned_
+
+<a id="section-07"></a>
+
+## 07. Integration architecture and API contracts
+
+- **PFA-091** Connect REST timeout, retry and idempotency design. _Planned_
+- **PFA-092** Service REST for synchronous case creation. _Planned_
+- **PFA-093** OAuth token refresh and credential rotation. _Planned_
+- **PFA-094** Circuit breaker and bulkhead placement around Pega. _Planned_
+- **PFA-095** API gateway responsibilities versus service rules. _Planned_
+- **PFA-096** End-to-end correlation IDs for distributed diagnostics. _Planned_
+- **PFA-097** REST schema evolution without breaking consumers. _Planned_
+- **PFA-098** Handling asynchronous partner callbacks securely. _Planned_
+- **PFA-099** Integration error taxonomies and business recovery. _Planned_
+- **PFA-100** Controlling fan-out to dozens of downstream services. _Planned_
+- **PFA-101** API rate limits under seasonal transaction peaks. _Planned_
+- **PFA-102** Large payload handling and streaming alternatives. _Planned_
+- **PFA-103** Signed webhooks and replay attack prevention. _Planned_
+- **PFA-104** Transactional outbox options for critical integrations. _Planned_
+- **PFA-105** Preventing sensitive fields from reaching remote logs. _Planned_
+
+<a id="section-08"></a>
+
+## 08. Queue processors and scheduled background work
+
+- **PFA-106** Standard versus Dedicated Queue Processor selection. _Planned_
+- **PFA-107** Queue Processor execution, retry and failure lifecycle. _Planned_
+- **PFA-108** Idempotent consumers for financial transactions. _Planned_
+- **PFA-109** Delayed Queue Processor scheduling semantics. _Planned_
+- **PFA-110** Job Scheduler versus Queue Processor responsibilities. _Planned_
+- **PFA-111** Broken queue remediation and safe manual replay. _Planned_
+- **PFA-112** Processing order versus horizontal throughput. _Planned_
+- **PFA-113** Backlog sizing during upstream traffic spikes. _Planned_
+- **PFA-114** Scaling background processing without API overload. _Planned_
+- **PFA-115** Queue item locking and concurrent case updates. _Planned_
+- **PFA-116** Execution access groups and security context. _Planned_
+- **PFA-117** Commit boundaries before and after enqueueing work. _Planned_
+- **PFA-118** Replacing legacy agents safely. _Planned_
+- **PFA-119** Separating poison-message retries from business retries. _Planned_
+- **PFA-120** Monitoring queue latency against customer-facing SLAs. _Planned_
+
+<a id="section-09"></a>
+
+## 09. Constellation, DX API and experience design
+
+- **PFA-121** Constellation rendering architecture and DX API boundaries. _Planned_
+- **PFA-122** View metadata and server-side business rules. _Planned_
+- **PFA-123** Building extensible Constellation UI components. _Planned_
+- **PFA-124** Traditional UI versus Constellation migration decisions. _Planned_
+- **PFA-125** Building reusable views across case types. _Planned_
+- **PFA-126** Embedding a case experience into an external portal. _Planned_
+- **PFA-127** State refresh when data changes outside the browser. _Planned_
+- **PFA-128** Validation design across UI and server boundaries. _Planned_
+- **PFA-129** Optimizing payload size for large case views. _Planned_
+- **PFA-130** Accessibility architecture for enterprise forms. _Planned_
+- **PFA-131** Routing and navigation across multi-application portals. _Planned_
+- **PFA-132** Custom component upgrade compatibility. _Planned_
+- **PFA-133** Attachment workflows across browser and Pega storage. _Planned_
+- **PFA-134** Testing Constellation views through stable contracts. _Planned_
+- **PFA-135** Deciding when a separate frontend is justified. _Planned_
+
+<a id="section-10"></a>
+
+## 10. Identity, security and data protection
+
+- **PFA-136** SAML federation and access group assignment. _Planned_
+- **PFA-137** OpenID Connect architecture for enterprise SSO. _Planned_
+- **PFA-138** Access Roles versus Access Control Policies. _Planned_
+- **PFA-139** Attribute-based authorization for customer records. _Planned_
+- **PFA-140** Securing service packages independently of case UI. _Planned_
+- **PFA-141** Multi-tenant data partitioning and cache isolation. _Planned_
+- **PFA-142** Controlling privileges for background processing. _Planned_
+- **PFA-143** Sensitive field encryption and key management. _Planned_
+- **PFA-144** Secrets management for integration connectors. _Planned_
+- **PFA-145** Authorization after a user's access changes. _Planned_
+- **PFA-146** Attachment access controls and malware checks. _Planned_
+- **PFA-147** Handling cross-border data residency constraints. _Planned_
+- **PFA-148** Reducing personal data in trace and diagnostic logs. _Planned_
+- **PFA-149** Privilege escalation pathways through custom activities. _Planned_
+- **PFA-150** Security regression testing during application upgrades. _Planned_
+
+<a id="section-11"></a>
+
+## 11. Production observability and incident diagnosis
+
+- **PFA-151** Reading PAL results to locate rule execution cost. _Planned_
+- **PFA-152** Using Tracer without changing business behaviour. _Planned_
+- **PFA-153** Clipboard inspection for wrong-instance failures. _Planned_
+- **PFA-154** PDC event triage and evidence-driven diagnosis. _Planned_
+- **PFA-155** Correlating service requests with background work. _Planned_
+- **PFA-156** Finding root causes of intermittent case lock failures. _Planned_
+- **PFA-157** Investigating queue processor items in broken status. _Planned_
+- **PFA-158** Distinguishing API timeout from slow rule execution. _Planned_
+- **PFA-159** Detecting repeated data page loads. _Planned_
+- **PFA-160** Diagnosing memory pressure in long requestor sessions. _Planned_
+- **PFA-161** Distributed logging design across platform nodes. _Planned_
+- **PFA-162** Safe production instrumentation of confidential data. _Planned_
+- **PFA-163** Incident analysis after a ruleset deployment. _Planned_
+- **PFA-164** Creating a support runbook for missing case updates. _Planned_
+- **PFA-165** Defining useful alerts for background backlog growth. _Planned_
+
+<a id="section-12"></a>
+
+## 12. Performance engineering and scalability
+
+- **PFA-166** Defining repeatable Pega load testing scenarios. _Planned_
+- **PFA-167** Latency budgets across case views and external APIs. _Planned_
+- **PFA-168** Hot path optimisation of data transforms. _Planned_
+- **PFA-169** Thread contention during mass case updates. _Planned_
+- **PFA-170** Avoiding N+1 connector calls from parameterized sources. _Planned_
+- **PFA-171** Scaling workers for bursty Queue Processor demand. _Planned_
+- **PFA-172** Response time variation after cache refresh. _Planned_
+- **PFA-173** Database performance impact of indexing decisions. _Planned_
+- **PFA-174** Sizing attachment processing capacity. _Planned_
+- **PFA-175** Garbage collection pauses and interactive response time. _Planned_
+- **PFA-176** Measuring cold-start versus steady-state experience. _Planned_
+- **PFA-177** Back pressure when dependencies cannot keep up. _Planned_
+- **PFA-178** Quantifying the cost of unnecessary clipboard pages. _Planned_
+- **PFA-179** Protecting high priority transactions from batch workloads. _Planned_
+- **PFA-180** Performance regression gates before Pega upgrade. _Planned_
+
+<a id="section-13"></a>
+
+## 13. Delivery pipelines and safe upgrades
+
+- **PFA-181** Deployment Manager pipeline topology and control gates. _Planned_
+- **PFA-182** Parallel branch development in shared rule applications. _Planned_
+- **PFA-183** Packaging rules and data with product definitions. _Planned_
+- **PFA-184** Schema changes during rolling deployments. _Planned_
+- **PFA-185** Upgrade preparation for retired features. _Planned_
+- **PFA-186** Feature toggles for controlled business rollout. _Planned_
+- **PFA-187** Rollback when active cases use newly changed rules. _Planned_
+- **PFA-188** Releasing queue processor changes safely. _Planned_
+- **PFA-189** Promoting endpoint configuration across environments. _Planned_
+- **PFA-190** Guardrail exceptions as architectural debt signals. _Planned_
+- **PFA-191** Managing hotfixes without environments drifting. _Planned_
+- **PFA-192** Testing migration of long-running open cases. _Planned_
+- **PFA-193** Deployment ordering across dependent Pega components. _Planned_
+- **PFA-194** Production cutover for a new case platform. _Planned_
+- **PFA-195** Release evidence and audit requirements. _Planned_
+
+<a id="section-14"></a>
+
+## 14. Verification, testing and quality engineering
+
+- **PFA-196** PegaUnit test strategy for reusable rule components. _Planned_
+- **PFA-197** Concurrency tests for case locking and optimistic updates. _Planned_
+- **PFA-198** Contract tests for service REST integrations. _Planned_
+- **PFA-199** Failure injection for unavailable downstream APIs. _Planned_
+- **PFA-200** Testing retry and duplicate message processing. _Planned_
+- **PFA-201** Data page isolation tests across user identities. _Planned_
+- **PFA-202** Load tests with diverse real-world case shapes. _Planned_
+- **PFA-203** Testing access revocation in an active requestor. _Planned_
+- **PFA-204** Comparing old and new rules during modernization. _Planned_
+- **PFA-205** Synthetic production monitoring of high-value journeys. _Planned_
+- **PFA-206** Validating long-running flow resumptions after release. _Planned_
+- **PFA-207** Regression testing complex decision tables. _Planned_
+- **PFA-208** Testing attachment security and size limits. _Planned_
+- **PFA-209** End-to-end correlation for failed test journeys. _Planned_
+- **PFA-210** Acceptance criteria for architecture quality attributes. _Planned_
+
+<a id="section-15"></a>
+
+## 15. Customer Decision Hub and real-time decisioning
+
+- **PFA-211** Next Best Action request and arbitration pipeline. _Planned_
+- **PFA-212** Customer Decision Hub channel integration patterns. _Planned_
+- **PFA-213** Action eligibility and suitability design. _Planned_
+- **PFA-214** Contact policy enforcement in concurrent channels. _Planned_
+- **PFA-215** Interaction history data flow and persistence. _Planned_
+- **PFA-216** Adaptive model feedback and delayed outcomes. _Planned_
+- **PFA-217** Champion challenger strategies in decisioning. _Planned_
+- **PFA-218** Treatment design across web, agent and outbound channels. _Planned_
+- **PFA-219** Real-time container integration resilience. _Planned_
+- **PFA-220** Strategy execution latency budgets. _Planned_
+- **PFA-221** Proposition data lifecycle and ownership. _Planned_
+- **PFA-222** Data quality failure modes in real-time decisions. _Planned_
+- **PFA-223** Business-managed decisions with approval controls. _Planned_
+- **PFA-224** Auditability of automated customer recommendations. _Planned_
+- **PFA-225** Designing decision fallback when models are unavailable. _Planned_
+
+<a id="section-16"></a>
+
+## 16. GenAI and intelligent automation
+
+- **PFA-226** Pega GenAI architecture and enterprise data boundaries. _Planned_
+- **PFA-227** GenAI-assisted case summary with sensitive data controls. _Planned_
+- **PFA-228** Prompt injection threats in case attachments. _Planned_
+- **PFA-229** Human approval for AI-generated recommendations. _Planned_
+- **PFA-230** Grounding strategies for case-specific knowledge. _Planned_
+- **PFA-231** Agentic process design versus deterministic flows. _Planned_
+- **PFA-232** Safe tool invocation by autonomous workflows. _Planned_
+- **PFA-233** Retrieval architecture for internal procedural knowledge. _Planned_
+- **PFA-234** Evaluating AI output with traceable test sets. _Planned_
+- **PFA-235** LLM request cost and latency budgets. _Planned_
+- **PFA-236** Fallback when a model provider is unavailable. _Planned_
+- **PFA-237** Governance of AI-generated rule changes. _Planned_
+- **PFA-238** Versioning AI prompts alongside case rules. _Planned_
+- **PFA-239** Auditing automated decisions and human overrides. _Planned_
+- **PFA-240** Designing safe escalation from AI assistant to agent. _Planned_
+
+<a id="section-17"></a>
+
+## 17. Process Fabric, external work and robotics
+
+- **PFA-241** Pega Process Fabric architecture across systems. _Planned_
+- **PFA-242** Federated worklist design and ownership boundaries. _Planned_
+- **PFA-243** External assignment identity and deep linking. _Planned_
+- **PFA-244** Cross-application work discovery and permissions. _Planned_
+- **PFA-245** Routing work from different systems into one portal. _Planned_
+- **PFA-246** Robotic Desktop Automation deployment options. _Planned_
+- **PFA-247** Robotic runtime identity and unattended execution. _Planned_
+- **PFA-248** UI automation brittleness and recovery strategies. _Planned_
+- **PFA-249** When to replace RPA with a stable API. _Planned_
+- **PFA-250** Human-in-the-loop correction of robotic results. _Planned_
+- **PFA-251** Cross-system work completion acknowledgement. _Planned_
+- **PFA-252** Monitoring robotic failure at scale. _Planned_
+- **PFA-253** Coordinating Pega cases with external workflow engines. _Planned_
+- **PFA-254** Avoiding duplicate assignments during synchronization. _Planned_
+- **PFA-255** Security design for shared operator work surfaces. _Planned_
+
+<a id="section-18"></a>
+
+## 18. Modernization, governance and architecture decisions
+
+- **PFA-256** Decomposing monolithic Pega applications safely. _Planned_
+- **PFA-257** Application framework rationalization after acquisitions. _Planned_
+- **PFA-258** Transitioning from activity-heavy legacy designs. _Planned_
+- **PFA-259** Building an enterprise pattern library for Pega. _Planned_
+- **PFA-260** Governance of shared rules across product teams. _Planned_
+- **PFA-261** Cost modelling for platform service consumption. _Planned_
+- **PFA-262** Identifying boundaries for non-Pega services. _Planned_
+- **PFA-263** Migration from Traditional UI to Constellation. _Planned_
+- **PFA-264** Choosing system of record for case data. _Planned_
+- **PFA-265** Designing integration standards across portfolios. _Planned_
+- **PFA-266** Evaluating when a reusable component adds more cost. _Planned_
+- **PFA-267** Operating model for enterprise Pega platform teams. _Planned_
+- **PFA-268** Architecture decision records for platform-specific choices. _Planned_
+- **PFA-269** Creating a deprecation roadmap for legacy rules. _Planned_
+- **PFA-270** Measuring architectural fitness during quarterly releases. _Planned_
+
+## Publishing policy
+
+Status values: **Planned**, **Researching**, **Draft**, **Technical review**, **Published**, **Lab-verified**. A committed article is not described as lab-verified without recorded test evidence.
+
+Historical Git timestamps are selected by the publishing workflow. The separate `docs/commit-date-register.tsv` records when content actually entered the repository. Never infer an article's age from its Git timestamp alone.
