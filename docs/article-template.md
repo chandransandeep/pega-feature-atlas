@@ -1,34 +1,40 @@
 ---
 layout: default
-title: How we write the articles
+title: Architecture article standard
 ---
 
-# Article template — LinkedIn-style practical walkthrough
+# Editorial standard: practical Pega architecture deep dives
 
-Every post should teach the reader to build, test and troubleshoot a *specific result* in Pega.
+**Audience:** SSA, LSA, enterprise architects and production platform engineers.
 
-## Required sections
-1. **The scenario** — name a specific, relatable failure or requirement
-2. **Expected outcome** — what will be visibly different once implemented
-3. **Example application** — classes, sample data, case type and rule inventory
-4. **Step-by-step rule configuration** — actual settings, properties, parameters and expressions
-5. **Test it** — inputs, expected outputs and tools to inspect
-6. **Break it on purpose** — a failure reproduction and the root-cause checklist
-7. **Production choices** — performance, security, errors, scaling and alternative solutions
-8. **Version notes and official references**
+The test for every article: *Would an experienced architect learn a consequential Pega-specific design insight, or could this be found in a beginner help page?*
 
-## Screenshots in every *verified* article
-- Rule form with relevant setting clearly highlighted
-- Sample data / parameter values (fully anonymised)
-- Successful Clipboard/Tracer/PAL/queue evidence
-- Failure output and corrected output
-- Add alt-text and captions; keep one image per step when useful
+## Required outline
 
-**Never generate screenshots that pretend to be real Pega screens.** Until a hands-on Pega environment is available, articles must be labeled **Research-backed recipe · Lab not yet verified** and use only diagrams, examples and test plans.
+1. **The enterprise scenario** — workload, system boundaries, functional and NFR constraints
+2. **The architectural question** — decision to make, not definition to memorise
+3. **How the Pega feature behaves** — rule resolution, scope, transaction context, runtime/storage, dependencies as relevant, and version-specific caveats
+4. **Architecture options** — practical competing patterns, diagrams and decision matrix
+5. **Recommended design and why** — class/rule inventory, concrete configuration decisions and explicit assumptions
+6. **Design failure modes** — demonstrate stale state, race conditions, security boundaries, partial failure, replays, bottlenecks or relevant issues
+7. **Capacity and performance model** — state assumptions and equations; no fabricated measurement
+8. **Production observability** — Pega-specific tools and signals, plus what each would prove
+9. **Validation plan** — repeatable experiments, expected outcomes and acceptance criteria
+10. **Upgrade/Constellation/version applicability**, official primary references and unresolved questions
 
-## Editorial rules
-- Don't merely define the feature — solve a problem.
-- No unsupported claims such as “tested” or “improves by 70%”.
-- Explain exact behaviour and version-specific differences where validated; mark uncertainties.
-- No client IP, confidential data or copied third-party screenshots.
-- Reference the official Pega source underlying important technical behaviour.
+## Evidence standard
+
+- Mark **design hypothesis**, **documentation-backed behaviour**, **test expectation** and **actually measured observation** separately.
+- Cite Pega Platform documentation for feature behaviour; do not copy protected material.
+- Do not call a conceptual diagram a runtime trace.
+- No invented Pega screenshots, fake metrics, client data, code that was never tested, or unqualified vendor-version statements.
+- Once access to a sandbox is available, add actual test versions, captures of relevant evidence, constraints and outcomes.
+
+## Proposed topic titles
+
+- **Parameterized Data Pages at scale: cardinality, scope and safe cache isolation**
+- **Queue Processor ≠ exactly-once business processing: designing idempotent downstream writes**
+- **Case locking under concurrency: pessimistic vs optimistic approaches**
+- **Connect REST in production: timeouts, circuit breaking, retries and correlation**
+- **Constellation DX API boundaries: designing a UI-independent business capability**
+- **Rule resolution in multi-application frameworks: override risk and upgrade safety**
