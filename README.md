@@ -20,6 +20,7 @@ Independent, example-driven studies about how Pega features behave, how to desig
 
 ## Published articles by subject
 
+<!-- BEGIN AUTO ARTICLE INDEX -->
 The list below contains **38 catalogue articles** verified against the topic index on 20 October 2026, plus the two introductory studies above. Further publications are added to the [live catalogue](docs/feature-inventory.md). References marked lab-pending contain a proposed architecture and test plan, not an executed Pega lab.
 
 ### Platform runtime and distributed deployment
@@ -113,6 +114,7 @@ The list below contains **38 catalogue articles** verified against the topic ind
 
 - [PFA-257: Application framework rationalization after acquisitions](docs/articles/application-architecture/PFA-257-modular-applications-instead-of-framework-sprawl.md)
 - [PFA-263: Migration from Traditional UI to Constellation](docs/articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)
+<!-- END AUTO ARTICLE INDEX -->
 
 ## Article standard
 
