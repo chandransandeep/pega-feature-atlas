@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Pega Architecture #01 — Data Pages at Scale"
+title: "Pega Architecture #01: Data Pages at Scale"
 ---
 
 # Data Pages at Scale: Caching, Tenant Isolation and the Freshness Trap
@@ -45,7 +45,7 @@ flowchart LR
   API --> DB
 ```
 
-**Architectural constraint:** A Node-scoped page is shared within *one Pega node*; it is not, by definition, one cluster-wide object. Thread- and Requestor-scoped pages also follow different visibility boundaries. Do not design a cluster-wide consistency contract by assuming that all nodes share the same in-memory cache. [Source: Pega Academy — Data Pages](https://academy.pega.com/topic/data-pages/v6).
+**Architectural constraint:** A Node-scoped page is shared within *one Pega node*; it is not, by definition, one cluster-wide object. Thread- and Requestor-scoped pages also follow different visibility boundaries. Do not design a cluster-wide consistency contract by assuming that all nodes share the same in-memory cache. [Source: Pega Academy: Data Pages](https://academy.pega.com/topic/data-pages/v6).
 
 ### What is the cache key?
 
@@ -87,7 +87,7 @@ A possible naming inventory:
 | `ValidateCustomerEntitlement` | Server-side access validation outside cache-hit assumptions |
 | `GetOrderDetails` service | Fresh read before an irreversible write, where required |
 
-**Illustrative pseudo-reference — not a verified Pega expression:**
+**Illustrative pseudo-reference: not a verified Pega expression:**
 
 ```text
 D_CustomerOrderSummaries[
@@ -139,7 +139,7 @@ Examples:
 - A status badge can tolerate 60 seconds of stale data, but a refund eligibility check may require a new server-side read.
 - A short refresh interval can increase API requests enough to overload the dependency during peak traffic.
 - A Node-scoped reference page may have different refresh times on nodes A and B; if users switch nodes, displayed values may differ for a period.
-- **Reload once per interaction** has documented scope restrictions and is not a universal freshness solution. [Source: Pega Academy — Refresh strategies](https://academy.pega.com/topic/refresh-strategies-data-pages/v4).
+- **Reload once per interaction** has documented scope restrictions and is not a universal freshness solution. [Source: Pega Academy: Refresh strategies](https://academy.pega.com/topic/refresh-strategies-data-pages/v4).
 
 ### Failure scenario: entitlement changed while cache remains loaded
 
@@ -198,9 +198,9 @@ No screenshots or performance figures in this article are presented as observed 
 
 ## Primary references
 
-- [Pega Academy — Data Pages / scope](https://academy.pega.com/topic/data-pages/v6)
-- [Pega Academy — Refresh strategies for Data Pages](https://academy.pega.com/topic/refresh-strategies-data-pages/v4)
-- [Pega Academy — Assessing application performance](https://academy.pega.com/challenge/assessing-application-performance/v10)
+- [Pega Academy: Data Pages / scope](https://academy.pega.com/topic/data-pages/v6)
+- [Pega Academy: Refresh strategies for Data Pages](https://academy.pega.com/topic/refresh-strategies-data-pages/v4)
+- [Pega Academy: Assessing application performance](https://academy.pega.com/challenge/assessing-application-performance/v10)
 
 ---
 
