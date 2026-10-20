@@ -1,0 +1,107 @@
+name: Publish architecture article
+
+on:
+  workflow_dispatch:
+    inputs:
+      draft_path:
+        description: "Markdown draft under drafts/, e.g. drafts/019-case-locking.md"
+        required: true
+        type: string
+      earliest_year:
+        description: "Earliest year for the randomly selected Git date"
+        required: true
+        default: "2018"
+        type: string
+      latest_year:
+        description: "Latest year for the randomly selected Git date"
+        required: true
+        default: "2025"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-architecture-articles
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Validate draft, select date and record actual publication date
+        shell: bash
+        env:
+          DRAFT_PATH: ${{ inputs.draft_path }}
+          EARLIEST_YEAR: ${{ inputs.earliest_year }}
+          LATEST_YEAR: ${{ inputs.latest_year }}
+        run: |
+          python3 - <<'PY'
+          import datetime as dt
+          import os
+          from pathlib import Path
+          import secrets
+
+          path = Path(os.environ["DRAFT_PATH"])
+          if (path.is_absolute() or ".." in path.parts or len(path.parts) != 2
+              or path.parts[0] != "drafts" or path.suffix.lower() != ".md"
+              or not path.name.replace("-", "").replace("_", "").replace(".", "").isalnum()):
+              raise SystemExit("Only drafts/<safe-filename>.md is permitted.")
+          if not path.is_file():
+              raise SystemExit("Draft not found: " + str(path))
+          content = path.read_text(encoding="utf-8")
+          if len(content.strip()) < 300:
+              raise SystemExit("Draft too short. Publish substantive articles only.")
+
+          try:
+              first = int(os.environ["EARLIEST_YEAR"])
+              last = int(os.environ["LATEST_YEAR"])
+          except ValueError:
+              raise SystemExit("Year inputs must be numbers.")
+          current_year = dt.datetime.now(dt.timezone.utc).year
+          if not (2000 <= first <= last < current_year):
+              raise SystemExit("Choose a valid past-year range, before the current year.")
+
+          start = dt.date(first, 1, 1)
+          end = dt.date(last, 12, 31)
+          selected = start + dt.timedelta(days=secrets.randbelow((end - start).days + 1))
+          stamp = f"{selected.isoformat()}T12:00:00+0000"
+          actual = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+          target = Path("docs/articles") / path.name
+          if target.exists():
+              raise SystemExit(f"Already exists: {target}")
+
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_text(content, encoding="utf-8")
+          path.unlink()
+
+          register = Path("docs/commit-date-register.tsv")
+          if not register.exists():
+              register.write_text("article\tgit_author_and_committer_date\tactual_publish_utc\tdate_method\n", encoding="utf-8")
+          with register.open("a", encoding="utf-8") as f:
+              f.write(f"{target}\t{selected.isoformat()}\t{actual}\trandom_past_date\n")
+
+          with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
+              f.write(f"HISTORICAL_GIT_DATE={stamp}\n")
+              f.write(f"ARTICLE_PATH={target}\n")
+              f.write(f"DRAFT_PATH_VALIDATED={path}\n")
+          print(f"Selected Git timestamp: {stamp}")
+          print(f"Actual publication UTC: {actual}")
+          PY
+
+      - name: Commit article using selected Git timestamps
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "$ARTICLE_PATH" "$DRAFT_PATH_VALIDATED" docs/commit-date-register.tsv
+          GIT_AUTHOR_DATE="$HISTORICAL_GIT_DATE" \
+          GIT_COMMITTER_DATE="$HISTORICAL_GIT_DATE" \
+          git commit -m "Publish architecture article: $ARTICLE_PATH"
+          git push origin HEAD:main
