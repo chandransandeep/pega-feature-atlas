@@ -1,31 +1,129 @@
 # Pega Feature Atlas
 
-**Architectural patterns, internals, trade-offs and production engineering for Pega Platform.**
+**Technical architecture and implementation guidance for Pega Senior System Architects, Lead System Architects and enterprise engineers.**
 
-This is an independent, **Senior / Lead System Architect-level** technical publication, inspired by deep-dive engineering posts shared by practitioners on LinkedIn.
+Independent, example-driven studies about how Pega features behave, how to design them at scale, and how to diagnose real system failures. Not a product glossary, Pega Academy replacement, or basic Dev Studio click-through site.
 
-**Not:** beginner tutorials, UI click guides, product feature definitions, certification prep, or an imitation of Pega Community.
+## Start here
 
-**Yes:** architecture decisions backed by Pega-specific configuration, failure modes, diagrams, quantitative reasoning, production diagnostics, security and scalability considerations.
+- **[Published architecture articles](docs/articles/index.md)**: browse articles and technical studies.
+- **[270-topic architecture catalogue](docs/feature-inventory.md)**: all 18 subject areas, published entries and future articles.
+- **[GitHub Pages site source](docs/index.md)**: website navigation; [site address](https://chandransandeep.github.io/pega-feature-atlas/) once Pages is enabled.
+- [Editorial standard and evidence rules](docs/article-template.md)
+- [Publication process and dating transparency](docs/publication-process.md)
+- [Actual publication timestamp register](docs/commit-date-register.tsv)
 
-## Read
-- [Architecture study #01: Designing Data Page caching for customer-scoped data](docs/articles/01-data-page-customer-lookup.md)
-- [Architectural topic roadmap](docs/feature-inventory.md)
-- [Publication standard and article outline](docs/article-template.md)
+## Featured deep dives
 
-## Article contract
-Each article covers:
-1. A real **enterprise problem and architecture constraints**
-2. **What Pega actually does** underneath the feature (and what is version-dependent)
-3. At least **two competing design approaches**, when applicable
-4. A **reference architecture** with class/rule naming and data/control flow
-5. The **design decision**: why one pattern wins and in which conditions it does *not*
-6. **Failure, security, scale and observability** scenarios
-7. Reproducible **architect-level verification experiments** and official references
+- [Pega Data Page caching: parameters, scope, freshness and tenant isolation](docs/articles/01-data-page-customer-lookup.md)
+- [Queue Processor architecture: idempotency, retries and external side effects](docs/articles/002-queue-processors-idempotent-integration.md)
 
-When no Pega sandbox execution exists, tests are labeled as **proposed validation**, never portrayed as measured results or real screenshots. Real project information must be sanitized.
+## Published articles by subject
 
-## Website
-Source files under `docs/` support GitHub Pages. When ready, configure **Settings → Pages → Deploy from a branch → main → /docs**.
+The list below contains **38 catalogue articles** verified against the topic index on 20 October 2026, plus the two introductory studies above. Further publications are added to the [live catalogue](docs/feature-inventory.md). References marked lab-pending contain a proposed architecture and test plan, not an executed Pega lab.
 
-**Independent material. Not affiliated with Pegasystems.**
+### Platform runtime and distributed deployment
+
+- [PFA-001: Request lifecycle from HTTP entry point to rule execution](docs/articles/platform-runtime/pfa-001-request-lifecycle-http-to-rule.md)
+- [PFA-008: Shared stream service dependencies and their failure modes](docs/articles/platform-runtime/pfa-008-stream-service-and-background-recovery.md)
+
+### Rule resolution and application composition
+
+- [PFA-016: Rule resolution precedence across inherited classes](docs/articles/rule-resolution/PFA-016-rule-resolution-framework-overrides.md)
+- [PFA-019: Ruleset versioning for parallel delivery teams](docs/articles/rule-resolution/pfa-019-parallel-team-ruleset-release-contracts.md)
+
+### Case architecture and concurrency
+
+- [PFA-032: Parent-child orchestration across bounded contexts](docs/articles/case-management/PFA-032-parent-child-multi-team-dependencies.md)
+- [PFA-033: Case locking under concurrent agent access](docs/articles/case-management/PFA-033-concurrent-case-locking.md)
+- [PFA-035: Long-running cases spanning months or years](docs/articles/case-management/pfa-035-long-running-case-release-compatibility.md)
+
+### Flow engine, SLAs and event orchestration
+
+- [PFA-047: Assignment SLAs across time zones and holiday calendars](docs/articles/flow-sla/pfa-047-business-calendar-sla-timezones.md)
+- [PFA-050: Compensation when a downstream action fails](docs/articles/flow-sla/pfa-050-compensation-after-partial-integration.md)
+
+### Data pages, caching and clipboard
+
+- [PFA-067: Chained Data Pages and hidden integration fan-out](docs/articles/data-pages/pfa-067-chained-data-pages-connector-fanout.md)
+
+### Persistence, data modelling and search
+
+- [PFA-078: Optimising Report Definitions through query plans](docs/articles/persistence/pfa-078-report-definition-query-plan-tuning.md)
+- [PFA-079: Index design for worklists and case search](docs/articles/persistence/pfa-079-index-design-worklists-case-search.md)
+
+### Integration architecture and API contracts
+
+- [PFA-091: Connect REST timeout, retry and idempotency design](docs/articles/integrations/PFA-091-connect-rest-timeouts-and-retries.md)
+- [PFA-093: OAuth token refresh and credential rotation](docs/articles/integrations/pfa-093-oauth-credentials-rotation-and-cache.md)
+- [PFA-098: Handling asynchronous partner callbacks securely](docs/articles/integrations/pfa-098-asynchronous-callback-version-correlation.md)
+
+### Queue processors and scheduled background work
+
+- [PFA-107: Queue Processor execution, retry and failure lifecycle](docs/articles/background-processing/pfa-107-queue-processor-error-classification.md)
+- [PFA-110: Job Scheduler versus Queue Processor responsibilities](docs/articles/background-processing/PFA-110-job-schedulers-versus-queue-processors.md)
+
+### Constellation, DX API and experience design
+
+- [PFA-121: Constellation rendering architecture and DX API boundaries](docs/articles/constellation/PFA-121-dx-api-view-boundaries.md)
+- [PFA-123: Building extensible Constellation UI components](docs/articles/constellation/pfa-123-supported-dx-component-upgrade-design.md)
+- [PFA-125: Building reusable views across case types](docs/articles/constellation/pfa-125-reusable-views-constellation-metadata.md)
+
+### Identity, security and data protection
+
+- [PFA-136: SAML federation and access group assignment](docs/articles/security/pfa-136-saml-federation-access-group-mapping.md)
+- [PFA-138: Access Roles versus Access Control Policies](docs/articles/security/PFA-138-rbac-abac-customer-isolation.md)
+- [PFA-140: Securing service packages independently of case UI](docs/articles/security/pfa-140-service-package-api-security.md)
+
+### Production observability and incident diagnosis
+
+- [PFA-151: Reading PAL results to locate rule execution cost](docs/articles/observability/PFA-151-pal-latency-attribution.md)
+- [PFA-154: PDC event triage and evidence-driven diagnosis](docs/articles/observability/pfa-154-pdc-evidence-led-incident-diagnosis.md)
+
+### Performance engineering and scalability
+
+- [PFA-166: Defining repeatable Pega load testing scenarios](docs/articles/performance/pfa-166-repeatable-case-load-test-design.md)
+- [PFA-170: Avoiding N+1 connector calls from parameterized sources](docs/articles/performance/pfa-170-parameterized-data-pages-n-plus-one.md)
+
+### Delivery pipelines and safe upgrades
+
+- [PFA-181: Deployment Manager pipeline topology and control gates](docs/articles/devops/PFA-181-deployment-manager-release-gates.md)
+- [PFA-184: Schema changes during rolling deployments](docs/articles/devops/pfa-184-rolling-deployment-schema-compatibility.md)
+
+### Verification, testing and quality engineering
+
+- [PFA-196: PegaUnit test strategy for reusable rule components](docs/articles/testing/pfa-196-pegaunit-shared-rule-contract-testing.md)
+- [PFA-198: Contract tests for service REST integrations](docs/articles/testing/pfa-198-rest-service-consumer-contract-testing.md)
+
+### Customer Decision Hub and real-time decisioning
+
+- [PFA-211: Next Best Action request and arbitration pipeline](docs/articles/decisioning/PFA-211-cdh-decisioning-arbitration.md)
+- [PFA-214: Contact policy enforcement in concurrent channels](docs/articles/decisioning/pfa-214-cross-channel-contact-policy-consistency.md)
+
+### GenAI and intelligent automation
+
+- [PFA-226: Pega GenAI architecture and enterprise data boundaries](docs/articles/genai/PFA-226-genai-control-plane-data-boundaries.md)
+- [PFA-228: Prompt injection threats in case attachments](docs/articles/genai/pfa-228-prompt-injection-case-attachment-boundaries.md)
+
+### Process Fabric, external work and robotics
+
+- [PFA-241: Pega Process Fabric architecture across systems](docs/articles/process-fabric/pfa-241-process-fabric-federated-worklist.md)
+
+### Modernization, governance and architecture decisions
+
+- [PFA-257: Application framework rationalization after acquisitions](docs/articles/application-architecture/PFA-257-modular-applications-instead-of-framework-sprawl.md)
+- [PFA-263: Migration from Traditional UI to Constellation](docs/articles/modernization/pfa-263-traditional-ui-to-constellation-transition.md)
+
+## Article standard
+
+Every substantive article aims to cover a concrete enterprise requirement or failure, relevant Pega rule types and runtime boundaries, an architecture diagram, implementation options, security and performance implications, operational failure analysis, and a reproducible verification matrix.
+
+Content must be checked for the actual Pega release and execution environment. **Hypothetical diagrams, calculations and acceptance criteria are explicitly labelled.** No invented screenshots, measured results, or client-confidential examples.
+
+## Contributing and publishing
+
+New articles begin in `drafts/`. The [GitHub publishing workflow](.github/workflows/publish-article.yml) moves approved drafts into `docs/articles/`, updates the catalogue and records when they entered this repository. Git author/committer dates can be set to historical dates for repository organisation; those dates **must not be interpreted as the original publication date**. Use `docs/commit-date-register.tsv` for real publication timestamps.
+
+To publish the website, enable **Settings > Pages > Deploy from a branch > main > /docs**.
+
+**Independent community project. Not affiliated with Pegasystems. Pega product names belong to their respective owners.**
