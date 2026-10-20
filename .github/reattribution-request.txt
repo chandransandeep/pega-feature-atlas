@@ -1,4 +1,0 @@
-One-time owner attribution migration request, 2026-10-20.
-Scope: existing bot-authored Pega article publication commits only.
-Preserve original Git timestamps, messages, and files.
-Prepare a review branch and a backup branch. Do not overwrite main in this workflow.
