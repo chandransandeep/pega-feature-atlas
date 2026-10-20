@@ -1,142 +1,207 @@
 ---
 layout: default
-title: "Hands-on #01 — Parameterized Data Pages"
+title: "Pega Architecture #01 — Data Pages at Scale"
 ---
 
-# Parameterized Data Pages: why is customer A seeing customer B's orders?
+# Data Pages at Scale: Caching, Tenant Isolation and the Freshness Trap
 
-**Feature:** Data Page, Report Definition, parameters, Clipboard  
-**Scenario:** Customer-specific order lookup in a service application  
-**Status:** Research-backed recipe — **NOT yet run in a Pega lab**  
-**Estimated hands-on time:** 25–40 minutes after you have a demo application and test data  
-**Applies to:** General Pega Platform data page concepts; exact Dev Studio labels and UI setup should be checked against your installed version.
+**For:** Senior / Lead System Architects  
+**Pattern:** Request-context-aware data caching and freshness control  
+**Pega features:** Parameterized Data Pages, scope, refresh strategies, Report Definition / Connect REST sources, Clipboard, PAL  
+**Status:** Documentation-backed architecture analysis; **not yet verified in a running Pega environment**  
+**Applicability:** General Pega Platform concepts. Verify settings and restrictions against the release and deployment topology you operate.
 
-## 1. The real problem
+> **Architecture decision:** Where should a customer-specific data lookup live when the business needs good response times, strong isolation, and near-real-time changes across a horizontally scaled Pega application?
 
-A customer service agent opens an order lookup. They select customer **C1001**, then **C2002**. The application must show only the selected customer's orders. A non-parameterized list or a data page reference with a missing parameter could show an unfiltered list. A badly chosen load management strategy might replace an instance that another component expected to reuse.
+## 1. Enterprise scenario: fast order lookup under load
 
-**Desired behaviour:** A query for C1001 returns two C1001 orders; a query for C2002 returns only the C2002 order. Switching back returns the correct data.
+Consider a **fictional** customer service application:
 
-## 2. The demo we're building
+- 4,000 active agents at peak.
+- Each agent handles different customer cases during a shift.
+- The UI retrieves orders from an external **Order API**, where inventory/order status can change at any time.
+- The data contains customer information that must never leak across agents or tenants.
+- The UI has a target response time of **800 ms at p95** (this is a hypothetical *requirement*, not a measured result).
+- The enterprise has a stated freshness objective of **60 seconds for status labels**; price/payment confirmation requires revalidation at write time.
 
-Use **fictional** data:
+The dangerous architecture is not simply an incorrect property mapping. It is a cache that *works* in one test session but behaves differently with **different requestors, tenants, parameter keys, refresh policies and app nodes**.
 
-| OrderID | CustomerID | Status |
-|---|---|---|
-| ORD-100 | C1001 | Open |
-| ORD-101 | C1001 | Shipped |
-| ORD-200 | C2002 | Open |
+## 2. Runtime design: the boundaries that matter
 
-| Pega item | Example name / value |
+```mermaid
+flowchart LR
+  UI["Customer Service UI / case"]
+  AUTH["Authorization + customer entitlement"]
+  DP["D_CustomerOrders[CustomerKey]"]
+  A["Pega node A\nThread / Requestor / Node cache"]
+  B["Pega node B\nThread / Requestor / Node cache"]
+  API["Orders API"]
+  DB[("Order system of record")]
+  UI --> AUTH --> DP
+  DP --> A
+  DP --> B
+  A -->|cache miss / refresh| API
+  B -->|cache miss / refresh| API
+  API --> DB
+```
+
+**Architectural constraint:** A Node-scoped page is shared within *one Pega node*; it is not, by definition, one cluster-wide object. Thread- and Requestor-scoped pages also follow different visibility boundaries. Do not design a cluster-wide consistency contract by assuming that all nodes share the same in-memory cache. [Source: Pega Academy — Data Pages](https://academy.pega.com/topic/data-pages/v6).
+
+### What is the cache key?
+
+Think in terms of the *effective business identity* of the data:
+
+```text
+{TenantID, CustomerID, EntitlementContext, Locale?}
+```
+
+**Design recommendation, not a statement of Pega's automatic cache-key implementation:** these context dimensions must be represented by authorization checks, data partitioning, parameterization, or isolation boundaries wherever they affect the result. Passing just `CustomerID` may be an insufficient *business* cache key in a multi-tenant system.
+
+**Security principle:** Cache scope alone is not an authorization mechanism. Always enforce access rights for the requested customer and API/data source, including on reused cached results.
+
+## 3. Compare the viable architectures
+
+| Design | Architectural strength | Main risk | When it fits |
+|---|---|---|---|
+| **Thread scoped, parameterized** | Isolates per-thread/case context naturally | Repeated fetches and many copies across open case threads | Case-specific or sensitive state with short reuse |
+| **Requestor scoped, parameterized** | Reuses results across cases in a session | Retains many distinct customer keys and data beyond original workflow | Repeated agent lookups under firm isolation/freshness controls |
+| **Node scoped** | Shares stable non-personal reference data across requestors on a node | Shared visibility, invalidation and multi-node divergence | Common, low-sensitivity reference lists; not an automatic choice for customer-specific orders |
+| **No long-lived cache / direct integration** | Freshness is explicit, fewer in-memory reuse assumptions | Higher dependency load, latency and availability coupling | Strong read-time freshness requirements or highly sensitive responses |
+| **App-specific materialized read model** | Potentially predictable scale and high-volume search | Replication, audit, data ownership and lag become your problem | Proven heavy-read requirements where eventing/replication is justified |
+
+The final choice also depends on **data source behaviour**, platform version, memory limits, concurrency and the ability to revoke access promptly.
+
+## 4. Reference design: segregate identity, mutable state and public reference data
+
+For the example, start with **Requestor-scoped customer order *summaries*** only *if* the users repeatedly revisit customers in one session and the memory/freshness test supports it. Otherwise prefer a more isolated Thread scope. Keep shared, non-sensitive lookups (e.g. order status code descriptions) on a separate Node-scoped reference Data Page.
+
+A possible naming inventory:
+
+| Artifact | Proposed responsibility |
 |---|---|
-| Data class | `Atlas-Data-Order` |
-| Data properties | `.OrderID`, `.CustomerID`, `.Status` |
-| Report Definition | `R_OrdersByCustomer` on `Atlas-Data-Order` |
-| Report parameter | `CustomerID` (Text) |
-| Data Page | `D_OrdersByCustomer` |
-| Data Page structure | List |
-| Data Page parameter | `CustomerID` (Text, required) |
-| Data source | Report Definition `R_OrdersByCustomer` |
-| Example reference | `D_OrdersByCustomer[CustomerID:C1001]` |
+| `Atlas-Data-CustomerOrderSummary` | Response data model; strictly customer-scoped summary |
+| `D_CustomerOrderSummaries` | Read-only, parameterized, customer-scoped retrieval |
+| `D_OrderStatusCodes` | Common, comparatively static reference codes |
+| `D_CustomerOrderByID` | Single-order detail, only after entitlement check |
+| `Connect-REST GetOrdersForCustomer` | External service integration, timeouts and error mapping |
+| `ValidateCustomerEntitlement` | Server-side access validation outside cache-hit assumptions |
+| `GetOrderDetails` service | Fresh read before an irreversible write, where required |
 
-**Data flow**
+**Illustrative pseudo-reference — not a verified Pega expression:**
 
-    Selected customer → Data Page parameter
-                      → Report Definition filter
-                      → Filtered order results → Lookup view
+```text
+D_CustomerOrderSummaries[
+  TenantID: currentTenant,
+  CustomerID: selectedCustomer
+]
+```
 
-## 3. Build it — follow these steps
+The actual parameter names, reference binding, and source mapping need to be validated in the target application. A parameterized Data Page may have separate instances for parameter combinations; **Load Management** behaviour can change that expectation.
 
-### Step 1 — Create the sample data
+### Deliberate architectural decisions
 
-Create or reuse an Order data type with the three properties in the table. Seed *three* demo records as above, using an appropriate local data storage mechanism for your application. Use a separate sandbox, not production customer records.
+1. **Authorization before reuse:** check the current requestor's customer access for every operation, rather than trusting the page parameter alone.
+2. **Choose scope by data-sharing boundary:** never choose Node simply because it promises fewer backend calls.
+3. **Separate shared and personalized data:** Node cache for genuine global reference lists; Thread/Requestor for customer-specific values.
+4. **Set a freshness contract:** time-based reload is a bounded-staleness policy, not strong consistency.
+5. **Keep writes separate:** a cached read view must not authorize an order/payment action; validate state against the system of record before commit.
+6. **Make downstream failures explicit:** define loading, timeout, unavailable and partial-data behaviour. Do not silently serve incorrect data.
 
-### Step 2 — Create the filtered Report Definition
+## 5. The capacity model architects should perform
 
-In Dev Studio, create report `R_OrdersByCustomer` under `Atlas-Data-Order`.
+A simple **illustrative** estimate of live cache memory pressure:
 
-- Expose the columns `OrderID`, `CustomerID` and `Status`.
-- Add report parameter **CustomerID** (Text).
-- Add a filter: **CustomerID equals the report parameter CustomerID**.
-- Run the report using parameter C1001. Expect two rows.
-- Run it with C2002. Expect one row.
+```text
+Approximate logical payload =
+  active requestors × customer parameter instances per requestor ×
+  average orders per result × bytes per result
+```
 
-**Important:** Get the report filter working *before* introducing the data page. Otherwise, you won't know whether the fault is in filtering or parameter passing.
+Example assumptions (**not measurements**):
 
-### Step 3 — Create the Data Page
+- 4,000 active requestors
+- 8 distinct customer queries retained per requestor
+- 20 order rows each
+- 2 KB average serialized business data per row
 
-Create `D_OrdersByCustomer` under the Order data class.
+**Illustrative logical payload:** 4,000 × 8 × 20 × 2 KB ≈ **1.28 GB** before object overhead, JVM structures, indexes, other caches, replication, container/node distribution or garbage-collection effects. Actual JVM footprint and the number of retained instances must be profiled.
 
-| Setting | Choose |
-|---|---|
-| Structure | List |
-| Mode | Read-only |
-| Scope | Thread for this isolated demo |
-| Parameters tab | CustomerID — Text — required |
-| Data source | Report Definition: R_OrdersByCustomer |
-| Source parameter mapping | Map Data Page `Param.CustomerID` to the report's `CustomerID` parameter |
+**Decision implication:** Changing from Thread to Requestor scope can reduce repeated loads *yet also prolong data retention*. With many customer keys it may raise session memory pressure. Evaluate both dimensions rather than assuming any scope always improves performance.
 
-The **source parameter mapping** is the crucial step: declaring a data page parameter without passing it into the report is not enough.
+## 6. Freshness, eviction and consistency: three separate problems
 
-On **Load Management**, don't enable **Limit to a single Data Page** when the application must keep *multiple distinct customer parameter instances* available in the same scope. That option intentionally overwrites one parameterized instance as parameters change. It can be appropriate for a one-at-a-time pattern, but it changes the caching behaviour.
+**Freshness** answers: “How old can the result be?”  
+**Eviction** answers: “How long and how much do we retain?”  
+**Consistency** answers: “Can different users/nodes observe incompatible data, and does it matter?”
 
-### Step 4 — Use it in your lookup
+Examples:
 
-Pass the selected CustomerID from the UI/query context to the Data Page reference. Conceptually:
+- A status badge can tolerate 60 seconds of stale data, but a refund eligibility check may require a new server-side read.
+- A short refresh interval can increase API requests enough to overload the dependency during peak traffic.
+- A Node-scoped reference page may have different refresh times on nodes A and B; if users switch nodes, displayed values may differ for a period.
+- **Reload once per interaction** has documented scope restrictions and is not a universal freshness solution. [Source: Pega Academy — Refresh strategies](https://academy.pega.com/topic/refresh-strategies-data-pages/v4).
 
-    D_OrdersByCustomer[CustomerID:C1001]
+### Failure scenario: entitlement changed while cache remains loaded
 
-**Do not** hard-code C1001 in production; bind the customer selector or case property to the Data Page parameter. The exact UI binding depends on whether your application uses Constellation or a Traditional UI.
+1. An agent is authorized to access customer C1001 and loads their orders.
+2. The agent's entitlement is removed.
+3. A cached instance remains available until eviction or refresh.
+4. A design that treats “already cached” as “still authorized” creates a confidentiality risk.
 
-## 4. Test it — a real engineer's checklist
+**Mitigation:** Re-evaluate authorization at the operation boundary; consider immediate invalidation strategies where sensitive access changes have strict timing requirements.
 
-| Test | Action | Expected result (not yet observed) |
+## 7. Observability: how to prove your decision
+
+Build a controlled test with multiple agents, different customer identities and at least two Pega nodes if available.
+
+| Experiment | What to capture | Architectural question |
 |---|---|---|
-| A | Request CustomerID=C1001 | ORD-100 and ORD-101 only |
-| B | Request CustomerID=C2002 | ORD-200 only |
-| C | Re-request C1001 | C1001 rows; never ORD-200 |
-| D | Supply an unknown CustomerID | Empty result, not all orders |
-| E | Omit required parameter | Rejected or clearly handled; never silently expose another customer's data |
+| Same requestor opens two cases | Clipboard scope/instances, API call count | Does reuse follow intended scope? |
+| Two different requestors use same parameter | Returned data, authorization outcomes | Can one user see another user's information? |
+| 100 distinct customer keys in one session | Heap and live instances, GC, elapsed time | Is parameter cardinality sustainable? |
+| Different nodes refresh at different times | Status outputs and source timestamps | Is cross-node freshness acceptable? |
+| Order API timeout or 5xx | Error path, log correlation, latency | Do failure policies keep UI safe? |
+| Permission removed mid-session | Response, status and access log | Is revocation enforced despite loaded pages? |
 
-In **Clipboard**, inspect the loaded Data Page instances and parameter values. Multiple parameter values can cause multiple Data Page instances; that's normal unless you chose single-instance behaviour. Confirm the actual contents for each parameter. Pega's parameterized Data Page reference uses bracket syntax; see official reference below.
+Use **Clipboard** to inspect instances, **Tracer** for the Pega execution path, **PAL** for request-level performance comparisons, platform/server diagnostics for memory and GC, and integration logs for timeouts and call volumes. Define sampling and privacy rules before collecting traces. See the Pega Academy performance exercise for PAL instrumentation: [Assessing application performance](https://academy.pega.com/challenge/assessing-application-performance/v10).
 
-## 5. Break it deliberately
+### Suggested acceptance criteria
 
-**Fault:** Remove the parameter mapping in the Data Page's report data source while leaving the report filter unchanged.
+- No unauthorized cross-customer data observed in the test matrix.
+- The service meets the *agreed* p95 objective at expected concurrency.
+- Heap use stays within the agreed headroom during the peak scenario.
+- API request volume and timeout behaviour stay within dependency capacity.
+- Results are no older than the permitted threshold for their use case, or explicitly flagged.
+- Writes do not rely on cached read state as the sole source of truth.
 
-**Symptom:** Results may be empty, unfiltered or otherwise incorrect, depending on how the report handles the missing value.
+**These are acceptance criteria to test, not claims that the system passed.**
 
-**Debug sequence:**
-1. Check that the UI passes the *current* CustomerID.
-2. Inspect the referenced page and its parameter values in Clipboard.
-3. Run the Report Definition independently with the same CustomerID.
-4. Inspect Data Page source parameter mapping.
-5. Check scope, refresh behaviour and whether single-instance caching was selected.
-6. Fix mapping and rerun tests A–E.
+## 8. Decision record (ADR extract)
 
-## 6. Production advice
+**Decision:** Separate shared reference data from sensitive customer data; prefer a scoped, parameterized Data Page for customer summaries with explicit authorization and measured capacity; use a fresh system-of-record validation for irreversible actions.
 
-- **A filter is not security.** Verify authorization and record-level access independently; never rely only on the selected customer parameter to restrict sensitive orders.
-- **Scope matters.** Thread/requestor/node scope determines when and where loaded data can be reused; choose with access and staleness requirements in mind.
-- **Memory matters.** Many distinct parameter combinations can create many cached pages. Test memory and refresh behaviour with realistic data volumes.
-- **No stale assumptions.** Define the freshness policy explicitly, especially if order status changes during a session.
-- **Use a keyed lookup** instead of loading an entire list when the UI only needs one unique order.
+**Rejected as default:** Node-scoped cache containing sensitive per-customer order data solely to reduce API calls.
 
-## 7. What to screenshot once lab-verified
+**Trade-off:** Lower reuse than unconstrained Node caching, with clearer isolation boundaries and auditability. Reassess once workload evidence and security requirements are available.
 
-1. Report Definition parameter and filter
-2. Data Page Parameters tab + data source mapping
-3. Load Management strategy
-4. Clipboard instances for C1001 vs C2002
-5. Incorrect output before the fix and corrected output afterward
+**Revisit triggers:** Tenant model changes, high cache-key cardinality, node-count growth, tightening freshness objectives, API rate limiting or unexpected JVM pressure.
 
-*No screenshots included yet: this article has not been executed in a live Pega environment.*
+## 9. What an architect should add from a real Pega sandbox
 
-## References
+- Redacted screenshots of Data Page scope, Parameters and Load Management.
+- Clipboard showing parameter instances across two cases/requestors.
+- Tracer and PAL before/after, with release, workload and node details.
+- Graphs from memory/API call observations.
+- A measured design decision update, including any deviations from this proposed architecture.
 
-- [Pega Academy — Data Pages](https://academy.pega.com/topic/data-pages/v5) — parameterized references, multiple Clipboard instances and Limit to a single Data Page.
-- [Pega Academy — Data sources](https://academy.pega.com/pt-br/node/79271/in/72681/67491/67581) — data source parameter/filter use.
+No screenshots or performance figures in this article are presented as observed production/lab evidence.
+
+## Primary references
+
+- [Pega Academy — Data Pages / scope](https://academy.pega.com/topic/data-pages/v6)
+- [Pega Academy — Refresh strategies for Data Pages](https://academy.pega.com/topic/refresh-strategies-data-pages/v4)
+- [Pega Academy — Assessing application performance](https://academy.pega.com/challenge/assessing-application-performance/v10)
 
 ---
 
-[← All tutorials]({{ '/' | relative_url }})
+[← Architecture studies]({{ '/' | relative_url }})
