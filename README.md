@@ -9,7 +9,7 @@ This is an independent, **Senior / Lead System Architect-level** technical publi
 **Yes:** architecture decisions backed by Pega-specific configuration, failure modes, diagrams, quantitative reasoning, production diagnostics, security and scalability considerations.
 
 ## Read
-- [Architecture study #01 — Designing Data Page caching for customer-scoped data](docs/articles/01-data-page-customer-lookup.md)
+- [Architecture study #01: Designing Data Page caching for customer-scoped data](docs/articles/01-data-page-customer-lookup.md)
 - [Architectural topic roadmap](docs/feature-inventory.md)
 - [Publication standard and article outline](docs/article-template.md)
 
@@ -19,7 +19,7 @@ Each article covers:
 2. **What Pega actually does** underneath the feature (and what is version-dependent)
 3. At least **two competing design approaches**, when applicable
 4. A **reference architecture** with class/rule naming and data/control flow
-5. The **design decision** — why one pattern wins and in which conditions it does *not*
+5. The **design decision**: why one pattern wins and in which conditions it does *not*
 6. **Failure, security, scale and observability** scenarios
 7. Reproducible **architect-level verification experiments** and official references
 
