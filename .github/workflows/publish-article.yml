@@ -43,8 +43,10 @@ jobs:
           EARLIEST_YEAR: ${{ inputs.earliest_year || '2018' }}
           LATEST_YEAR: ${{ inputs.latest_year || '2025' }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Repository owner-requested Git attribution for automated article publication.
+          # GitHub Actions remains visible as the execution actor in workflow audit logs.
+          git config user.name "chandransandeep"
+          git config user.email "171957466+chandransandeep@users.noreply.github.com"
           python3 - <<'PY'
           from pathlib import Path
           import datetime as dt
