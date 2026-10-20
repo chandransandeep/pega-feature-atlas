@@ -120,10 +120,40 @@ jobs:
                       break
               inventory = "".join(lines)
               inventory_path.write_text(inventory, encoding="utf-8")
+              # Keep GitHub README links in sync with the published catalogue.
+              readme_path = Path("README.md")
+              readme = readme_path.read_text(encoding="utf-8")
+              marker_start = "<!-- BEGIN AUTO ARTICLE INDEX -->"
+              marker_end = "<!-- END AUTO ARTICLE INDEX -->"
+              if readme.count(marker_start) != 1 or readme.count(marker_end) != 1:
+                  raise SystemExit("README auto-index markers missing or duplicated")
+              sections = []
+              active = None
+              for line in inventory.splitlines():
+                  heading = re.match(r"^## (\\d{2})\\. (.+)$", line)
+                  if heading:
+                      active = {"name": heading.group(2), "items": []}
+                      sections.append(active)
+                  item = re.match(r"^- \\*\\*\\[(PFA-\\d{3})\\]\\(([^)]+)\\)\\*\\* (.+)\\. _Published \\(lab verification pending\\)_", line)
+                  if item and active is not None:
+                      active["items"].append((item.group(1), item.group(2), item.group(3)))
+              count = sum(len(section["items"]) for section in sections)
+              generated = (f"\\n**{count} catalogue articles** are published; the live status remains in "
+                           "[the 270-topic catalogue](docs/feature-inventory.md). "
+                           "Two additional introductory studies appear above.\\n\\n")
+              for section in sections:
+                  if section["items"]:
+                      generated += f"### {section['name']}\\n\\n"
+                      for article_id, source_path, article_title in section["items"]:
+                          generated += f"- [{article_id}: {article_title}](docs/{source_path})\\n"
+                      generated += "\\n"
+              left, remainder = readme.split(marker_start, 1)
+              _, right = remainder.split(marker_end, 1)
+              readme_path.write_text(left + marker_start + generated + marker_end + right, encoding="utf-8")
               with registry.open("a", encoding="utf-8") as f:
                   f.write(f"{dest}\t{old_date.isoformat()}\t{published}\trandom_past_date\n")
 
-              subprocess.run(["git", "add", "--", str(dest), str(draft), str(inventory_path), str(registry)], check=True)
+              subprocess.run(["git", "add", "--", str(dest), str(draft), str(inventory_path), str(registry), str(readme_path)], check=True)
               env = os.environ.copy()
               env["GIT_AUTHOR_DATE"] = timestamp
               env["GIT_COMMITTER_DATE"] = timestamp
