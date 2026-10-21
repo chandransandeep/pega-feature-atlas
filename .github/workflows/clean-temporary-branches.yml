@@ -1,0 +1,50 @@
+name: Clean up temporary attribution branches
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/temporary-branch-cleanup-request.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  delete-temporary-branches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main with write permission
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Delete only the two known temporary branches
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Never delete or modify main. These names were inspected before this action.
+          for branch in \
+            "backup/pre-owner-attribution-20261020" \
+            "review/reattributed-article-commits-20261020"
+          do
+            if git ls-remote --exit-code --heads origin "refs/heads/$branch" > /dev/null 2>&1; then
+              git push origin --delete "$branch"
+            fi
+          done
+
+      - name: Verify temporary branches are gone
+        shell: bash
+        run: |
+          set -euo pipefail
+          for branch in \
+            "backup/pre-owner-attribution-20261020" \
+            "review/reattributed-article-commits-20261020"
+          do
+            if git ls-remote --exit-code --heads origin "refs/heads/$branch" > /dev/null 2>&1; then
+              echo "::error::Still exists: $branch"
+              exit 1
+            fi
+          done
+          git ls-remote --exit-code --heads origin refs/heads/main
+          echo "Temporary branches deleted and main verified."
