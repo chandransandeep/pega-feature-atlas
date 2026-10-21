@@ -1,3 +1,0 @@
-One-time request to delete only the two attribution migration branches.
-Keep main unchanged.
-Requested by repository owner.
