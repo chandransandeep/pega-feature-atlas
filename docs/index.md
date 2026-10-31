@@ -1,23 +1,32 @@
 ---
 layout: default
-title: Pega Feature Atlas
+title: "Pega Architecture Guides, Tutorials and Troubleshooting | Pega Feature Atlas"
+description: "Independent, practical Pega architecture articles for LSA and SSA engineers. Explore case management, data pages, queue processors, security, integrations, performance and production troubleshooting."
+permalink: /
 ---
 
-# Pega Feature Atlas
+# Pega Architecture Guides and Technical Tutorials
 
-**Pega architecture in practice. Technical designs, implementation boundaries, failure modes and production trade-offs.**
+**Pega Feature Atlas** is an independent technical reference for Pega Platform developers, Senior System Architects (SSA), Lead System Architects (LSA), and enterprise engineers.
 
-Written for Senior System Architects, Lead System Architects and enterprise platform engineers. This is an independent engineering publication, not a glossary or certification course.
+Find detailed engineering guidance on Pega case management, rule resolution, data pages, queue processors, integrations, decisioning, performance, deployment, security and production troubleshooting. Each article explains a concrete design problem, configuration choices, failure mechanics and a reproducible verification approach.
 
-[Browse published deep dives]({{ '/articles/' | relative_url }}) | [Explore all 270 topics]({{ '/feature-inventory.html' | relative_url }}) | [How publication dates work]({{ '/publication-process.html' | relative_url }})
+[Browse Pega architecture articles]({{ '/articles/' | relative_url }}) | [Explore the 270-topic Pega catalogue]({{ '/feature-inventory.html' | relative_url }}) | [Publication and evidence policy]({{ '/publication-process.html' | relative_url }})
 
-## Featured architecture studies
+## Popular Pega engineering topics
 
-- [Parameterized Data Pages at scale]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
-- [Queue Processors and idempotent external side effects]({{ '/articles/002-queue-processors-idempotent-integration.html' | relative_url }})
+- **Pega Data Pages and caching:** [Parameterized data pages, scope and freshness]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
+- **Pega Queue Processors:** [Idempotency, retries and external side effects]({{ '/articles/002-queue-processors-idempotent-integration.html' | relative_url }})
+- **Pega rule resolution:** [Explore rule resolution articles]({{ '/articles/' | relative_url }})
+- **Pega case management and integrations:** [Browse the architecture catalogue]({{ '/feature-inventory.html' | relative_url }})
+- **Pega performance and troubleshooting:** [Browse published studies]({{ '/articles/' | relative_url }})
 
-## What is in every study?
+## How the technical guides are structured
 
-A real architecture problem, an explanatory technical diagram, specific Pega objects and their boundaries, design alternatives, failure modes and lab verification steps. Production measurements or screenshots are added only when they exist.
+Every study starts with a realistic architecture failure scenario, identifies relevant Pega rules and objects, shows a technical flow diagram, compares implementation alternatives, and describes test steps. Design-backed examples are clearly distinguished from lab-verified evidence. Product behaviour can differ by Pega Platform version and deployment model.
 
-*Independent engineering reference. Not affiliated with Pegasystems.*
+## About Pega Feature Atlas
+
+This is an independent, community-oriented engineering resource, **not affiliated with or endorsed by Pegasystems**. Pega and related marks belong to their respective owners. For official product documentation, consult [Pega Documentation](https://docs.pega.com/).
+
+[View the source and contribute on GitHub](https://github.com/chandransandeep/pega-feature-atlas).
