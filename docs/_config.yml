@@ -1,6 +1,15 @@
 title: Pega Feature Atlas
-description: Real problems. Reproducible Pega solutions.
+description: "Independent Pega architecture guides for Lead System Architects and Senior System Architects: case management, data pages, queue processors, rule resolution, performance, security and integrations."
 theme: jekyll-theme-cayman
 url: https://chandransandeep.github.io
 baseurl: /pega-feature-atlas
 markdown: kramdown
+lang: en-GB
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/pega-feature-atlas-social.png
