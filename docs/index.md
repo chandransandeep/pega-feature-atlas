@@ -7,6 +7,11 @@ permalink: /
 
 # Pega Feature Atlas
 
+## Featured research: Agentic AI production economics
+
+**[Pega Agentic AI in Production: A Reproducible Cost, Reliability and Governance Benchmark]({{ '/articles/agentic-ai/pega-agentic-ai-production-cost-governance-benchmark.html' | relative_url }})** compares agent-first, hybrid and rules-first architectures with a Pega-specific design, cost model, Mermaid diagram and reproducible verification matrix. This is a design-backed study; lab results are pending.
+
+
 **The independent Pega technical blog for Senior System Architects, Lead System Architects and enterprise engineers.**
 
 Explore hands-on architecture guides, implementation decisions, failure scenarios and production troubleshooting across the Pega Platform.
