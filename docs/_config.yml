@@ -8,8 +8,3 @@ lang: en-GB
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /assets/pega-feature-atlas-social.png
