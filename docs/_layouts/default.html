@@ -51,5 +51,46 @@
 </header>
 <main id="main-content">{{ content }}</main>
 <footer>Independent technical publication. Not affiliated with or endorsed by Pegasystems. <a href="{{ '/publication-process.html' | relative_url }}">Publication and evidence policy</a>.<p>Supporting resource: <a href="https://runpod.io?ref=ea3zcjiq" rel="sponsored noopener noreferrer" target="_blank">RunPod GPU cloud</a> <small>(referral link; we may receive a benefit if you sign up).</small> RunPod is an independent service and is not affiliated with Pega Feature Atlas or Pegasystems.</p></footer>
+<script>
+/* Prefetch only the article a reader is about to open. No external libraries. */
+(function () {
+  var seen = new Set();
+  var timer;
+  var candidate;
+  var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+  function eligible(a) {
+    if (!a || !a.href || !a.pathname.startsWith('{{ '/articles/' | relative_url }}')) return false;
+    if (a.origin !== location.origin || a.pathname === '{{ '/articles/' | relative_url }}') return false;
+    if (connection && (connection.saveData || /2g/.test(connection.effectiveType || ''))) return false;
+    return !seen.has(a.href);
+  }
+  function warm(a) {
+    if (!eligible(a)) return;
+    seen.add(a.href);
+    var link = document.createElement('link');
+    link.rel = 'prefetch';
+    link.as = 'document';
+    link.href = a.href;
+    document.head.appendChild(link);
+  }
+  document.addEventListener('pointerover', function (e) {
+    if (e.pointerType === 'touch') return;
+    var a = e.target.closest && e.target.closest('a[href]');
+    clearTimeout(timer);
+    candidate = eligible(a) ? a : null;
+    if (candidate) timer = setTimeout(function () { warm(candidate); }, 150);
+  }, {passive:true});
+  document.addEventListener('pointerout', function (e) {
+    if (candidate && (!e.relatedTarget || !candidate.contains(e.relatedTarget))) {
+      clearTimeout(timer);
+      candidate = null;
+    }
+  }, {passive:true});
+  document.addEventListener('focusin', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (eligible(a)) warm(a);
+  });
+})();
+</script>
 </body>
 </html>
