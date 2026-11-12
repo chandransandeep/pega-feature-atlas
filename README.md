@@ -13,6 +13,10 @@ Independent, example-driven studies about how Pega features behave, how to desig
 - [Publication process and dating transparency](docs/publication-process.md)
 - [Actual publication timestamp register](docs/commit-date-register.tsv)
 
+## Verified hands-on labs
+
+- **[Pega Platform 24.2.1 on Google Cloud: Ubuntu, PostgreSQL, Tomcat, Kafka and Dev Studio](docs/articles/platform-runtime/pega-24-2-1-google-cloud-single-vm-lab.md)** — observed end-to-end installation with actual HTTP 503 diagnosis and stream-service recovery (12 November 2026).
+
 ## Featured deep dives
 
 - [Pega Data Page caching: parameters, scope, freshness and tenant isolation](docs/articles/01-data-page-customer-lookup.md)
