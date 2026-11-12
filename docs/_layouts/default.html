@@ -6,6 +6,7 @@
   {% seo %}
   <meta name="theme-color" content="#12365a">
   <link rel="alternate" type="application/rss+xml" title="Pega Feature Atlas updates" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/diagram-system.css' | relative_url }}?v=1">
   <style>
     :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#17283a;background:#f7f9fc}
     *{box-sizing:border-box}body{margin:0;line-height:1.7}a{color:#0759a5}a:hover{text-decoration:underline}
@@ -16,7 +17,6 @@
     h1,h2,h3{line-height:1.25;color:#143e64}h1{font-size:2.2rem}h2{margin-top:2rem;padding-bottom:.4rem;border-bottom:1px solid #e8edf2}
     p,li{overflow-wrap:anywhere}pre{overflow:auto;background:#f3f6f9;padding:1rem;border-radius:7px}
     code{background:#f1f4f8;padding:.12rem .25rem}pre code{background:none}
-    .mermaid{max-width:100%;width:100%;margin:1.5rem 0;padding:1rem .25rem;text-align:center;overflow-x:auto}.mermaid svg{display:block;max-width:100%!important;width:100%!important;height:auto!important;margin-inline:auto}.mermaid:focus-visible{outline:2px solid #2874a6;outline-offset:3px}img,svg{max-width:100%;height:auto}table{display:block;overflow-x:auto;border-collapse:collapse}td,th{border:1px solid #dde3e9;padding:.5rem}
     footer{max-width:1050px;margin:1.5rem auto 3rem;padding:0 1rem;color:#58697b;font-size:.9rem}
     @media(max-width:700px){.top{padding:1.4rem 1rem}main{margin:0;padding:1.25rem;border:0;border-radius:0}h1{font-size:1.8rem}}
   </style>
@@ -51,43 +51,8 @@
 </header>
 <main id="main-content">{{ content }}</main>
 <footer>Independent technical publication. Not affiliated with or endorsed by Pegasystems. <a href="{{ '/publication-process.html' | relative_url }}">Publication and evidence policy</a>.<p>Supporting resource: <a href="https://runpod.io?ref=ea3zcjiq" rel="sponsored noopener noreferrer" target="_blank">RunPod GPU cloud</a> <small>(referral link; we may receive a benefit if you sign up).</small> RunPod is an independent service and is not affiliated with Pega Feature Atlas or Pegasystems.</p></footer>
-<script type="module">
-/* Render Mermaid fenced-code diagrams in all Jekyll articles.
-   Keep the original code block if Mermaid cannot be fetched or parsing fails. */
-const diagrams = [...document.querySelectorAll('pre > code.language-mermaid, pre > code.lang-mermaid')];
-if (diagrams.length) {
-  try {
-    const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@10.9.3/dist/mermaid.esm.min.mjs');
-    mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', theme: 'neutral', themeVariables: { fontSize: '19px' }, flowchart: { nodeSpacing: 55, rankSpacing: 65, useMaxWidth: true } });
-    for (const code of diagrams) {
-      const original = code.parentElement;
-      const diagram = document.createElement('div');
-      diagram.className = 'mermaid';
-      // Wide left-to-right flowcharts become top-to-bottom for readable full-width display.
-      // This is presentation-only: article source remains unchanged.
-      const source = code.textContent;
-      diagram.textContent = source.replace(/^(\s*(?:flowchart|graph)\s+)LR\b/im, '$1TB');
-      original.replaceWith(diagram);
-      try {
-        await mermaid.run({ nodes: [diagram] });
-        const svg = diagram.querySelector('svg');
-        if (svg) {
-          svg.removeAttribute('width');
-          svg.removeAttribute('height');
-          svg.style.width = '100%';
-          svg.style.maxWidth = '100%';
-          svg.style.height = 'auto';
-        }
-      } catch (error) {
-        diagram.replaceWith(original);
-        console.warn('Mermaid diagram left as source after render error:', error);
-      }
-    }
-  } catch (error) {
-    console.warn('Mermaid library unavailable; source diagrams retained:', error);
-  }
-}
-</script>
+
+<script type="module" src="{{ '/assets/js/diagram-system.js' | relative_url }}?v=1"></script>
 <script>
 /* Prefetch only the article a reader is about to open. No external libraries. */
 (function () {
