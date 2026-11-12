@@ -1,23 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 690" role="img" aria-labelledby="title desc">
-<title id="title">Pega request lifecycle architecture</title>
-<desc id="desc">A vertical sequence of five stages: client or reverse proxy; Pega authentication and runtime context; service rule or case action; rule resolution and clipboard; commit or response mapping.</desc>
-<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0L10,5L0,10Z" fill="#26739c"/></marker></defs>
-<rect width="960" height="690" rx="18" fill="#f5f9fd"/>
-<text x="480" y="51" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#164468">Following a Pega request</text>
-<text x="480" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#526b7d">HTTP entry → requestor context → rule execution → response</text>
-<g font-family="Arial,sans-serif" text-anchor="middle" font-weight="600" font-size="24" fill="#183e5d">
-<rect x="155" y="108" width="650" height="82" rx="13" fill="#fff" stroke="#78a4c0" stroke-width="2"/>
-<text x="480" y="158">Client or reverse proxy</text>
-<rect x="155" y="223" width="650" height="82" rx="13" fill="#e7f1f8" stroke="#78a4c0" stroke-width="2"/>
-<text x="480" y="273">Pega authentication and runtime context</text>
-<rect x="155" y="338" width="650" height="82" rx="13" fill="#fff" stroke="#78a4c0" stroke-width="2"/>
-<text x="480" y="388">Service rule / case action</text>
-<rect x="155" y="453" width="650" height="82" rx="13" fill="#e7f1f8" stroke="#78a4c0" stroke-width="2"/>
-<text x="480" y="503">Rule resolution and clipboard</text>
-<rect x="155" y="568" width="650" height="82" rx="13" fill="#fff" stroke="#78a4c0" stroke-width="2"/>
-<text x="480" y="618">Commit or response mapping</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 495" role="img" aria-labelledby="title desc">
+<title id="title">Pega request execution — five stages</title>
+<desc id="desc">Five stages arranged over two rows: client or reverse proxy, Pega authentication and runtime context, service rule or case action, rule resolution and clipboard, commit or response mapping. The path crosses the first row from left to right then descends and returns from right to left.</desc>
+<defs>
+ <marker id="arrow" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#3478A6"/></marker>
+ <filter id="shadow" x="-10%" y="-20%" width="120%" height="145%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#143452" flood-opacity=".12"/></filter>
+</defs>
+<rect width="1000" height="495" rx="20" fill="#F4F8FC"/>
+<text x="42" y="44" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" fill="#123D5C">Pega request lifecycle</text>
+<text x="42" y="71" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#50677A">From HTTP entry to persisted outcome or response</text>
+<!-- Upper row -->
+<g font-family="Arial,Helvetica,sans-serif" filter="url(#shadow)">
+ <rect x="34" y="118" width="278" height="117" rx="15" fill="#FFFFFF" stroke="#C7D7E5" stroke-width="1.5"/>
+ <rect x="361" y="118" width="278" height="117" rx="15" fill="#FFFFFF" stroke="#C7D7E5" stroke-width="1.5"/>
+ <rect x="688" y="118" width="278" height="117" rx="15" fill="#FFFFFF" stroke="#C7D7E5" stroke-width="1.5"/>
+ <!-- lower row, right to left -->
+ <rect x="521" y="321" width="278" height="117" rx="15" fill="#FFFFFF" stroke="#C7D7E5" stroke-width="1.5"/>
+ <rect x="201" y="321" width="278" height="117" rx="15" fill="#FFFFFF" stroke="#C7D7E5" stroke-width="1.5"/>
 </g>
-<g stroke="#26739c" stroke-width="3" fill="none" marker-end="url(#arr)">
-<path d="M480 190V218"/><path d="M480 305V333"/><path d="M480 420V448"/><path d="M480 535V563"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+ <rect x="50" y="132" width="37" height="27" rx="8" fill="#D9ECF8"/><text x="68.5" y="150" fill="#14547B">01</text>
+ <rect x="377" y="132" width="37" height="27" rx="8" fill="#D9ECF8"/><text x="395.5" y="150" fill="#14547B">02</text>
+ <rect x="704" y="132" width="37" height="27" rx="8" fill="#D9ECF8"/><text x="722.5" y="150" fill="#14547B">03</text>
+ <rect x="537" y="335" width="37" height="27" rx="8" fill="#D9ECF8"/><text x="555.5" y="353" fill="#14547B">04</text>
+ <rect x="217" y="335" width="37" height="27" rx="8" fill="#D9ECF8"/><text x="235.5" y="353" fill="#14547B">05</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#173C59" font-size="19">
+ <text x="54" y="187">Client or</text><text x="54" y="211">reverse proxy</text>
+ <text x="381" y="180">Authentication &amp;</text><text x="381" y="204">requestor context</text>
+ <text x="708" y="180">Service rule /</text><text x="708" y="204">case action</text>
+ <text x="541" y="383">Rule resolution &amp;</text><text x="541" y="407">clipboard</text>
+ <text x="221" y="383">Commit or</text><text x="221" y="407">response mapping</text>
+</g>
+<g fill="none" stroke="#3478A6" stroke-width="3.5" marker-end="url(#arrow)">
+ <path d="M312 177 H351"/>
+ <path d="M639 177 H678"/>
+ <path d="M827 235 V268 H660 V312"/>
+ <path d="M521 380 H489"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#6C8190">
+ <text x="42" y="474">Conceptual flow · architecture study, not a captured runtime trace</text>
+ <text x="958" y="474" text-anchor="end">Pega Feature Atlas</text>
 </g>
 </svg>
