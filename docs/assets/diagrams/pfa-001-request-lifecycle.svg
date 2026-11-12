@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 690" role="img" aria-labelledby="title desc">
+<title id="title">Pega request lifecycle architecture</title>
+<desc id="desc">A vertical sequence of five stages: client or reverse proxy; Pega authentication and runtime context; service rule or case action; rule resolution and clipboard; commit or response mapping.</desc>
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0L10,5L0,10Z" fill="#26739c"/></marker></defs>
+<rect width="960" height="690" rx="18" fill="#f5f9fd"/>
+<text x="480" y="51" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#164468">Following a Pega request</text>
+<text x="480" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#526b7d">HTTP entry → requestor context → rule execution → response</text>
+<g font-family="Arial,sans-serif" text-anchor="middle" font-weight="600" font-size="24" fill="#183e5d">
+<rect x="155" y="108" width="650" height="82" rx="13" fill="#fff" stroke="#78a4c0" stroke-width="2"/>
+<text x="480" y="158">Client or reverse proxy</text>
+<rect x="155" y="223" width="650" height="82" rx="13" fill="#e7f1f8" stroke="#78a4c0" stroke-width="2"/>
+<text x="480" y="273">Pega authentication and runtime context</text>
+<rect x="155" y="338" width="650" height="82" rx="13" fill="#fff" stroke="#78a4c0" stroke-width="2"/>
+<text x="480" y="388">Service rule / case action</text>
+<rect x="155" y="453" width="650" height="82" rx="13" fill="#e7f1f8" stroke="#78a4c0" stroke-width="2"/>
+<text x="480" y="503">Rule resolution and clipboard</text>
+<rect x="155" y="568" width="650" height="82" rx="13" fill="#fff" stroke="#78a4c0" stroke-width="2"/>
+<text x="480" y="618">Commit or response mapping</text>
+</g>
+<g stroke="#26739c" stroke-width="3" fill="none" marker-end="url(#arr)">
+<path d="M480 190V218"/><path d="M480 305V333"/><path d="M480 420V448"/><path d="M480 535V563"/>
+</g>
+</svg>
