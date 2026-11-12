@@ -1,0 +1,84 @@
+/* Pega Feature Atlas - unified architecture diagrams */
+.pfa-diagram {
+  margin: 1.6rem 0 2rem;
+  padding: 1.1rem 1.2rem 1.25rem;
+  background: #f4f8fc;
+  border: 1px solid #dbe7f1;
+  border-radius: 16px;
+  color: #173c59;
+  box-shadow: 0 3px 14px rgba(20,52,82,.045);
+}
+.pfa-diagram__bar {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: .75rem; margin-bottom: 1rem;
+}
+.pfa-diagram__heading {
+  font: 700 1rem/1.4 system-ui,-apple-system,Segoe UI,sans-serif;
+  color: #164468; letter-spacing: .01em;
+}
+.pfa-diagram__actions { display: flex; gap: .45rem; align-items: center; flex-wrap: wrap; }
+.pfa-diagram__button {
+  cursor: pointer; border: 1px solid #a8bfd2; border-radius: 9px;
+  background: #fff; color: #164468; padding: .38rem .72rem;
+  font: 600 .83rem/1.35 system-ui,-apple-system,Segoe UI,sans-serif;
+}
+.pfa-diagram__button:hover, .pfa-diagram__button:focus-visible { background: #e4f1fb; outline-color: #247db7; }
+.pfa-diagram__note { font-size: .78rem; line-height: 1.5; color: #61778a; margin-top: 1rem; }
+.pfa-diagram__visual { width: 100%; max-width: 100%; overflow: auto; }
+.pfa-diagram__visual > svg { display:block; max-width: 100%; height: auto; margin: auto; }
+.pfa-diagram__visual.mermaid { background: transparent; text-align: center; padding: .25rem; }
+.pfa-diagram__visual.mermaid svg {
+  display: block; width: 100%; max-width: 100% !important; height: auto;
+  margin-inline:auto; min-width:0!important;
+}
+.pfa-diagram__visual.pfa-diagram__visual--natural svg {
+  width: auto !important; max-width: none !important; min-width: 950px !important;
+}
+.pfa-diagram--expanded {
+  position: fixed; inset: 1.5vh 1.5vw; z-index: 10000;
+  overflow: auto; max-width: none; margin: 0; background: #f4f8fc;
+  box-shadow: 0 20px 70px #05172b70;
+}
+.pfa-diagram--expanded .pfa-diagram__visual { max-height: calc(97vh - 150px); }
+body.pfa-diagram-open { overflow: hidden; }
+.pfa-diagram__steps {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 2.5rem 2.65rem;
+  padding: .5rem .1rem .8rem;
+  isolation: isolate;
+}
+.pfa-diagram__links {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  pointer-events: none; z-index: 0; overflow: visible;
+}
+.pfa-diagram__step {
+  position: relative; z-index: 1; min-width:0; min-height: 110px;
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 1rem 1rem 1rem 1.1rem; gap: .45rem;
+  background: #fff; border: 1.5px solid #bfd1e0; border-radius: 13px;
+  box-shadow: 0 3px 10px #163f6414;
+}
+.pfa-diagram__number {
+  align-self: flex-start; padding: .16rem .52rem; border-radius: 7px;
+  background: #dcecf8; color: #15567f; font-size: .76rem; font-weight: 800;
+}
+.pfa-diagram__label {
+  font: 650 clamp(.98rem,1.38vw,1.16rem)/1.36 system-ui,-apple-system,Segoe UI,sans-serif;
+  color: #173c59; overflow-wrap: anywhere; white-space: pre-line;
+}
+.pfa-diagram__source { display: none; }
+.pfa-diagram__source[open] { display:block; }
+.pfa-diagram__source pre { margin-top:.75rem; max-height: 340px; overflow: auto; }
+.pfa-diagram__source summary { cursor: pointer; color: #164468; font-size: .9rem; }
+.pfa-diagram__visual--image img { max-width:100%; height:auto; display:block; margin:auto; }
+@media (max-width: 760px) {
+  .pfa-diagram { padding: .9rem .75rem; }
+  .pfa-diagram__steps { grid-template-columns: 1fr; gap: 2.3rem; }
+  .pfa-diagram__step { min-height: 88px; }
+  .pfa-diagram__label { font-size: 1.04rem; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .pfa-diagram__button, .pfa-diagram__step { transition: background-color .15s, border-color .15s; }
+}
