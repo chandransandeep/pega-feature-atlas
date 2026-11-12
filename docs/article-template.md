@@ -9,6 +9,8 @@ title: Architecture article standard
 
 The test for every article: *Would an experienced architect learn a consequential Pega-specific design insight, or could this be found in a beginner help page?*
 
+**Diagram standard:** Use the [shared diagram design guide]({{ '/diagram-style-guide.html' | relative_url }}) for all flowcharts, interaction sequences and SVGs. Keep directed connections faithful to the architecture.
+
 ## Required outline
 
 1. **The enterprise scenario**: workload, system boundaries, functional and NFR constraints
