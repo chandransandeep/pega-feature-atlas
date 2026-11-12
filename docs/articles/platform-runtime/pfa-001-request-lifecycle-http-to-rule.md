@@ -17,7 +17,7 @@ An integration user calls a case service that works under a developer's login bu
 
 ## System design
 
-![Vertical Pega request lifecycle: client, authentication context, service rule, rule resolution, and response]({{ '/assets/diagrams/pfa-001-request-lifecycle.svg' | relative_url }})
+![Vertical Pega request lifecycle: client, authentication context, service rule, rule resolution, and response]({{ '/assets/diagrams/pfa-001-request-lifecycle.svg' | relative_url }}?v=3)
 
 This diagram records a proposed boundary, not a fabricated Pega runtime screenshot. The interfaces and exact rule forms must be verified in a permitted sandbox.
 
