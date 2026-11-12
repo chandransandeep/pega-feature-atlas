@@ -49,8 +49,8 @@ A running Linux service is not equivalent to a functioning Pega application. The
 ~~~mermaid
 flowchart LR
   B["Windows Edge\nlocalhost:8080"] --> T["SSH local tunnel"]
-  T --> W["Google Cloud Ubuntu VM\nlocalhost only"]
-  subgraph W["Single development VM"]
+  T --> TC
+  subgraph VM["Google Cloud Ubuntu VM - single development node"]
     TC["Tomcat 9 + Pega 24.2.1\n127.0.0.1:8080"]
     PG["PostgreSQL 16\n127.0.0.1:5432"]
     KF["Kafka 3.8.1 KRaft\n127.0.0.1:9092"]
