@@ -44,7 +44,7 @@ body.pfa-diagram-open { overflow: hidden; }
 .pfa-diagram__steps {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-template-columns: repeat(var(--diagram-cols, 3),minmax(0,1fr));
   gap: 2.5rem 2.65rem;
   padding: .5rem .1rem .8rem;
   isolation: isolate;
@@ -76,7 +76,7 @@ body.pfa-diagram-open { overflow: hidden; }
 @media (max-width: 760px) {
   .pfa-diagram { padding: .9rem .75rem; }
   .pfa-diagram__steps { grid-template-columns: 1fr; gap: 2.3rem; }
-  .pfa-diagram__step { min-height: 88px; }
+  .pfa-diagram__step { min-height: 88px; grid-column: 1 !important; grid-row: auto !important; }
   .pfa-diagram__label { font-size: 1.04rem; }
 }
 @media (prefers-reduced-motion: no-preference) {
