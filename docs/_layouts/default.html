@@ -16,7 +16,7 @@
     h1,h2,h3{line-height:1.25;color:#143e64}h1{font-size:2.2rem}h2{margin-top:2rem;padding-bottom:.4rem;border-bottom:1px solid #e8edf2}
     p,li{overflow-wrap:anywhere}pre{overflow:auto;background:#f3f6f9;padding:1rem;border-radius:7px}
     code{background:#f1f4f8;padding:.12rem .25rem}pre code{background:none}
-    .mermaid{max-width:100%;overflow-x:auto;margin:1.5rem 0;padding:.75rem .25rem;text-align:center;scrollbar-width:thin}.mermaid svg{min-width:900px!important;max-width:none!important;height:auto!important}.mermaid.mermaid--wide svg{min-width:1500px!important}.mermaid:focus-visible{outline:2px solid #2874a6;outline-offset:3px}img,svg{max-width:100%;height:auto}table{display:block;overflow-x:auto;border-collapse:collapse}td,th{border:1px solid #dde3e9;padding:.5rem}
+    .mermaid{max-width:100%;width:100%;margin:1.5rem 0;padding:1rem .25rem;text-align:center;overflow-x:auto}.mermaid svg{display:block;max-width:100%!important;width:100%!important;height:auto!important;margin-inline:auto}.mermaid:focus-visible{outline:2px solid #2874a6;outline-offset:3px}img,svg{max-width:100%;height:auto}table{display:block;overflow-x:auto;border-collapse:collapse}td,th{border:1px solid #dde3e9;padding:.5rem}
     footer{max-width:1050px;margin:1.5rem auto 3rem;padding:0 1rem;color:#58697b;font-size:.9rem}
     @media(max-width:700px){.top{padding:1.4rem 1rem}main{margin:0;padding:1.25rem;border:0;border-radius:0}h1{font-size:1.8rem}}
   </style>
@@ -58,24 +58,25 @@ const diagrams = [...document.querySelectorAll('pre > code.language-mermaid, pre
 if (diagrams.length) {
   try {
     const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@10.9.3/dist/mermaid.esm.min.mjs');
-    mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', theme: 'neutral', themeVariables: { fontSize: '19px' }, flowchart: { nodeSpacing: 45, rankSpacing: 65, useMaxWidth: false } });
+    mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', theme: 'neutral', themeVariables: { fontSize: '19px' }, flowchart: { nodeSpacing: 55, rankSpacing: 65, useMaxWidth: true } });
     for (const code of diagrams) {
       const original = code.parentElement;
       const diagram = document.createElement('div');
       diagram.className = 'mermaid';
-      diagram.textContent = code.textContent;
+      // Wide left-to-right flowcharts become top-to-bottom for readable full-width display.
+      // This is presentation-only: article source remains unchanged.
+      const source = code.textContent;
+      diagram.textContent = source.replace(/^(\s*(?:flowchart|graph)\s+)LR\b/im, '$1TB');
       original.replaceWith(diagram);
       try {
         await mermaid.run({ nodes: [diagram] });
         const svg = diagram.querySelector('svg');
         if (svg) {
-          const viewBox = svg.viewBox && svg.viewBox.baseVal;
-          if (viewBox && viewBox.height > 0 && viewBox.width / viewBox.height > 3.2) {
-            diagram.classList.add('mermaid--wide');
-          }
-          diagram.setAttribute('role', 'region');
-          diagram.setAttribute('aria-label', 'Scrollable architecture diagram');
-          diagram.setAttribute('tabindex', '0');
+          svg.removeAttribute('width');
+          svg.removeAttribute('height');
+          svg.style.width = '100%';
+          svg.style.maxWidth = '100%';
+          svg.style.height = 'auto';
         }
       } catch (error) {
         diagram.replaceWith(original);
