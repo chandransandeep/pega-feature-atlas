@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 475" role="img" aria-labelledby="title desc">
+<title id="title">Single VM Pega 24.2.1 development lab architecture</title>
+<desc id="desc">Windows Edge communicates via a local SSH tunnel to Tomcat hosting Pega 24.2.1 on a Google Cloud Ubuntu VM. Tomcat connects to PostgreSQL 16 and Apache Kafka 3.8.1 on the same VM via localhost.</desc>
+<defs>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2874a6"/></marker>
+</defs>
+<rect x="0" y="0" width="1120" height="475" rx="14" fill="#f7fafc"/>
+<text x="36" y="42" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#16354a">Pega Platform 24.2.1 — verified single-VM development lab</text>
+<rect x="34" y="153" width="212" height="112" rx="12" fill="#fff" stroke="#37658a" stroke-width="2"/>
+<text x="140" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#173b58">Windows Edge</text>
+<text x="140" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#39556a">localhost:8080</text>
+<rect x="302" y="164" width="189" height="90" rx="12" fill="#e6eff7" stroke="#37658a" stroke-width="2"/>
+<text x="396" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#173b58">SSH local tunnel</text>
+<text x="396" y="224" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#39556a">Port forwarding</text>
+<path d="M246 209H302" fill="none" stroke="#2874a6" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="528" y="82" width="556" height="351" rx="15" fill="#eaf5f4" stroke="#32817c" stroke-width="2.5"/>
+<text x="553" y="114" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#1b5b56">Google Cloud Ubuntu VM</text>
+<text x="553" y="138" font-family="Arial,sans-serif" font-size="14" fill="#3e6865">4 vCPU · 16 GB RAM · single-node development environment</text>
+<rect x="593" y="161" width="414" height="89" rx="11" fill="#fff" stroke="#2874a6" stroke-width="2"/>
+<text x="800" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#173b58">Tomcat 9 + Pega 24.2.1</text>
+<text x="800" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#39556a">127.0.0.1:8080</text>
+<path d="M491 209H593" fill="none" stroke="#2874a6" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="583" y="321" width="199" height="80" rx="11" fill="#fff" stroke="#32817c" stroke-width="2"/>
+<text x="682" y="352" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#1b5b56">PostgreSQL 16</text>
+<text x="682" y="378" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#39556a">127.0.0.1:5432</text>
+<rect x="815" y="321" width="220" height="80" rx="11" fill="#fff" stroke="#32817c" stroke-width="2"/>
+<text x="925" y="352" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#1b5b56">Kafka 3.8.1 KRaft</text>
+<text x="925" y="378" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#39556a">127.0.0.1:9092</text>
+<path d="M735 250V280H682V321" fill="none" stroke="#2874a6" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M865 250V280H925V321" fill="none" stroke="#2874a6" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="34" y="452" font-family="Arial,sans-serif" font-size="15" fill="#546574">Observed lab configuration • localhost-only app and broker listeners • not production-ready</text>
+</svg>
