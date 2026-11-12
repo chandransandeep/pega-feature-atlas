@@ -33,6 +33,10 @@ Explore hands-on architecture guides, implementation decisions, failure scenario
 - [{{ category | replace: "-", " " | capitalize }} ({{ count }} articles)]({{ '/articles/' | relative_url }}#{{ category | slugify }})
 {% endfor %}
 
+## Verified hands-on lab
+
+- [Pega 24.2.1 on Google Cloud: from blank Ubuntu VM to Dev Studio]({{ '/articles/platform-runtime/pega-24-2-1-google-cloud-single-vm-lab.html' | relative_url }}) — real Tomcat, PostgreSQL and Kafka deployment with observed error recovery.
+
 ## Featured technical deep dives
 
 - [Pega Data Page caching: scope, parameters and freshness]({{ '/articles/01-data-page-customer-lookup.html' | relative_url }})
