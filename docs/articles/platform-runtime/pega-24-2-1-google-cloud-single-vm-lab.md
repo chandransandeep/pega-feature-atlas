@@ -3,6 +3,7 @@ layout: default
 title: "Pega Platform 24.2.1 on Google Cloud: A Verified Single-VM Lab, from PostgreSQL Import to Dev Studio"
 description: "A real deployment and failure-recovery walkthrough of Pega 24.2.1 on Ubuntu, Tomcat, PostgreSQL and Kafka, with reproducible checks and security boundaries."
 category: platform-runtime
+topic_id: LAB-001
 verification: lab-verified
 lab_date: 2026-11-12
 ---
